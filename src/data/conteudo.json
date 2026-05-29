@@ -1,0 +1,750 @@
+{
+  "meta": {
+    "titulo": "Residência Vet USP — Base de Estudos",
+    "fonte": "Edital Processo Seletivo Residência em Área Profissional da Saúde USP 2026 (FUVEST) — Anexos I e IX",
+    "observacao": "Conteúdo-semente gerado para iniciar o app. As questões/flashcards podem (e devem) ser ampliados pela geração por IA dentro do app. Sempre confira com a bibliografia oficial.",
+    "estruturaProvaP1": {
+      "conhecimentosGerais": 8,
+      "interpretacaoTexto": 7,
+      "especificas": 25,
+      "total": 40
+    },
+    "formulaNotaFinal": "{ [P1 + (P2 x 2)] / 3 } x 0,8 + (AC x 0,2)",
+    "cortes": {
+      "P1_minimo": "30% para ter a P2 corrigida",
+      "classificacao": "nota final >= 5,0"
+    }
+  },
+  "temas": [
+    {
+      "id": "sus",
+      "nome": "Sistema Único de Saúde",
+      "categoria": "geral",
+      "bibliografia": [
+        "BRASIL. Lei 8.080/1990",
+        "BRASIL. Decreto 7.508/2011",
+        "BRASIL. O SUS de A a Z (MS, 2009)",
+        "PAIM et al. O sistema de saúde brasileiro (The Lancet, 2011)"
+      ],
+      "resumo": "O SUS foi criado pela Constituição de 1988 e regulamentado pela **Lei 8.080/1990** (organização e funcionamento) e pela **Lei 8.142/1990** (participação da comunidade e transferências intergovernamentais).\n\n**Princípios doutrinários:**\n- Universalidade: saúde como direito de todos e dever do Estado.\n- Integralidade: ações de promoção, proteção e recuperação; o indivíduo visto de forma integral.\n- Equidade: tratar de forma desigual os desiguais, priorizando quem mais precisa.\n\n**Princípios organizativos:**\n- Descentralização com direção única em cada esfera (União, estado, município).\n- Regionalização e hierarquização: serviços organizados por níveis de complexidade, com referência e contrarreferência.\n- Participação social: controle social via Conselhos e Conferências de Saúde (Lei 8.142/1990).\n\n**Decreto 7.508/2011:** regiões de saúde, portas de entrada, mapa da saúde, RENASES (Relação Nacional de Ações e Serviços de Saúde), RENAME (Relação Nacional de Medicamentos Essenciais) e o COAP (Contrato Organizativo da Ação Pública). Financiamento é tripartite.",
+      "contextoGeracao": "Tema: Sistema Único de Saúde. Resumo de referência:\nO SUS foi criado pela Constituição de 1988 e regulamentado pela **Lei 8.080/1990** (organização e funcionamento) e pela **Lei 8.142/1990** (participação da comunidade e transferências intergovernamentais).\n\n**Princípios doutrinários:**\n- Universalidade: saúde como direito de todos e dever do Estado.\n- Integralidade: ações de promoção, proteção e recuperação; o indivíduo visto de forma integral.\n- Equidade: tratar de forma desigual os desiguais, priorizando quem mais precisa.\n\n**Princípios organizativos:**\n- Descentralização com direção única em cada esfera (União, estado, município).\n- Regionalização e hierarquização: serviços organizados por níveis de complexidade, com referência e contrarreferência.\n- Participação social: controle social via Conselhos e Conferências de Saúde (Lei 8.142/1990).\n\n**Decreto 7.508/2011:** regiões de saúde, portas de entrada, mapa da saúde, RENASES (Relação Nacional de Ações e Serviços de Saúde), RENAME (Relação Nacional de Medicamentos Essenciais) e o COAP (Contrato Organizativo da Ação Pública). Financiamento é tripartite.\n\nBibliografia oficial do tema: BRASIL. Lei 8.080/1990; BRASIL. Decreto 7.508/2011; BRASIL. O SUS de A a Z (MS, 2009); PAIM et al. O sistema de saúde brasileiro (The Lancet, 2011)"
+    },
+    {
+      "id": "politicas-saude",
+      "nome": "Políticas e Sistema de Saúde",
+      "categoria": "geral",
+      "bibliografia": [
+        "PAIM et al. (The Lancet, 2011)",
+        "BRASIL. O SUS de A a Z (MS, 2009)"
+      ],
+      "resumo": "Contexto histórico: o movimento da Reforma Sanitária e a 8ª Conferência Nacional de Saúde (1986) embasaram a criação do SUS na CF/1988, rompendo com o modelo anterior (dividido entre INAMPS/previdência e saúde pública).\n\nPontos-chave do artigo de **Paim et al. (Lancet, 2011)**: avanços (expansão do acesso, APS/Saúde da Família, programas de imunização e de HIV/AIDS) e desafios (subfinanciamento, segmentação público-privado, desigualdades regionais, judicialização). O sistema brasileiro combina SUS (público, universal) e Saúde Suplementar (planos privados).",
+      "contextoGeracao": "Tema: Políticas e Sistema de Saúde. Resumo de referência:\nContexto histórico: o movimento da Reforma Sanitária e a 8ª Conferência Nacional de Saúde (1986) embasaram a criação do SUS na CF/1988, rompendo com o modelo anterior (dividido entre INAMPS/previdência e saúde pública).\n\nPontos-chave do artigo de **Paim et al. (Lancet, 2011)**: avanços (expansão do acesso, APS/Saúde da Família, programas de imunização e de HIV/AIDS) e desafios (subfinanciamento, segmentação público-privado, desigualdades regionais, judicialização). O sistema brasileiro combina SUS (público, universal) e Saúde Suplementar (planos privados).\n\nBibliografia oficial do tema: PAIM et al. (The Lancet, 2011); BRASIL. O SUS de A a Z (MS, 2009)"
+    },
+    {
+      "id": "pnh",
+      "nome": "Política Nacional de Humanização (HumanizaSUS)",
+      "categoria": "geral",
+      "bibliografia": [
+        "BRASIL. HumanizaSUS: Documento Base (MS, 2010)",
+        "BRASIL. Clínica ampliada, equipe de referência e PTS (MS, 2007)"
+      ],
+      "resumo": "A PNH (HumanizaSUS) é transversal a todo o SUS e propõe humanizar gestão e atenção.\n\n**Diretrizes e dispositivos principais:**\n- Acolhimento (com escuta qualificada e classificação de risco).\n- Clínica Ampliada e Compartilhada (olhar para o sujeito, não só a doença).\n- Projeto Terapêutico Singular (PTS): plano de cuidado construído em equipe para casos complexos.\n- Equipe de Referência e Apoio Matricial.\n- Cogestão / gestão participativa.\n- Ambiência (organização do espaço como ferramenta de cuidado).\n- Valorização do trabalhador e defesa dos direitos dos usuários.",
+      "contextoGeracao": "Tema: Política Nacional de Humanização (HumanizaSUS). Resumo de referência:\nA PNH (HumanizaSUS) é transversal a todo o SUS e propõe humanizar gestão e atenção.\n\n**Diretrizes e dispositivos principais:**\n- Acolhimento (com escuta qualificada e classificação de risco).\n- Clínica Ampliada e Compartilhada (olhar para o sujeito, não só a doença).\n- Projeto Terapêutico Singular (PTS): plano de cuidado construído em equipe para casos complexos.\n- Equipe de Referência e Apoio Matricial.\n- Cogestão / gestão participativa.\n- Ambiência (organização do espaço como ferramenta de cuidado).\n- Valorização do trabalhador e defesa dos direitos dos usuários.\n\nBibliografia oficial do tema: BRASIL. HumanizaSUS: Documento Base (MS, 2010); BRASIL. Clínica ampliada, equipe de referência e PTS (MS, 2007)"
+    },
+    {
+      "id": "pnab",
+      "nome": "Política Nacional de Atenção Básica",
+      "categoria": "geral",
+      "bibliografia": [
+        "BRASIL. Portaria 2.436/2017 (PNAB)",
+        "STARFIELD, B. Atenção primária (2002)",
+        "BRASIL. Portaria GM/MS 635/2023 (eMulti)"
+      ],
+      "resumo": "A **Portaria 2.436/2017** define a Atenção Básica/APS como porta de entrada preferencial e **ordenadora da rede** de atenção à saúde, coordenando o cuidado.\n\n**Atributos da APS (Starfield):**\n- Essenciais: primeiro contato/acesso, longitudinalidade, integralidade e coordenação.\n- Derivados: orientação familiar, orientação comunitária e competência cultural.\n\n**Estratégia Saúde da Família (ESF)** é o modelo prioritário, com território adscrito e equipe multiprofissional. Os antigos NASF deram lugar às **equipes Multiprofissionais (eMulti)** pela Portaria GM/MS 635/2023, que apoiam as equipes de APS via apoio matricial.",
+      "contextoGeracao": "Tema: Política Nacional de Atenção Básica. Resumo de referência:\nA **Portaria 2.436/2017** define a Atenção Básica/APS como porta de entrada preferencial e **ordenadora da rede** de atenção à saúde, coordenando o cuidado.\n\n**Atributos da APS (Starfield):**\n- Essenciais: primeiro contato/acesso, longitudinalidade, integralidade e coordenação.\n- Derivados: orientação familiar, orientação comunitária e competência cultural.\n\n**Estratégia Saúde da Família (ESF)** é o modelo prioritário, com território adscrito e equipe multiprofissional. Os antigos NASF deram lugar às **equipes Multiprofissionais (eMulti)** pela Portaria GM/MS 635/2023, que apoiam as equipes de APS via apoio matricial.\n\nBibliografia oficial do tema: BRASIL. Portaria 2.436/2017 (PNAB); STARFIELD, B. Atenção primária (2002); BRASIL. Portaria GM/MS 635/2023 (eMulti)"
+    },
+    {
+      "id": "redes",
+      "nome": "Redes de Atenção à Saúde",
+      "categoria": "geral",
+      "bibliografia": [
+        "BRASIL. Portaria 4.279/2010",
+        "MENDES, E.V. As redes de atenção à saúde (OPAS, 2011)"
+      ],
+      "resumo": "A **Portaria 4.279/2010** estabelece diretrizes para as Redes de Atenção à Saúde (RAS): arranjos organizativos de ações e serviços de **diferentes densidades tecnológicas**, integrados por sistemas de apoio, logística e governança, para garantir a integralidade.\n\n**Elementos das RAS:** (1) população e território; (2) estrutura operacional — tendo a **APS como centro de comunicação** da rede; (3) modelo de atenção à saúde.\n\nObjetivo: superar a fragmentação do cuidado, organizando-o em rede poliárquica (sem hierarquia rígida) com referência e contrarreferência.",
+      "contextoGeracao": "Tema: Redes de Atenção à Saúde. Resumo de referência:\nA **Portaria 4.279/2010** estabelece diretrizes para as Redes de Atenção à Saúde (RAS): arranjos organizativos de ações e serviços de **diferentes densidades tecnológicas**, integrados por sistemas de apoio, logística e governança, para garantir a integralidade.\n\n**Elementos das RAS:** (1) população e território; (2) estrutura operacional — tendo a **APS como centro de comunicação** da rede; (3) modelo de atenção à saúde.\n\nObjetivo: superar a fragmentação do cuidado, organizando-o em rede poliárquica (sem hierarquia rígida) com referência e contrarreferência.\n\nBibliografia oficial do tema: BRASIL. Portaria 4.279/2010; MENDES, E.V. As redes de atenção à saúde (OPAS, 2011)"
+    },
+    {
+      "id": "interprofissionalidade",
+      "nome": "Trabalho em Saúde e Interprofissionalidade",
+      "categoria": "geral",
+      "bibliografia": [
+        "PEDUZZI, M. et al. Trabalho em equipe (Trab. Educ. Saúde, 2020)",
+        "PEDUZZI, M. et al. Educação interprofissional (Rev. Esc. Enferm. USP, 2013)"
+      ],
+      "resumo": "**Peduzzi** distingue dois tipos de equipe:\n- Equipe **agrupamento**: justaposição de ações, fragmentação.\n- Equipe **integração**: articulação das ações e interação/comunicação entre os profissionais (modelo desejável).\n\n**Educação Interprofissional (EIP):** ocorre quando profissionais aprendem **com, sobre e entre** si, para colaboração efetiva e melhoria do cuidado centrado no usuário. Competências colaborativas: comunicação, clareza de papéis, trabalho em equipe, resolução de conflitos. É a base das residências multiprofissionais.",
+      "contextoGeracao": "Tema: Trabalho em Saúde e Interprofissionalidade. Resumo de referência:\n**Peduzzi** distingue dois tipos de equipe:\n- Equipe **agrupamento**: justaposição de ações, fragmentação.\n- Equipe **integração**: articulação das ações e interação/comunicação entre os profissionais (modelo desejável).\n\n**Educação Interprofissional (EIP):** ocorre quando profissionais aprendem **com, sobre e entre** si, para colaboração efetiva e melhoria do cuidado centrado no usuário. Competências colaborativas: comunicação, clareza de papéis, trabalho em equipe, resolução de conflitos. É a base das residências multiprofissionais.\n\nBibliografia oficial do tema: PEDUZZI, M. et al. Trabalho em equipe (Trab. Educ. Saúde, 2020); PEDUZZI, M. et al. Educação interprofissional (Rev. Esc. Enferm. USP, 2013)"
+    },
+    {
+      "id": "bioetica",
+      "nome": "Bioética",
+      "categoria": "geral",
+      "bibliografia": [
+        "JUNQUEIRA, C.R. Bioética: conceito, fundamentação e princípios (UNASUS, 2010)"
+      ],
+      "resumo": "**Principialismo (Beauchamp & Childress)** — quatro princípios:\n- Autonomia: respeito à decisão livre e informada do sujeito (consentimento informado).\n- Beneficência: agir em benefício do paciente.\n- Não maleficência: *primum non nocere* (não causar dano).\n- Justiça: distribuição equitativa de recursos e cuidados.\n\nTemas correlatos: confidencialidade/sigilo, conflitos de interesse, vulnerabilidade, ética em pesquisa. Em saúde, a bioética orienta a tomada de decisão diante de dilemas.",
+      "contextoGeracao": "Tema: Bioética. Resumo de referência:\n**Principialismo (Beauchamp & Childress)** — quatro princípios:\n- Autonomia: respeito à decisão livre e informada do sujeito (consentimento informado).\n- Beneficência: agir em benefício do paciente.\n- Não maleficência: *primum non nocere* (não causar dano).\n- Justiça: distribuição equitativa de recursos e cuidados.\n\nTemas correlatos: confidencialidade/sigilo, conflitos de interesse, vulnerabilidade, ética em pesquisa. Em saúde, a bioética orienta a tomada de decisão diante de dilemas.\n\nBibliografia oficial do tema: JUNQUEIRA, C.R. Bioética: conceito, fundamentação e princípios (UNASUS, 2010)"
+    },
+    {
+      "id": "interpretacao",
+      "nome": "Interpretação de Textos em Saúde",
+      "categoria": "interpretacao",
+      "bibliografia": [
+        "Textos da área da saúde (notícias, artigos, normativas) selecionados pela banca"
+      ],
+      "resumo": "A P1 traz **7 questões de interpretação de textos** relacionados à área da saúde. Não cobram só conteúdo, mas a leitura: identificar ideia central, inferências, relações de causa/consequência, posicionamento do autor e vocabulário em contexto.\n\nDica de treino: ler artigos curtos (ex.: SciELO, boletins do MS, notícias de saúde) e praticar questões com um texto-base curto seguido de pergunta objetiva.",
+      "contextoGeracao": "Tema: Interpretação de Textos em Saúde. Resumo de referência:\nA P1 traz **7 questões de interpretação de textos** relacionados à área da saúde. Não cobram só conteúdo, mas a leitura: identificar ideia central, inferências, relações de causa/consequência, posicionamento do autor e vocabulário em contexto.\n\nDica de treino: ler artigos curtos (ex.: SciELO, boletins do MS, notícias de saúde) e praticar questões com um texto-base curto seguido de pergunta objetiva.\n\nBibliografia oficial do tema: Textos da área da saúde (notícias, artigos, normativas) selecionados pela banca"
+    },
+    {
+      "id": "etica-vet",
+      "nome": "Ética Profissional (Medicina Veterinária)",
+      "categoria": "especifico",
+      "bibliografia": [
+        "CFMV. Código de Ética do Médico Veterinário (Resolução CFMV 1.138/2016)"
+      ],
+      "resumo": "Referência central: **Código de Ética do Médico Veterinário (Res. CFMV 1.138/2016)**. Aborda deveres fundamentais, sigilo profissional, responsabilidade técnica, relação com colegas e com o cliente, bem-estar animal, vedações e infrações.\n\nConceitos cobrados: responsabilidade técnica (RT/ART), guarda responsável, atestados e receituário, conflito ético entre interesse do tutor e bem-estar do animal, e a função social do médico-veterinário em saúde pública (Saúde Única).",
+      "contextoGeracao": "Tema: Ética Profissional (Medicina Veterinária). Resumo de referência:\nReferência central: **Código de Ética do Médico Veterinário (Res. CFMV 1.138/2016)**. Aborda deveres fundamentais, sigilo profissional, responsabilidade técnica, relação com colegas e com o cliente, bem-estar animal, vedações e infrações.\n\nConceitos cobrados: responsabilidade técnica (RT/ART), guarda responsável, atestados e receituário, conflito ético entre interesse do tutor e bem-estar do animal, e a função social do médico-veterinário em saúde pública (Saúde Única).\n\nBibliografia oficial do tema: CFMV. Código de Ética do Médico Veterinário (Resolução CFMV 1.138/2016)"
+    },
+    {
+      "id": "acolhimento",
+      "nome": "Acolhimento",
+      "categoria": "especifico",
+      "bibliografia": [
+        "BRASIL. PNH/HumanizaSUS (MS, 2010)",
+        "BRASIL. Clínica ampliada e compartilhada (MS, 2009)"
+      ],
+      "resumo": "Acolhimento é diretriz da **PNH**: postura e prática de **escuta qualificada**, vínculo e responsabilização, presente em todo encontro do cuidado (não é uma triagem isolada).\n\nComponentes: recepção do usuário, avaliação de necessidades, **classificação de risco** (priorização por gravidade, não por ordem de chegada) e encaminhamento responsável. Visa ampliar o acesso e a resolutividade.",
+      "contextoGeracao": "Tema: Acolhimento. Resumo de referência:\nAcolhimento é diretriz da **PNH**: postura e prática de **escuta qualificada**, vínculo e responsabilização, presente em todo encontro do cuidado (não é uma triagem isolada).\n\nComponentes: recepção do usuário, avaliação de necessidades, **classificação de risco** (priorização por gravidade, não por ordem de chegada) e encaminhamento responsável. Visa ampliar o acesso e a resolutividade.\n\nBibliografia oficial do tema: BRASIL. PNH/HumanizaSUS (MS, 2010); BRASIL. Clínica ampliada e compartilhada (MS, 2009)"
+    },
+    {
+      "id": "anestesiologia",
+      "nome": "Anestesiologia Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "FANTONI, D.T.; CORTOPASSI, S.R.G. Anestesia em Cães e Gatos (2010)"
+      ],
+      "resumo": "**Tríade anestésica:** hipnose (inconsciência), analgesia e relaxamento muscular.\n\n**Fases:** (1) medicação pré-anestésica/MPA — reduz estresse, dose de indução e provê analgesia; (2) indução; (3) manutenção; (4) recuperação.\n\nPontos-chave: avaliação pré-anestésica e classificação **ASA**; jejum pré-operatório (atenção a filhotes, diabéticos e espécies que não vomitam, como equinos e ruminantes); monitoração (FC, FR, PA, capnografia, oximetria, temperatura); analgesia multimodal (opioides, AINEs, alfa-2 agonistas, anestésicos locais); planos de Guedel/profundidade anestésica.",
+      "contextoGeracao": "Tema: Anestesiologia Veterinária. Resumo de referência:\n**Tríade anestésica:** hipnose (inconsciência), analgesia e relaxamento muscular.\n\n**Fases:** (1) medicação pré-anestésica/MPA — reduz estresse, dose de indução e provê analgesia; (2) indução; (3) manutenção; (4) recuperação.\n\nPontos-chave: avaliação pré-anestésica e classificação **ASA**; jejum pré-operatório (atenção a filhotes, diabéticos e espécies que não vomitam, como equinos e ruminantes); monitoração (FC, FR, PA, capnografia, oximetria, temperatura); analgesia multimodal (opioides, AINEs, alfa-2 agonistas, anestésicos locais); planos de Guedel/profundidade anestésica.\n\nBibliografia oficial do tema: FANTONI, D.T.; CORTOPASSI, S.R.G. Anestesia em Cães e Gatos (2010)"
+    },
+    {
+      "id": "cirurgia",
+      "nome": "Cirurgia Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "FOSSUM, T. Small animal surgery (2018)",
+        "AUER & STICK. Equine Surgery (2018)",
+        "FUBINI & DUCHARME. Farm animal surgery (2017)"
+      ],
+      "resumo": "Princípios: assepsia e antissepsia, **tempos cirúrgicos** (diérese, hemostasia, exérese, síntese), princípios de Halsted (manuseio delicado dos tecidos, hemostasia, assepsia, preservação do suprimento sanguíneo, sem tensão, espaço morto mínimo).\n\n**Cicatrização:** fases inflamatória, proliferativa e de maturação/remodelamento; primeira vs segunda intenção. Fios de sutura (absorvíveis x não absorvíveis; mono x multifilamentares). Procedimentos comuns: OSH (ovariossalpingo-histerectomia), orquiectomia, laparotomia exploratória. Complicações: deiscência, infecção de sítio cirúrgico, seroma.",
+      "contextoGeracao": "Tema: Cirurgia Veterinária. Resumo de referência:\nPrincípios: assepsia e antissepsia, **tempos cirúrgicos** (diérese, hemostasia, exérese, síntese), princípios de Halsted (manuseio delicado dos tecidos, hemostasia, assepsia, preservação do suprimento sanguíneo, sem tensão, espaço morto mínimo).\n\n**Cicatrização:** fases inflamatória, proliferativa e de maturação/remodelamento; primeira vs segunda intenção. Fios de sutura (absorvíveis x não absorvíveis; mono x multifilamentares). Procedimentos comuns: OSH (ovariossalpingo-histerectomia), orquiectomia, laparotomia exploratória. Complicações: deiscência, infecção de sítio cirúrgico, seroma.\n\nBibliografia oficial do tema: FOSSUM, T. Small animal surgery (2018); AUER & STICK. Equine Surgery (2018); FUBINI & DUCHARME. Farm animal surgery (2017)"
+    },
+    {
+      "id": "imagem",
+      "nome": "Diagnóstico por Imagem",
+      "categoria": "especifico",
+      "bibliografia": [
+        "THRALL, D.E. Textbook of Veterinary Diagnostic Radiology (2016)",
+        "PENNINCK & D'JOU. Atlas of Small Animal Ultrasonography (2015)"
+      ],
+      "resumo": "**Densidades radiográficas (do mais radiolúcido/escuro ao mais radiopaco/claro):** gás (ar) < gordura < tecidos moles/água < osso/mineral < metal.\n\nModalidades: **radiografia** (projeções e posicionamento — ex.: latero-lateral, ventrodorsal), **ultrassonografia** (tempo real, partes moles, gestação), **TC** e **RM** (alta definição, SNC e estruturas complexas). Princípios de proteção radiológica e qualidade da imagem (contraste, definição, artefatos).",
+      "contextoGeracao": "Tema: Diagnóstico por Imagem. Resumo de referência:\n**Densidades radiográficas (do mais radiolúcido/escuro ao mais radiopaco/claro):** gás (ar) < gordura < tecidos moles/água < osso/mineral < metal.\n\nModalidades: **radiografia** (projeções e posicionamento — ex.: latero-lateral, ventrodorsal), **ultrassonografia** (tempo real, partes moles, gestação), **TC** e **RM** (alta definição, SNC e estruturas complexas). Princípios de proteção radiológica e qualidade da imagem (contraste, definição, artefatos).\n\nBibliografia oficial do tema: THRALL, D.E. Textbook of Veterinary Diagnostic Radiology (2016); PENNINCK & D'JOU. Atlas of Small Animal Ultrasonography (2015)"
+    },
+    {
+      "id": "epidemiologia",
+      "nome": "Epidemiologia Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "THRUSFIELD, M. Veterinary Epidemiology (2018)"
+      ],
+      "resumo": "**Medidas de frequência:** prevalência (casos existentes / população em um momento) e incidência (casos novos / período em risco).\n\n**Medidas de associação:** Risco Relativo (RR — estudos de coorte) e Odds Ratio (OR — caso-controle).\n\n**Tipos de estudo:** descritivos e analíticos (transversal/seccional, coorte, caso-controle, ensaios). **Testes diagnósticos:** sensibilidade, especificidade, valores preditivos. Conceitos de vigilância, surto/epidemia/endemia, transmissão (direta/indireta, vetorial) e investigação de surtos.",
+      "contextoGeracao": "Tema: Epidemiologia Veterinária. Resumo de referência:\n**Medidas de frequência:** prevalência (casos existentes / população em um momento) e incidência (casos novos / período em risco).\n\n**Medidas de associação:** Risco Relativo (RR — estudos de coorte) e Odds Ratio (OR — caso-controle).\n\n**Tipos de estudo:** descritivos e analíticos (transversal/seccional, coorte, caso-controle, ensaios). **Testes diagnósticos:** sensibilidade, especificidade, valores preditivos. Conceitos de vigilância, surto/epidemia/endemia, transmissão (direta/indireta, vetorial) e investigação de surtos.\n\nBibliografia oficial do tema: THRUSFIELD, M. Veterinary Epidemiology (2018)"
+    },
+    {
+      "id": "farmacologia",
+      "nome": "Farmacologia Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "SPINOSA, GORNIAK & BERNARDI. Farmacologia aplicada à medicina veterinária (2023)"
+      ],
+      "resumo": "**Farmacocinética (ADME):** absorção, distribuição, metabolismo (hepático) e excreção (renal). **Farmacodinâmica:** mecanismo de ação, agonistas/antagonistas, janela terapêutica.\n\nClasses: **AINEs** (inibem a ciclooxigenase — COX-1/COX-2; risco GI e renal), corticosteroides, **opioides** (morfina, metadona, tramadol, fentanil, butorfanol), anestésicos, antimicrobianos (uso racional e resistência).\n\n**Particularidades por espécie:** gatos têm deficiência de glicuronoconjugação → maior toxicidade de **paracetamol** (metahemoglobinemia) e de alguns AINEs; equinos e ruminantes têm metabolismo e sensibilidades próprias.",
+      "contextoGeracao": "Tema: Farmacologia Veterinária. Resumo de referência:\n**Farmacocinética (ADME):** absorção, distribuição, metabolismo (hepático) e excreção (renal). **Farmacodinâmica:** mecanismo de ação, agonistas/antagonistas, janela terapêutica.\n\nClasses: **AINEs** (inibem a ciclooxigenase — COX-1/COX-2; risco GI e renal), corticosteroides, **opioides** (morfina, metadona, tramadol, fentanil, butorfanol), anestésicos, antimicrobianos (uso racional e resistência).\n\n**Particularidades por espécie:** gatos têm deficiência de glicuronoconjugação → maior toxicidade de **paracetamol** (metahemoglobinemia) e de alguns AINEs; equinos e ruminantes têm metabolismo e sensibilidades próprias.\n\nBibliografia oficial do tema: SPINOSA, GORNIAK & BERNARDI. Farmacologia aplicada à medicina veterinária (2023)"
+    },
+    {
+      "id": "caes-gatos",
+      "nome": "Medicina de Cães e Gatos",
+      "categoria": "especifico",
+      "bibliografia": [
+        "JERICÓ, ANDRADE NETO & KOGIKA. Tratado de Medicina Interna de Cães e Gatos (2023)",
+        "NELSON & COUTO. Medicina Interna de Pequenos Animais (2023)"
+      ],
+      "resumo": "Doenças infecciosas comuns: **parvovirose** e **cinomose** (caninas), **FeLV** e **FIV** (felinas), leptospirose, erliquiose.\n\nCrônicas/sistêmicas: **doença renal crônica (DRC)** — muito frequente em gatos idosos; diabetes mellitus; cardiopatias (CMH em gatos, doença valvar mitral degenerativa em cães); endocrinopatias (hipotireoidismo canino, hipertireoidismo felino, hiperadrenocorticismo). Abordagem clínica integra anamnese, exame físico, laboratório e imagem.",
+      "contextoGeracao": "Tema: Medicina de Cães e Gatos. Resumo de referência:\nDoenças infecciosas comuns: **parvovirose** e **cinomose** (caninas), **FeLV** e **FIV** (felinas), leptospirose, erliquiose.\n\nCrônicas/sistêmicas: **doença renal crônica (DRC)** — muito frequente em gatos idosos; diabetes mellitus; cardiopatias (CMH em gatos, doença valvar mitral degenerativa em cães); endocrinopatias (hipotireoidismo canino, hipertireoidismo felino, hiperadrenocorticismo). Abordagem clínica integra anamnese, exame físico, laboratório e imagem.\n\nBibliografia oficial do tema: JERICÓ, ANDRADE NETO & KOGIKA. Tratado de Medicina Interna de Cães e Gatos (2023); NELSON & COUTO. Medicina Interna de Pequenos Animais (2023)"
+    },
+    {
+      "id": "grandes-animais",
+      "nome": "Medicina de Animais de Grande Porte",
+      "categoria": "especifico",
+      "bibliografia": [
+        "SMITH, B.P. Large Animal Internal Medicine (2020)",
+        "REED, BAYLY & SELLON. Equine internal medicine (2017)",
+        "CONSTABLE et al. Veterinary Medicine (2017)"
+      ],
+      "resumo": "**Equinos:** síndrome cólica (abdome agudo) é emergência clássica — avaliar dor, FC, motilidade, refluxo, distensão; decidir entre tratamento clínico e cirúrgico. Laminite, doenças respiratórias.\n\n**Ruminantes:** doenças metabólicas do periparto/transição — **hipocalcemia puerperal (febre do leite)**, cetose, deslocamento de abomaso; distúrbios do rúmen (timpanismo, acidose ruminal); reticuloperitonite traumática. Manejo sanitário de rebanho e prevenção.",
+      "contextoGeracao": "Tema: Medicina de Animais de Grande Porte. Resumo de referência:\n**Equinos:** síndrome cólica (abdome agudo) é emergência clássica — avaliar dor, FC, motilidade, refluxo, distensão; decidir entre tratamento clínico e cirúrgico. Laminite, doenças respiratórias.\n\n**Ruminantes:** doenças metabólicas do periparto/transição — **hipocalcemia puerperal (febre do leite)**, cetose, deslocamento de abomaso; distúrbios do rúmen (timpanismo, acidose ruminal); reticuloperitonite traumática. Manejo sanitário de rebanho e prevenção.\n\nBibliografia oficial do tema: SMITH, B.P. Large Animal Internal Medicine (2020); REED, BAYLY & SELLON. Equine internal medicine (2017); CONSTABLE et al. Veterinary Medicine (2017)"
+    },
+    {
+      "id": "microbiologia",
+      "nome": "Microbiologia e Segurança dos Alimentos",
+      "categoria": "especifico",
+      "bibliografia": [
+        "FORSYTHE, S.J. Microbiologia da Segurança Alimentar (2005)"
+      ],
+      "resumo": "**Doenças transmitidas por alimentos (DTAs):** *Salmonella* spp., *Escherichia coli* (incl. STEC/EHEC), *Listeria monocytogenes*, *Staphylococcus aureus* (toxina termoestável), *Clostridium botulinum* e *C. perfringens*, *Campylobacter*.\n\n**Controle:** Boas Práticas de Fabricação (BPF), **APPCC/HACCP** (Análise de Perigos e Pontos Críticos de Controle), cadeia do frio, higiene, controle de contaminação cruzada. Papel do médico-veterinário na inspeção e na vigilância sanitária de alimentos de origem animal.",
+      "contextoGeracao": "Tema: Microbiologia e Segurança dos Alimentos. Resumo de referência:\n**Doenças transmitidas por alimentos (DTAs):** *Salmonella* spp., *Escherichia coli* (incl. STEC/EHEC), *Listeria monocytogenes*, *Staphylococcus aureus* (toxina termoestável), *Clostridium botulinum* e *C. perfringens*, *Campylobacter*.\n\n**Controle:** Boas Práticas de Fabricação (BPF), **APPCC/HACCP** (Análise de Perigos e Pontos Críticos de Controle), cadeia do frio, higiene, controle de contaminação cruzada. Papel do médico-veterinário na inspeção e na vigilância sanitária de alimentos de origem animal.\n\nBibliografia oficial do tema: FORSYTHE, S.J. Microbiologia da Segurança Alimentar (2005)"
+    },
+    {
+      "id": "patologia-clinica",
+      "nome": "Patologia Clínica Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "STOCKHAM & SCOTT. Fundamentals of Veterinary Clinical Pathology (2008)"
+      ],
+      "resumo": "**Hemograma:** eritrograma (anemia x policitemia; classificar anemia em regenerativa — com **reticulocitose** — ou arregenerativa), leucograma (neutrofilia, desvio à esquerda, linfopenia de estresse) e plaquetas.\n\n**Bioquímica:** função hepática (ALT, AST, FA, GGT, bilirrubinas), função renal (ureia, creatinina, SDMA), proteínas, eletrólitos e glicemia. **Urinálise:** densidade, sedimento, proteinúria. Interpretação integrada com a clínica.",
+      "contextoGeracao": "Tema: Patologia Clínica Veterinária. Resumo de referência:\n**Hemograma:** eritrograma (anemia x policitemia; classificar anemia em regenerativa — com **reticulocitose** — ou arregenerativa), leucograma (neutrofilia, desvio à esquerda, linfopenia de estresse) e plaquetas.\n\n**Bioquímica:** função hepática (ALT, AST, FA, GGT, bilirrubinas), função renal (ureia, creatinina, SDMA), proteínas, eletrólitos e glicemia. **Urinálise:** densidade, sedimento, proteinúria. Interpretação integrada com a clínica.\n\nBibliografia oficial do tema: STOCKHAM & SCOTT. Fundamentals of Veterinary Clinical Pathology (2008)"
+    },
+    {
+      "id": "patologia",
+      "nome": "Patologia Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "SANTOS & ALESSI. Patologia Veterinária (2016)",
+        "ZACHARY et al. Bases da Patologia em Veterinária (2021)"
+      ],
+      "resumo": "**Patologia geral:** lesões e adaptações celulares (atrofia, hipertrofia, hiperplasia, metaplasia, displasia), degenerações, morte celular (necrose x apoptose), distúrbios circulatórios (congestão, hemorragia, trombose, infarto, edema), **inflamação** (aguda x crônica) e neoplasias (benignas x malignas; nomenclatura).\n\n**Patologia clínica/necropsia:** exame post mortem sistemático e correlação anatomoclínica.",
+      "contextoGeracao": "Tema: Patologia Veterinária. Resumo de referência:\n**Patologia geral:** lesões e adaptações celulares (atrofia, hipertrofia, hiperplasia, metaplasia, displasia), degenerações, morte celular (necrose x apoptose), distúrbios circulatórios (congestão, hemorragia, trombose, infarto, edema), **inflamação** (aguda x crônica) e neoplasias (benignas x malignas; nomenclatura).\n\n**Patologia clínica/necropsia:** exame post mortem sistemático e correlação anatomoclínica.\n\nBibliografia oficial do tema: SANTOS & ALESSI. Patologia Veterinária (2016); ZACHARY et al. Bases da Patologia em Veterinária (2021)"
+    },
+    {
+      "id": "semiologia",
+      "nome": "Semiologia Veterinária",
+      "categoria": "especifico",
+      "bibliografia": [
+        "FEITOSA, F.L. Semiologia: a arte do diagnóstico (2020)"
+      ],
+      "resumo": "**Anamnese** + **exame físico**. No exame geral avaliar: estado mental e postura, escore corporal, **mucosas** (coloração), **tempo de preenchimento capilar (TPC < 2 segundos)**, **hidratação/turgor cutâneo**, linfonodos, temperatura, frequência cardíaca, frequência respiratória e pulso.\n\nEm seguida, exame específico por sistema (cardiovascular — ausculta; respiratório; digestório; etc.). Sinais vitais variam por espécie e porte; reconhecer padrões de normalidade é essencial.",
+      "contextoGeracao": "Tema: Semiologia Veterinária. Resumo de referência:\n**Anamnese** + **exame físico**. No exame geral avaliar: estado mental e postura, escore corporal, **mucosas** (coloração), **tempo de preenchimento capilar (TPC < 2 segundos)**, **hidratação/turgor cutâneo**, linfonodos, temperatura, frequência cardíaca, frequência respiratória e pulso.\n\nEm seguida, exame específico por sistema (cardiovascular — ausculta; respiratório; digestório; etc.). Sinais vitais variam por espécie e porte; reconhecer padrões de normalidade é essencial.\n\nBibliografia oficial do tema: FEITOSA, F.L. Semiologia: a arte do diagnóstico (2020)"
+    },
+    {
+      "id": "teriogenologia",
+      "nome": "Teriogenologia (Reprodução)",
+      "categoria": "especifico",
+      "bibliografia": [
+        "PLANT & ZELEZNIK. Knobil & Neill's Physiology of Reproduction (2015)"
+      ],
+      "resumo": "**Ciclo estral** varia por espécie. Cadela: **monoéstrica não sazonal**, com fases proestro → estro → diestro → anestro. Gata: poliéstrica sazonal, ovulação induzida. Vaca e égua: poliéstricas (égua, sazonal de dias longos).\n\nTópicos: controle hormonal (GnRH, FSH, LH, estrógeno, progesterona), diagnóstico de gestação, manejo do parto (distocia), puerpério e biotécnicas (IA, **IATF** — inseminação artificial em tempo fixo, TE). Afecções reprodutivas: piometra, prostatite.",
+      "contextoGeracao": "Tema: Teriogenologia (Reprodução). Resumo de referência:\n**Ciclo estral** varia por espécie. Cadela: **monoéstrica não sazonal**, com fases proestro → estro → diestro → anestro. Gata: poliéstrica sazonal, ovulação induzida. Vaca e égua: poliéstricas (égua, sazonal de dias longos).\n\nTópicos: controle hormonal (GnRH, FSH, LH, estrógeno, progesterona), diagnóstico de gestação, manejo do parto (distocia), puerpério e biotécnicas (IA, **IATF** — inseminação artificial em tempo fixo, TE). Afecções reprodutivas: piometra, prostatite.\n\nBibliografia oficial do tema: PLANT & ZELEZNIK. Knobil & Neill's Physiology of Reproduction (2015)"
+    },
+    {
+      "id": "zoonoses",
+      "nome": "Zoonoses",
+      "categoria": "especifico",
+      "bibliografia": [
+        "ROMICHI, J.A. Understanding Zoonotic Diseases (2008)"
+      ],
+      "resumo": "Zoonoses são doenças transmitidas entre animais vertebrados e o ser humano. Conceito integrador de **Saúde Única (One Health)**.\n\nPrincipais (Brasil):\n- **Raiva:** *Lyssavirus* (família Rhabdoviridae); letalidade ~100%; ciclos urbano (cão/gato), rural e aéreo (morcegos hematófagos); profilaxia pré e pós-exposição.\n- **Leishmaniose Visceral:** *Leishmania infantum (chagasi)*; vetor flebotomíneo **Lutzomyia longipalpis**; **cão = principal reservatório urbano**.\n- **Leptospirose:** *Leptospira* spp.; transmissão pela urina (roedores); surtos em enchentes.\n- **Esporotricose:** *Sporothrix brasiliensis*; **gato** é importante fonte de transmissão zoonótica no Brasil.\n- **Febre Maculosa:** *Rickettsia rickettsii*; vetor carrapato *Amblyomma* (carrapato-estrela); capivaras como amplificadores.\n- **Toxoplasmose:** *Toxoplasma gondii*; gato é o hospedeiro definitivo.\n- Brucelose e tuberculose (importantes em grandes animais e alimentos).",
+      "contextoGeracao": "Tema: Zoonoses. Resumo de referência:\nZoonoses são doenças transmitidas entre animais vertebrados e o ser humano. Conceito integrador de **Saúde Única (One Health)**.\n\nPrincipais (Brasil):\n- **Raiva:** *Lyssavirus* (família Rhabdoviridae); letalidade ~100%; ciclos urbano (cão/gato), rural e aéreo (morcegos hematófagos); profilaxia pré e pós-exposição.\n- **Leishmaniose Visceral:** *Leishmania infantum (chagasi)*; vetor flebotomíneo **Lutzomyia longipalpis**; **cão = principal reservatório urbano**.\n- **Leptospirose:** *Leptospira* spp.; transmissão pela urina (roedores); surtos em enchentes.\n- **Esporotricose:** *Sporothrix brasiliensis*; **gato** é importante fonte de transmissão zoonótica no Brasil.\n- **Febre Maculosa:** *Rickettsia rickettsii*; vetor carrapato *Amblyomma* (carrapato-estrela); capivaras como amplificadores.\n- **Toxoplasmose:** *Toxoplasma gondii*; gato é o hospedeiro definitivo.\n- Brucelose e tuberculose (importantes em grandes animais e alimentos).\n\nBibliografia oficial do tema: ROMICHI, J.A. Understanding Zoonotic Diseases (2008)"
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc001",
+      "temaId": "sus",
+      "frente": "Quais são os três princípios DOUTRINÁRIOS do SUS?",
+      "verso": "Universalidade, Integralidade e Equidade."
+    },
+    {
+      "id": "fc002",
+      "temaId": "sus",
+      "frente": "Qual lei regulamenta a participação da comunidade no SUS?",
+      "verso": "Lei 8.142/1990 (Conselhos e Conferências de Saúde + transferências intergovernamentais)."
+    },
+    {
+      "id": "fc003",
+      "temaId": "sus",
+      "frente": "O que o Decreto 7.508/2011 instituiu (cite 3)?",
+      "verso": "Regiões de saúde, RENASES, RENAME, mapa da saúde, portas de entrada e o COAP."
+    },
+    {
+      "id": "fc004",
+      "temaId": "sus",
+      "frente": "Diferença entre princípios doutrinários e organizativos do SUS?",
+      "verso": "Doutrinários = valores (universalidade, integralidade, equidade). Organizativos = como se organiza (descentralização, regionalização/hierarquização, participação social)."
+    },
+    {
+      "id": "fc005",
+      "temaId": "pnh",
+      "frente": "Cite 3 dispositivos da PNH (HumanizaSUS).",
+      "verso": "Acolhimento, Clínica Ampliada, Projeto Terapêutico Singular, apoio matricial, cogestão, ambiência."
+    },
+    {
+      "id": "fc006",
+      "temaId": "pnab",
+      "frente": "O que é a APS na PNAB 2436/2017?",
+      "verso": "Porta de entrada preferencial e ordenadora da rede de atenção, que coordena o cuidado."
+    },
+    {
+      "id": "fc007",
+      "temaId": "pnab",
+      "frente": "Atributos ESSENCIAIS da APS (Starfield).",
+      "verso": "Primeiro contato/acesso, longitudinalidade, integralidade e coordenação."
+    },
+    {
+      "id": "fc008",
+      "temaId": "redes",
+      "frente": "Qual o centro de comunicação das Redes de Atenção à Saúde?",
+      "verso": "A Atenção Primária à Saúde (APS)."
+    },
+    {
+      "id": "fc009",
+      "temaId": "bioetica",
+      "frente": "Quais os 4 princípios da bioética principialista?",
+      "verso": "Autonomia, Beneficência, Não maleficência e Justiça."
+    },
+    {
+      "id": "fc010",
+      "temaId": "interprofissionalidade",
+      "frente": "Equipe agrupamento x equipe integração (Peduzzi).",
+      "verso": "Agrupamento = justaposição/fragmentação. Integração = articulação das ações e interação entre profissionais (modelo desejável)."
+    },
+    {
+      "id": "fc011",
+      "temaId": "zoonoses",
+      "frente": "Agente etiológico e família viral da raiva.",
+      "verso": "Lyssavirus, família Rhabdoviridae."
+    },
+    {
+      "id": "fc012",
+      "temaId": "zoonoses",
+      "frente": "Vetor da leishmaniose visceral no Brasil.",
+      "verso": "Flebotomíneo Lutzomyia longipalpis; cão é o principal reservatório urbano."
+    },
+    {
+      "id": "fc013",
+      "temaId": "zoonoses",
+      "frente": "Qual zoonose tem o GATO como importante fonte de transmissão no Brasil (micose)?",
+      "verso": "Esporotricose (Sporothrix brasiliensis)."
+    },
+    {
+      "id": "fc014",
+      "temaId": "zoonoses",
+      "frente": "Agente e vetor da febre maculosa brasileira.",
+      "verso": "Rickettsia rickettsii; carrapato Amblyomma (carrapato-estrela)."
+    },
+    {
+      "id": "fc015",
+      "temaId": "farmacologia",
+      "frente": "Por que paracetamol é tóxico para gatos?",
+      "verso": "Deficiência de glicuronoconjugação → metahemoglobinemia e lesão hepática. Contraindicado."
+    },
+    {
+      "id": "fc016",
+      "temaId": "farmacologia",
+      "frente": "Mecanismo de ação dos AINEs.",
+      "verso": "Inibição da ciclooxigenase (COX-1/COX-2), reduzindo prostaglandinas."
+    },
+    {
+      "id": "fc017",
+      "temaId": "semiologia",
+      "frente": "Valor normal do tempo de preenchimento capilar (TPC).",
+      "verso": "Menor que 2 segundos."
+    },
+    {
+      "id": "fc018",
+      "temaId": "anestesiologia",
+      "frente": "Qual é a tríade anestésica?",
+      "verso": "Hipnose, analgesia e relaxamento muscular."
+    },
+    {
+      "id": "fc019",
+      "temaId": "anestesiologia",
+      "frente": "Objetivo da MPA (medicação pré-anestésica).",
+      "verso": "Reduzir estresse e dose de indução, prover analgesia e facilitar o manejo."
+    },
+    {
+      "id": "fc020",
+      "temaId": "imagem",
+      "frente": "Ordem das densidades radiográficas (radiolúcido → radiopaco).",
+      "verso": "Gás < gordura < tecidos moles/água < osso/mineral < metal."
+    },
+    {
+      "id": "fc021",
+      "temaId": "epidemiologia",
+      "frente": "Prevalência x incidência.",
+      "verso": "Prevalência = casos existentes em um momento. Incidência = casos novos em um período."
+    },
+    {
+      "id": "fc022",
+      "temaId": "microbiologia",
+      "frente": "O que é APPCC/HACCP?",
+      "verso": "Análise de Perigos e Pontos Críticos de Controle — sistema preventivo de segurança de alimentos."
+    },
+    {
+      "id": "fc023",
+      "temaId": "patologia-clinica",
+      "frente": "Como classificar uma anemia como regenerativa?",
+      "verso": "Presença de reticulocitose (aumento de reticulócitos), indicando resposta medular."
+    },
+    {
+      "id": "fc024",
+      "temaId": "grandes-animais",
+      "frente": "Nome popular da hipocalcemia puerperal em vacas leiteiras.",
+      "verso": "Febre do leite (paresia/parto puerperal)."
+    },
+    {
+      "id": "fc025",
+      "temaId": "teriogenologia",
+      "frente": "Fases do ciclo estral da cadela.",
+      "verso": "Proestro, estro, diestro e anestro (monoéstrica não sazonal)."
+    },
+    {
+      "id": "fc026",
+      "temaId": "caes-gatos",
+      "frente": "Doença renal muito comum em gatos idosos.",
+      "verso": "Doença Renal Crônica (DRC)."
+    },
+    {
+      "id": "fc027",
+      "temaId": "etica-vet",
+      "frente": "Qual resolução é o Código de Ética do Médico Veterinário?",
+      "verso": "Resolução CFMV 1.138/2016."
+    },
+    {
+      "id": "fc028",
+      "temaId": "acolhimento",
+      "frente": "A classificação de risco prioriza por quê?",
+      "verso": "Pela gravidade/necessidade clínica, e não pela ordem de chegada."
+    },
+    {
+      "id": "fc029",
+      "temaId": "patologia",
+      "frente": "Diferença entre necrose e apoptose.",
+      "verso": "Necrose = morte celular patológica com inflamação. Apoptose = morte programada, sem inflamação."
+    },
+    {
+      "id": "fc030",
+      "temaId": "cirurgia",
+      "frente": "Cite 2 princípios de Halsted.",
+      "verso": "Manuseio delicado dos tecidos, hemostasia rigorosa, assepsia, preservação da vascularização, sem tensão, mínimo espaço morto."
+    }
+  ],
+  "questoes": [
+    {
+      "id": "q001",
+      "temaId": "sus",
+      "categoria": "geral",
+      "enunciado": "São princípios DOUTRINÁRIOS do Sistema Único de Saúde, EXCETO:",
+      "alternativas": [
+        "Universalidade",
+        "Integralidade",
+        "Equidade",
+        "Descentralização",
+        "Universalidade do acesso"
+      ],
+      "correta": 3,
+      "explicacao": "Descentralização é um princípio ORGANIZATIVO do SUS. Os doutrinários são universalidade, integralidade e equidade.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q002",
+      "temaId": "sus",
+      "categoria": "geral",
+      "enunciado": "A participação da comunidade na gestão do SUS, por meio de Conselhos e Conferências de Saúde, foi regulamentada pela:",
+      "alternativas": [
+        "Lei 8.080/1990",
+        "Lei 8.142/1990",
+        "Constituição de 1988, art. 196",
+        "Decreto 7.508/2011",
+        "Portaria 2.436/2017"
+      ],
+      "correta": 1,
+      "explicacao": "A Lei 8.142/1990 dispõe sobre a participação da comunidade (controle social) e as transferências intergovernamentais de recursos.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q003",
+      "temaId": "pnab",
+      "categoria": "geral",
+      "enunciado": "Segundo a PNAB (Portaria 2.436/2017), a Atenção Básica é caracterizada como:",
+      "alternativas": [
+        "Nível de maior densidade tecnológica do sistema",
+        "Porta de entrada preferencial e ordenadora da rede de atenção",
+        "Serviço exclusivamente hospitalar",
+        "Etapa opcional do cuidado",
+        "Responsável apenas por urgências"
+      ],
+      "correta": 1,
+      "explicacao": "A PNAB define a APS como porta de entrada preferencial e ordenadora da rede, coordenando o cuidado.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q004",
+      "temaId": "bioetica",
+      "categoria": "geral",
+      "enunciado": "O princípio bioético que fundamenta o consentimento livre e esclarecido é o da:",
+      "alternativas": [
+        "Beneficência",
+        "Justiça",
+        "Autonomia",
+        "Não maleficência",
+        "Equidade"
+      ],
+      "correta": 2,
+      "explicacao": "A autonomia respeita a capacidade de decisão livre e informada do sujeito, base do consentimento esclarecido.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q005",
+      "temaId": "interprofissionalidade",
+      "categoria": "geral",
+      "enunciado": "Na tipologia de Peduzzi, a equipe que se caracteriza pela articulação das ações e pela interação comunicativa entre os profissionais é a equipe:",
+      "alternativas": [
+        "Agrupamento",
+        "Integração",
+        "Multidisciplinar fragmentada",
+        "Hierárquica",
+        "Uniprofissional"
+      ],
+      "correta": 1,
+      "explicacao": "A equipe integração articula ações e promove interação/comunicação; a agrupamento apenas justapõe ações.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q006",
+      "temaId": "redes",
+      "categoria": "geral",
+      "enunciado": "Conforme a Portaria 4.279/2010, qual nível atua como centro de comunicação das Redes de Atenção à Saúde?",
+      "alternativas": [
+        "Atenção terciária/hospitalar",
+        "Atenção primária à saúde",
+        "Vigilância sanitária",
+        "Atenção pré-hospitalar móvel",
+        "Gestão estadual"
+      ],
+      "correta": 1,
+      "explicacao": "A APS é o centro de comunicação das RAS, coordenando o fluxo dos usuários na rede.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q007",
+      "temaId": "interpretacao",
+      "categoria": "interpretacao",
+      "enunciado": "Leia: \"Apesar dos avanços do SUS na ampliação do acesso, o subfinanciamento e a segmentação entre os setores público e privado permanecem como desafios estruturais.\" A ideia central do trecho é:",
+      "alternativas": [
+        "O SUS fracassou em ampliar o acesso",
+        "Há avanços no acesso, mas desafios estruturais persistem",
+        "O setor privado resolveu os problemas do SUS",
+        "O financiamento do SUS é suficiente",
+        "Não existem desafios no SUS"
+      ],
+      "correta": 1,
+      "explicacao": "O conectivo 'apesar de' opõe avanços (acesso) a desafios persistentes (subfinanciamento e segmentação).",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q008",
+      "temaId": "zoonoses",
+      "categoria": "especifico",
+      "enunciado": "Sobre a leishmaniose visceral no Brasil, assinale a alternativa correta:",
+      "alternativas": [
+        "É transmitida pela picada do mosquito Aedes aegypti",
+        "Tem como vetor o flebotomíneo Lutzomyia longipalpis e o cão como principal reservatório urbano",
+        "É causada por um vírus do gênero Lyssavirus",
+        "O homem é o único reservatório",
+        "Não tem importância em saúde pública"
+      ],
+      "correta": 1,
+      "explicacao": "A LV é causada por Leishmania infantum (chagasi), transmitida por Lutzomyia longipalpis; o cão é o principal reservatório urbano.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q009",
+      "temaId": "zoonoses",
+      "categoria": "especifico",
+      "enunciado": "A esporotricose tem ganhado destaque epidemiológico no Brasil, especialmente pela transmissão associada a:",
+      "alternativas": [
+        "Roedores",
+        "Gatos domésticos",
+        "Aves",
+        "Bovinos",
+        "Quirópteros (morcegos)"
+      ],
+      "correta": 1,
+      "explicacao": "Sporothrix brasiliensis é transmitido com destaque por gatos (arranhaduras/mordeduras), caracterizando importante zoonose no país.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q010",
+      "temaId": "farmacologia",
+      "categoria": "especifico",
+      "enunciado": "O uso de paracetamol (acetaminofeno) é contraindicado em gatos porque essa espécie:",
+      "alternativas": [
+        "Possui excesso de glicuronil transferase",
+        "Tem deficiência na glicuronoconjugação, levando a metahemoglobinemia e hepatotoxicidade",
+        "Metaboliza o fármaco mais rápido que cães",
+        "Não absorve o fármaco por via oral",
+        "Elimina o fármaco apenas pela bile"
+      ],
+      "correta": 1,
+      "explicacao": "Felinos têm deficiência da enzima glicuronil transferase, acumulando metabólitos tóxicos (metahemoglobinemia, dano hepático).",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q011",
+      "temaId": "semiologia",
+      "categoria": "especifico",
+      "enunciado": "Durante o exame físico, considera-se NORMAL um tempo de preenchimento capilar (TPC) de:",
+      "alternativas": [
+        "Maior que 4 segundos",
+        "Entre 3 e 4 segundos",
+        "Menor que 2 segundos",
+        "Exatamente 5 segundos",
+        "O TPC não é avaliado em pequenos animais"
+      ],
+      "correta": 2,
+      "explicacao": "TPC normal é inferior a 2 segundos; valores aumentados sugerem hipoperfusão/desidratação ou choque.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q012",
+      "temaId": "anestesiologia",
+      "categoria": "especifico",
+      "enunciado": "A tríade anestésica é composta por:",
+      "alternativas": [
+        "Hipnose, analgesia e relaxamento muscular",
+        "Sedação, antibiose e fluidoterapia",
+        "Analgesia, anti-inflamação e antibiose",
+        "Hipotermia, hipnose e jejum",
+        "Indução, manutenção e recuperação"
+      ],
+      "correta": 0,
+      "explicacao": "A tríade é hipnose (inconsciência), analgesia e relaxamento muscular. Indução/manutenção/recuperação são fases do procedimento.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q013",
+      "temaId": "imagem",
+      "categoria": "especifico",
+      "enunciado": "Em radiografia, a sequência CORRETA das densidades, do mais radiolúcido ao mais radiopaco, é:",
+      "alternativas": [
+        "Metal < osso < tecido mole < gordura < gás",
+        "Gás < gordura < tecido mole < osso/mineral < metal",
+        "Osso < metal < gordura < gás < tecido mole",
+        "Gordura < gás < metal < osso < tecido mole",
+        "Tecido mole < osso < gás < metal < gordura"
+      ],
+      "correta": 1,
+      "explicacao": "As cinco densidades radiográficas, em ordem crescente de radiopacidade: gás, gordura, tecido mole/água, osso/mineral e metal.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q014",
+      "temaId": "grandes-animais",
+      "categoria": "especifico",
+      "enunciado": "Vaca leiteira de alta produção, recém-parida, apresenta decúbito, hipotermia e ausência de resposta ao estímulo. O diagnóstico mais provável é:",
+      "alternativas": [
+        "Timpanismo espumoso",
+        "Hipocalcemia puerperal (febre do leite)",
+        "Raiva",
+        "Reticuloperitonite traumática",
+        "Mastite gangrenosa"
+      ],
+      "correta": 1,
+      "explicacao": "Quadro clássico de hipocalcemia puerperal (febre do leite) no periparto de vacas leiteiras de alta produção.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q015",
+      "temaId": "patologia-clinica",
+      "categoria": "especifico",
+      "enunciado": "A presença de reticulocitose em um animal anêmico indica que a anemia é:",
+      "alternativas": [
+        "Arregenerativa",
+        "Regenerativa",
+        "Hemolítica imunomediada obrigatoriamente",
+        "Sempre por deficiência de ferro",
+        "Incompatível com a vida"
+      ],
+      "correta": 1,
+      "explicacao": "Reticulocitose reflete resposta medular adequada, classificando a anemia como regenerativa.",
+      "dificuldade": "media"
+    },
+    {
+      "id": "q016",
+      "temaId": "epidemiologia",
+      "categoria": "especifico",
+      "enunciado": "A medida que expressa o número de CASOS NOVOS de uma doença em uma população durante determinado período é a:",
+      "alternativas": [
+        "Prevalência",
+        "Incidência",
+        "Letalidade",
+        "Especificidade",
+        "Razão de chances"
+      ],
+      "correta": 1,
+      "explicacao": "Incidência mede casos novos por período em risco; prevalência mede casos existentes em um momento.",
+      "dificuldade": "media"
+    }
+  ],
+  "dissertativas": [
+    {
+      "id": "p2_001",
+      "temaId": "zoonoses",
+      "caso": "Um tutor leva ao atendimento um cão adulto, proveniente de área periurbana endêmica, com emagrecimento progressivo, lesões cutâneas, onicogrifose (crescimento excessivo das unhas) e linfadenomegalia. Há outros cães no bairro com sinais semelhantes e relato de flebotomíneos no peridomicílio. Discorra sobre a principal hipótese diagnóstica, a abordagem diagnóstica, as implicações em saúde pública e o manejo, sob a ótica da Saúde Única.",
+      "pontosEsperados": [
+        "Hipótese: Leishmaniose Visceral Canina (Leishmania infantum/chagasi)",
+        "Vetor: Lutzomyia longipalpis; cão como reservatório urbano",
+        "Diagnóstico: sorológico (ex.: triagem + confirmatório) e/ou parasitológico/molecular",
+        "Notificação e articulação com a vigilância (doença de notificação)",
+        "Implicações em saúde pública e risco humano; abordagem One Health",
+        "Manejo conforme legislação vigente, controle vetorial e medidas de proteção",
+        "Comunicação ética e responsável com o tutor"
+      ],
+      "comentario": "Avalie se a resposta reconhece a LV como zoonose de notificação, integra vigilância e controle vetorial, e articula o raciocínio sob Saúde Única, sem se limitar à clínica individual."
+    },
+    {
+      "id": "p2_002",
+      "temaId": "grandes-animais",
+      "caso": "Equino de 8 anos apresenta dor abdominal aguda, sudorese, episódios de rolar no chão e olhar para o flanco. À avaliação inicial: FC elevada, redução da motilidade intestinal à ausculta. Descreva a abordagem semiológica do abdome agudo (cólica), os parâmetros que orientam a gravidade e os critérios para indicar tratamento clínico versus cirúrgico.",
+      "pontosEsperados": [
+        "Reconhecimento da síndrome cólica como emergência",
+        "Exame: dor, FC, mucosas/TPC, motilidade, sondagem nasogástrica (refluxo), palpação retal",
+        "Sinais de gravidade: dor refratária, taquicardia persistente, refluxo, alterações de perfusão",
+        "Critérios para indicação cirúrgica x manejo clínico",
+        "Estabilização (analgesia, fluidoterapia) e monitoração"
+      ],
+      "comentario": "Boa resposta hierarquiza os achados que diferenciam cólica clínica de cirúrgica e demonstra raciocínio de emergência, não apenas a lista de sinais."
+    },
+    {
+      "id": "p2_003",
+      "temaId": "microbiologia",
+      "caso": "Após um evento com refeição coletiva, dezenas de pessoas apresentaram náuseas, vômitos e diarreia poucas horas depois. Suspeita-se de doença transmitida por alimento (DTA). Descreva como você conduziria a investigação do surto e as principais medidas de controle e prevenção em segurança de alimentos.",
+      "pontosEsperados": [
+        "Definição de caso e levantamento dos expostos (curva epidêmica, período de incubação)",
+        "Identificação do alimento/veículo suspeito e coleta de amostras",
+        "Hipóteses de agentes conforme tempo de incubação (ex.: toxina estafilocócica, Salmonella)",
+        "Medidas de controle: interdição, cadeia do frio, higiene, BPF e APPCC/HACCP",
+        "Notificação à vigilância sanitária/epidemiológica"
+      ],
+      "comentario": "Verifique a lógica de investigação de surto (definição de caso → veículo → agente → controle) e a articulação com a vigilância."
+    }
+  ]
+}
