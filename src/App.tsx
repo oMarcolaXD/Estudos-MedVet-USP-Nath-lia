@@ -1,4 +1,4 @@
-import { Routes, Route, NavLink, useLocation } from 'react-router-dom';
+import { Routes, Route, NavLink, Link, useLocation } from 'react-router-dom';
 import { useApp } from './context';
 import Dashboard from './pages/Dashboard';
 import Resumos from './pages/Resumos';
@@ -90,7 +90,7 @@ export default function App() {
             <div className="w-7 h-7 rounded-lg bg-emerald-600 flex items-center justify-center text-sm">🐾</div>
             <span className="text-sm font-extrabold text-gray-900 dark:text-white tracking-tight">Residência Vet</span>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             {reviewCardIds.length > 0 && (
               <span className="bg-orange-500 text-white text-xs rounded-full px-2.5 py-1 font-bold">
                 {reviewCardIds.length}
@@ -99,6 +99,9 @@ export default function App() {
             <button onClick={toggleDarkMode} className="w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-500 dark:text-gray-400">
               {state.darkMode ? <Sun size={16} /> : <Moon size={16} />}
             </button>
+            <Link to="/configuracoes" className="w-8 h-8 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-500 dark:text-gray-400">
+              <Settings size={16} />
+            </Link>
           </div>
         </header>
 
