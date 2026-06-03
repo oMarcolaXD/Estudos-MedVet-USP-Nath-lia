@@ -1,6 +1,6 @@
 export type Categoria = 'geral' | 'interpretacao' | 'especifico';
 export type Dificuldade = 'facil' | 'media' | 'dificil';
-export type Origem = 'seed' | 'ia' | 'fuvest';
+export type Origem = 'seed' | 'ia' | 'fuvest' | 'rp';
 
 export interface Tema {
   id: string;
@@ -30,6 +30,7 @@ export interface Questao {
   dificuldade: Dificuldade;
   origem?: Origem;
   anoFuvest?: number;
+  imagem?: string;
 }
 
 export interface Dissertativa {

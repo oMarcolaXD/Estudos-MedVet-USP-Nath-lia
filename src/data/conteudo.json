@@ -1434,7 +1434,8 @@
       "correta": 3,
       "explicacao": "A PNAB define a Atenção Básica como o nível que desenvolve a atenção integral à saúde nos âmbitos individual e coletivo, abrangendo promoção, prevenção, diagnóstico, tratamento, reabilitação e redução de danos. As demais alternativas descrevem atribuições de outros setores ou invertem características da AB.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_002",
@@ -1451,7 +1452,8 @@
       "correta": 0,
       "explicacao": "A Portaria 4279/2010, que estabelece as diretrizes para a Rede de Atenção à Saúde, atribui à APS três funções essenciais para superar a fragmentação: resolução (resolver a maioria dos problemas), organização (ordenar o fluxo na rede) e responsabilização (manter vínculo e co-responsabilidade pelo cuidado).",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_003",
@@ -1468,7 +1470,8 @@
       "correta": 3,
       "explicacao": "As Regiões de Saúde são definidas por meio da pactuação entre estado e município, conforme previsto no Decreto 7508/2011, que regulamenta a Lei 8080/90. Essa pactuação respeita a autonomia dos entes federados e considera critérios como perfil epidemiológico, capacidade instalada e fluxos de referência.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_004",
@@ -1485,7 +1488,8 @@
       "correta": 1,
       "explicacao": "O Consultório na Rua é uma estratégia da Atenção Básica, prevista na PNAB, que oferta atenção integral de saúde a pessoas em situação de rua de forma itinerante. Integra a Rede de Atenção à Saúde levando os serviços ao local onde essa população vive.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_005",
@@ -1502,7 +1506,8 @@
       "correta": 2,
       "explicacao": "O NASF (Núcleo de Apoio à Saúde da Família) e o Consultório na Rua são estratégias da Atenção Básica. CAPS e internação psiquiátrica pertencem à atenção especializada em saúde mental; hospitais de retaguarda são de atenção secundária; 'De Volta para Casa' é programa de reintegração social.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_006",
@@ -1519,7 +1524,8 @@
       "correta": 2,
       "explicacao": "Nos sistemas fragmentados, o foco recai sobre condições agudas e episódicas, com ênfase em unidades de pronto atendimento, sem integração longitudinal do cuidado. A coordenação pela AB, a organização horizontal e a participação do usuário são características das Redes de Atenção à Saúde integradas.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_007",
@@ -1536,7 +1542,8 @@
       "correta": 3,
       "explicacao": "São atribuições da AB: I (territorialização e adscrição de clientela), III (ações educativas para autonomia) e V (ações intersetoriais). O item II está errado pois a AB deve acolher urgências também; o item IV é incorreto pois cirurgias de alta complexidade são de atenção especializada/hospitalar.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_008",
@@ -1553,7 +1560,8 @@
       "correta": 0,
       "explicacao": "A RAS caracteriza-se por relações horizontais (poliárquicas) entre os pontos de atenção, com a AB como coordenadora do cuidado — e não hierarquias rígidas. A comunicação é formal e sistematizada, e a participação dos usuários é incentivada em todos os espaços.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_009",
@@ -1570,7 +1578,8 @@
       "correta": 4,
       "explicacao": "O trabalho em saúde na RAS deve ser fundamentado em vínculo (relação contínua profissional-usuário), comunicação (entre equipes e com o usuário) e responsabilização (co-responsabilidade pelo cuidado ao longo do tempo). Esses são princípios do trabalho interprofissional e do cuidado integral.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_010",
@@ -1587,7 +1596,8 @@
       "correta": 2,
       "explicacao": "A equipe de referência é o grupo multiprofissional responsável por uma clientela definida, com a qual o usuário mantém vínculo. Difere da equipe matriciadora, que oferece suporte especializado a outras equipes sem assumir a responsabilidade direta pelo cuidado do usuário.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_011",
@@ -1604,7 +1614,8 @@
       "correta": 4,
       "explicacao": "A Clínica Ampliada é uma das diretrizes centrais da PNH/HumanizaSUS. Propõe ampliar o objeto de trabalho clínico para além da doença, incluindo o sujeito em sofrimento. As demais alternativas (triagem, comunicação transpessoal, gestão verticalizada, paradigma biomédico) são conceitos contrários ou alheios à PNH.",
       "dificuldade": "facil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_012",
@@ -1621,7 +1632,8 @@
       "correta": 2,
       "explicacao": "Quando o usuário se sente coagido a não manifestar sua opinião por medo de perder o atendimento, há limitação de autonomia — ele não exerce livremente sua capacidade de tomar decisões e expressar preferências sobre seu cuidado. O princípio da autonomia exige que o usuário tenha liberdade real para participar das decisões.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_013",
@@ -1638,7 +1650,8 @@
       "correta": 1,
       "explicacao": "O processo de informação é contínuo e visa garantir que o usuário compreenda e assimile as informações sobre seu cuidado, podendo retomá-las ao longo do tratamento. Não é um evento único (apenas na primeira consulta) nem exclusivo do prontuário. Usuários com transtornos mentais também têm direito à informação.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_014",
@@ -1655,7 +1668,8 @@
       "correta": 1,
       "explicacao": "O paternalismo ocorre quando o profissional não permite que o usuário manifeste sua vontade (toma decisões por ele, 'sabe o que é melhor') e quando o usuário, por sua vez, delega toda decisão ao profissional sem questionar. Ambos reforçam a relação de dependência assimétrica.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_015",
@@ -1672,7 +1686,8 @@
       "correta": 4,
       "explicacao": "Com a microbiologia e o modelo biomédico emergente no século XIX, o foco das práticas de saúde deslocou-se do 'doente' (sujeito em sofrimento) para as 'doenças' (entidades nosológicas com causas específicas). Isso marcou a ascensão do paradigma biomédico, que valorizou a doença mais do que o adoecimento vivenciado pelo sujeito.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_016",
@@ -1689,7 +1704,8 @@
       "correta": 1,
       "explicacao": "Na classificação de Guedel adaptada para medicina veterinária, o estágio I (indução/movimento voluntário) pode ser acompanhado de nistagmo em equinos, reflexo que indica que o animal ainda está em plano superficial de anestesia. O estágio III é o de anestesia cirúrgica, onde os reflexos protetores estão abolidos e a intubação já é possível.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_017",
@@ -1706,7 +1722,8 @@
       "correta": 0,
       "explicacao": "Em equinos, a percussão torácica é um método semiológico válido para detectar efusão pleural: o líquido acumulado gera som maciço/submaciço à percussão. Em ruminantes, é o omaso e o retículo que são acessíveis por palpação retal, não o ceco. O rim direito em equinos está profundamente posicionado e raramente é acessível por palpação retal.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_018",
@@ -1723,7 +1740,8 @@
       "correta": 2,
       "explicacao": "Na pleuropneumonia equina, o acúmulo de exsudato na cavidade pleural provoca inflamação da pleura parietal, que é ricamente inervada, causando dor intensa à palpação da parede torácica. O Rhodococcus equi acomete potros entre 1 e 6 meses; pneumonias fúngicas não são as mais comuns; antibióticos são indicados na pleuropneumonia bacteriana.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_019",
@@ -1740,7 +1758,8 @@
       "correta": 4,
       "explicacao": "O pré-dipping (imersão dos tetos em solução desinfetante antes da ordenha) é uma das principais medidas preventivas da mastite contagiosa, eliminando microrganismos do canal do teto antes da entrada da unidade de ordenha. A mastite subclínica (CMT+) exige atenção e tratamento; a mastite gangrenosa tem prognóstico reservado; a coleta de leite é feita por técnica asséptica no canal do teto, não por punção.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_020",
@@ -1757,7 +1776,8 @@
       "correta": 3,
       "explicacao": "Déficits proprioceptivos nos quatro membros sem sinais encefálicos indicam lesão medular cervical (C1-C5), pois os tratos sensitivos e motores para os quatro membros passam pela medula cervical. Movimentos espásticos indicam lesão de neurônio motor superior; tremor intencional é sinal cerebelar; paralisia facial envolve o nervo facial (VII), não o trigêmeo; head tilt indica lesão vestibular (periférica ou central).",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_021",
@@ -1774,7 +1794,8 @@
       "correta": 4,
       "explicacao": "O Mormo é doença de notificação obrigatória e de controle oficial no Brasil. Todo animal positivo deve ser sacrificado por agentes oficiais em instalações adequadas, pois é zoonose de alto risco e a Burkholderia mallei é agente potencial de bioterrorismo (mas é bactéria, não protozoário). O Mormo pode acometer outros equídeos além dos equinos, e as lesões característicass são nodulares nas vias aéreas superiores e na pele.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_022",
@@ -1791,7 +1812,8 @@
       "correta": 3,
       "explicacao": "A alternativa D está INCORRETA porque inverte os conceitos: hipertrofia é o aumento do TAMANHO das células (não do número), e hiperplasia é o aumento do NÚMERO de células (não redução). As demais definições estão corretas: necrose irreversível, degeneração reversível, atrofia como redução e metaplasia como substituição celular.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_023",
@@ -1808,7 +1830,8 @@
       "correta": 1,
       "explicacao": "A cicatrização segue fases sequenciais: hemostasia (coagulação), inflamação aguda (neutrófilos, macrófagos), proliferação (angiogênese, fibroblastos produzindo colágeno) e remodelação (maturação do colágeno e formação da cicatriz). A cicatrização por primeira intenção requer ferida asséptica. O tecido de granulação é rosado, úmido e friável — não firme e esbranquiçado. As metaloproteinases degradam a matriz, não a sintetizam.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_024",
@@ -1825,7 +1848,8 @@
       "correta": 0,
       "explicacao": "A inflamação crônica é de duração prolongada, ocorrendo quando o agente persiste, quando há resposta imune mediada (como doenças autoimunes) ou quando o tecido se torna isolado. A IA se caracteriza por neutrófilos (não monócitos/plasmócitos) como infiltrado principal. A IC tem como marca macrófagos, linfócitos e plasma, e pode formar granulomas.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_025",
@@ -1842,7 +1866,8 @@
       "correta": 2,
       "explicacao": "Neoplasmas benignos são caracterizados por: ausência de anaplasia, ausência de invasão local, crescimento lento e expansivo (com cápsula), estrutura histológica semelhante ao tecido de origem e células bem diferenciadas. Nenhuma dessas características se aplica a tumores malignos, que apresentam anaplasia, invasão, crescimento rápido e potencial metastático.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_026",
@@ -1859,7 +1884,8 @@
       "correta": 3,
       "explicacao": "A alternativa D está INCORRETA: a detecção de anticorpos antirrábicos indica vacinação prévia ou resposta imune, não é teste de triagem diagnóstica para raiva ativa. O diagnóstico da raiva em cães e gatos suspeitos é feito post-mortem por imunofluorescência direta no encéfalo e inoculação em camundongos — não por sorologia.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_027",
@@ -1876,7 +1902,8 @@
       "correta": 4,
       "explicacao": "VCM 58,3 µ³ (abaixo de 60) = microcítica; CHCM 28,6% (abaixo de 31) = hipocrômica; reticulócitos 40.000 (abaixo de 60.000) = arregenerativa. Anemia microcítica hipocrômica arregenerativa é o padrão clássico de deficiência de ferro: pouca hemoglobina por eritrócito (hipocrômica), eritrócitos menores (microcítica) e medula sem resposta regenerativa eficaz.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_028",
@@ -1893,7 +1920,8 @@
       "correta": 1,
       "explicacao": "A alternativa B está INCORRETA: a proteinúria renal 'funcional' é uma condição transitória e NÃO patológica (exercício intenso, febre), sem lesão estrutural renal. A questão a descreve como 'patológica transitória', o que é contraditório — funcional implica ausência de lesão, apenas variação fisiológica transitória da filtração.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_029",
@@ -1910,7 +1938,8 @@
       "correta": 2,
       "explicacao": "I é correta: a doença valvar degenerativa (endocardiose) progride com ativação do SRAA e dilatação cardíaca compensatória. III é correta: na cardiomiopatia hipertrófica felina, a dilatação do átrio esquerdo predispõe a trombos e tromboembolismo aórtico. IV é correta: insuficiência cardíaca pode ocorrer por disfunção sistólica (baixo débito) ou diastólica (enchimento inadequado). II está errada pois confunde lados: edema pulmonar é do lado esquerdo; ascite/efusão pleural são do lado direito.",
       "dificuldade": "dificil",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     },
     {
       "id": "rp_2017_030",
@@ -1927,7 +1956,8 @@
       "correta": 0,
       "explicacao": "Na classificação de feridas cirúrgicas: laparotomia exploratória e correção de duto arterioso são 'limpas' (sem contaminação); perfuração intestinal e peritonite são 'sujas/infectadas' (infecção já estabelecida). Os conceitos de antissepsia (pele/tecido vivo) e desinfecção (inanimados) estão invertidos na alternativa B. O tempo cirúrgico é fator de risco para infecção. A hipotermia prejudica a imunidade e favorece infecções.",
       "dificuldade": "media",
-      "origem": "rp-2017"
+      "origem": "rp",
+      "anoFuvest": 2017
     }
   ],
   "dissertativas": [

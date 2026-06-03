@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "belt": {
+      "source": "belt-sh/cli",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/belt/SKILL.md",
+      "computedHash": "089aafb91641896947cc004126ef31b806f109d514107fa683203ae5d3f706e2"
+    },
     "caveman": {
       "source": "mattpocock/skills",
       "sourceType": "github",

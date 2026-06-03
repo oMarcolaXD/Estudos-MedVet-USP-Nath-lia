@@ -255,8 +255,20 @@ export default function Simulados() {
                     FUVEST {q.anoFuvest}
                   </span>
                 )}
+                {q.origem === 'rp' && q.anoFuvest && (
+                  <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
+                    RP {q.anoFuvest}
+                  </span>
+                )}
               </div>
               <p className="text-sm font-medium mb-3">{q.enunciado}</p>
+              {q.imagem && (
+                <img
+                  src={q.imagem}
+                  alt={`Imagem da questão ${qi + 1}`}
+                  className="mb-3 max-w-full rounded-lg border border-gray-200 dark:border-gray-700"
+                />
+              )}
               <div className="space-y-2">
                 {q.alternativas.map((alt, ai) => (
                   <button
@@ -318,8 +330,20 @@ export default function Simulados() {
                         FUVEST {q.anoFuvest}
                       </span>
                     )}
+                    {q.origem === 'rp' && q.anoFuvest && (
+                      <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
+                        RP {q.anoFuvest}
+                      </span>
+                    )}
                   </div>
                   <p className="text-sm font-medium">{q.enunciado}</p>
+                  {q.imagem && (
+                    <img
+                      src={q.imagem}
+                      alt={`Imagem da questão ${qi + 1}`}
+                      className="mt-2 max-w-full rounded-lg border border-gray-200 dark:border-gray-700"
+                    />
+                  )}
                 </div>
               </div>
               <div className="space-y-1.5 mb-3">
