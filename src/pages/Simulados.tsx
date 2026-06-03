@@ -284,7 +284,7 @@ export default function Simulados() {
                   </span>
                 )}
               </div>
-              <p className="text-sm font-medium mb-3">{q.enunciado}</p>
+              <p className="text-sm font-medium mb-3 whitespace-pre-line">{q.enunciado}</p>
               {q.imagem && (
                 <img
                   src={q.imagem}
