@@ -1418,6 +1418,516 @@
       "explicacao": "O SUDS (Decreto 94.657/1987) foi estratégia de transição: transferiu gestão das ações de saúde do INAMPS para secretarias estaduais, criando condições políticas e técnicas para o SUS na CF/1988. Não era universal (mantinha vínculo previdenciário), mas avançou na descentralização.",
       "dificuldade": "dificil",
       "origem": "seed"
+    },
+    {
+      "id": "rp_2017_001",
+      "temaId": "pnab",
+      "categoria": "geral",
+      "enunciado": "De acordo com a Política Nacional de Saúde, a Atenção Básica caracteriza-se por",
+      "alternativas": [
+        "a) elaborar proposta de financiamento tripartite para criação ou adequação do Plano de Cargos, Carreira e Salários (PCCS) e por desprecarizar os vínculos de trabalho e contratação de pessoal.",
+        "b) disponibilizar ações e serviços em quantidade e qualidade para atender às necessidades de saúde da população no âmbito dos cuidados secundários e terciários.",
+        "c) ser o ponto de atenção estratégico para o cadastramento de usuários e seus familiares, habitantes de uma microárea territorial, para a sua inserção nos programas de Assistência Social de apoio às famílias.",
+        "d) desenvolver a atenção integral à saúde, nos âmbitos individual e coletivo, com ênfase em: promoção e proteção, prevenção de agravos, diagnóstico, tratamento, reabilitação e redução de danos.",
+        "e) ser a porta de entrada alternativa da Rede de Atenção à Saúde; acolher os usuários e familiares; promover sua vinculação aos serviços e corresponsabilizar-se pela resolução de suas necessidades de saúde."
+      ],
+      "correta": 3,
+      "explicacao": "A PNAB define a Atenção Básica como o nível que desenvolve a atenção integral à saúde nos âmbitos individual e coletivo, abrangendo promoção, prevenção, diagnóstico, tratamento, reabilitação e redução de danos. As demais alternativas descrevem atribuições de outros setores ou invertem características da AB.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_002",
+      "temaId": "redes",
+      "categoria": "geral",
+      "enunciado": "De acordo com a Portaria nº 4279/2010, compete à Atenção Primária à Saúde integrar verticalmente os serviços que são ofertados de forma fragmentada pelo Sistema de Saúde convencional. Para tanto, deve assumir três funções essenciais:",
+      "alternativas": [
+        "a) resolução, organização e responsabilização.",
+        "b) primeira consulta médica, diagnóstico e terapêutica.",
+        "c) abordagem sociocultural, encaminhamentos e matriciamentos.",
+        "d) orientação comunitária, atenção à crise e atendimento à demanda espontânea.",
+        "e) atendimento às urgências, acompanhamento de casos graves e coordenação."
+      ],
+      "correta": 0,
+      "explicacao": "A Portaria 4279/2010, que estabelece as diretrizes para a Rede de Atenção à Saúde, atribui à APS três funções essenciais para superar a fragmentação: resolução (resolver a maioria dos problemas), organização (ordenar o fluxo na rede) e responsabilização (manter vínculo e co-responsabilidade pelo cuidado).",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_003",
+      "temaId": "redes",
+      "categoria": "geral",
+      "enunciado": "A organização da Rede de Atenção à Saúde exige definição de Regiões de Saúde. Cada Região de Saúde é definida por meio",
+      "alternativas": [
+        "a) das Conferências Municipais de Saúde.",
+        "b) do último Censo Demográfico.",
+        "c) do acordo entre os Serviços de Saúde.",
+        "d) da pactuação entre Estado e Município.",
+        "e) das Portarias específicas em nível federal."
+      ],
+      "correta": 3,
+      "explicacao": "As Regiões de Saúde são definidas por meio da pactuação entre estado e município, conforme previsto no Decreto 7508/2011, que regulamenta a Lei 8080/90. Essa pactuação respeita a autonomia dos entes federados e considera critérios como perfil epidemiológico, capacidade instalada e fluxos de referência.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_004",
+      "temaId": "pnab",
+      "categoria": "geral",
+      "enunciado": "A proposta de equipes de Consultório na Rua constitui uma estratégia de",
+      "alternativas": [
+        "a) Atenção Secundária para o acompanhamento dos casos de saúde mental de uma determinada comunidade.",
+        "b) Atenção Básica para ampliar o acesso à Rede de Atenção à Saúde e ofertar atenção integral à população em situação de rua.",
+        "c) Atenção Terciária para acompanhar pessoas que se recusam a permanecer em internação hospitalar.",
+        "d) Assistência Social, cujo intuito principal é a oferta de internação em comunidades terapêuticas para a população que faz uso de álcool e outras drogas.",
+        "e) Reabilitação Psicossocial, que visa acompanhar pessoas em situação de internação domiciliar."
+      ],
+      "correta": 1,
+      "explicacao": "O Consultório na Rua é uma estratégia da Atenção Básica, prevista na PNAB, que oferta atenção integral de saúde a pessoas em situação de rua de forma itinerante. Integra a Rede de Atenção à Saúde levando os serviços ao local onde essa população vive.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_005",
+      "temaId": "pnab",
+      "categoria": "geral",
+      "enunciado": "A Atenção Básica em Saúde deve ser desenvolvida com o mais alto grau de descentralização e capilaridade, ou seja, deve estar próxima da vida das pessoas, ampliando assim o acesso da população à Rede de Atenção à Saúde. Compõem as ações da Atenção Básica:",
+      "alternativas": [
+        "a) os Centros de Atenção Psicossocial e o Programa de Agentes Comunitários de Saúde.",
+        "b) as Equipes de Saúde da Família e os Hospitais de Retaguarda.",
+        "c) os Núcleos de Apoio à Saúde da Família e o Consultório na Rua.",
+        "d) as Equipes de Saúde da Família para populações ribeirinhas e os leitos de internação psiquiátrica.",
+        "e) as Unidades Básicas de Saúde e o Programa De Volta para Casa."
+      ],
+      "correta": 2,
+      "explicacao": "O NASF (Núcleo de Apoio à Saúde da Família) e o Consultório na Rua são estratégias da Atenção Básica. CAPS e internação psiquiátrica pertencem à atenção especializada em saúde mental; hospitais de retaguarda são de atenção secundária; 'De Volta para Casa' é programa de reintegração social.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_006",
+      "temaId": "redes",
+      "categoria": "geral",
+      "enunciado": "A existência de sistemas fragmentados de Atenção à Saúde é um dos maiores desafios para a consolidação da atenção integral. É característica dos sistemas fragmentados:",
+      "alternativas": [
+        "a) a forte tendência à coordenação do cuidado pela Atenção Básica.",
+        "b) a organização horizontal entre o conjunto dos serviços disponibilizados.",
+        "c) o foco nas condições agudas por meio de unidades de pronto atendimento.",
+        "d) a participação ativa dos usuários e dos Conselhos Gestores.",
+        "e) o atendimento centrado nas necessidades apresentadas pelo usuário."
+      ],
+      "correta": 2,
+      "explicacao": "Nos sistemas fragmentados, o foco recai sobre condições agudas e episódicas, com ênfase em unidades de pronto atendimento, sem integração longitudinal do cuidado. A coordenação pela AB, a organização horizontal e a participação do usuário são características das Redes de Atenção à Saúde integradas.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_007",
+      "temaId": "pnab",
+      "categoria": "geral",
+      "enunciado": "Dentre as cinco atribuições descritas abaixo, identifique as que caracterizam o processo de trabalho das equipes de Atenção Básica.\nI. Definir o território de atuação e a população sob responsabilidade das Unidades Básicas de Saúde.\nII. Realizar o acolhimento, a classificação etária, a avaliação de necessidade de saúde e a análise psicossocial, excluindo-se os atendimentos às urgências.\nIII. Desenvolver ações educativas que possam interferir no processo de saúde-doença da população, no desenvolvimento de autonomia e na busca por qualidade de vida pelos usuários.\nIV. Realizar cirurgias de alta complexidade sob supervisão de equipe matriciadora e apoiar ações de internação domiciliar de idosos.\nV. Desenvolver ações intersetoriais, integrando projetos e redes de apoio social voltados para o desenvolvimento da atenção integral.\nEstão corretas apenas as atribuições indicadas em",
+      "alternativas": [
+        "a) I e II.",
+        "b) I e IV.",
+        "c) II, III e IV.",
+        "d) I, III e V.",
+        "e) II, IV e V."
+      ],
+      "correta": 3,
+      "explicacao": "São atribuições da AB: I (territorialização e adscrição de clientela), III (ações educativas para autonomia) e V (ações intersetoriais). O item II está errado pois a AB deve acolher urgências também; o item IV é incorreto pois cirurgias de alta complexidade são de atenção especializada/hospitalar.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_008",
+      "temaId": "redes",
+      "categoria": "geral",
+      "enunciado": "Uma das características da Rede de Atenção à Saúde é",
+      "alternativas": [
+        "a) a formação de relações horizontais entre os Pontos de Atenção e a Atenção Básica.",
+        "b) a organização e a comunicação da Rede baseadas em momentos de encontros informais entre gestores locais.",
+        "c) a baixa participação dos usuários em espaços gerenciais e a alta participação dos usuários em espaços de cuidado.",
+        "d) o descrédito para com iniciativas de maior integração entre os trabalhadores da Rede de um determinado território.",
+        "e) a ênfase nos procedimentos médicos em detrimento dos processos vinculares entre profissionais e usuários."
+      ],
+      "correta": 0,
+      "explicacao": "A RAS caracteriza-se por relações horizontais (poliárquicas) entre os pontos de atenção, com a AB como coordenadora do cuidado — e não hierarquias rígidas. A comunicação é formal e sistematizada, e a participação dos usuários é incentivada em todos os espaços.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_009",
+      "temaId": "interprofissionalidade",
+      "categoria": "geral",
+      "enunciado": "No contexto da proposta de organização da Rede de Atenção à Saúde, é importante que o trabalho em saúde esteja fundamentado nas noções de",
+      "alternativas": [
+        "a) diagnóstico precoce, avaliação terapêutica e alta.",
+        "b) avaliação médica, aconselhamento e promoção.",
+        "c) triagem, orientação preventiva e contato com a família.",
+        "d) acolhimento, orientação comunitária e encaminhamento.",
+        "e) vínculo, comunicação e responsabilização com o cuidado."
+      ],
+      "correta": 4,
+      "explicacao": "O trabalho em saúde na RAS deve ser fundamentado em vínculo (relação contínua profissional-usuário), comunicação (entre equipes e com o usuário) e responsabilização (co-responsabilidade pelo cuidado ao longo do tempo). Esses são princípios do trabalho interprofissional e do cuidado integral.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_010",
+      "temaId": "sus",
+      "categoria": "geral",
+      "enunciado": "Grupo multiprofissional que deve ser composto de acordo com os objetivos de cada serviço de saúde, tendo uma clientela sob sua responsabilidade. Todo usuário do Sistema Único de Saúde deve ter e saber identificar sua equipe [...]. (Brasil, O SUS de A a Z, 2009).\nEssa é a definição de uma equipe",
+      "alternativas": [
+        "a) especializada.",
+        "b) integrada.",
+        "c) de referência.",
+        "d) matriciadora.",
+        "e) transdisciplinar."
+      ],
+      "correta": 2,
+      "explicacao": "A equipe de referência é o grupo multiprofissional responsável por uma clientela definida, com a qual o usuário mantém vínculo. Difere da equipe matriciadora, que oferece suporte especializado a outras equipes sem assumir a responsabilidade direta pelo cuidado do usuário.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_011",
+      "temaId": "pnh",
+      "categoria": "geral",
+      "enunciado": "Diretrizes constituem as orientações gerais de determinada política. É uma Diretriz da Política Nacional de Humanização:",
+      "alternativas": [
+        "a) Triagem.",
+        "b) Comunicação Transpessoal.",
+        "c) Gestão Verticalizada.",
+        "d) Paradigma Biomédico.",
+        "e) Clínica Ampliada."
+      ],
+      "correta": 4,
+      "explicacao": "A Clínica Ampliada é uma das diretrizes centrais da PNH/HumanizaSUS. Propõe ampliar o objeto de trabalho clínico para além da doença, incluindo o sujeito em sofrimento. As demais alternativas (triagem, comunicação transpessoal, gestão verticalizada, paradigma biomédico) são conceitos contrários ou alheios à PNH.",
+      "dificuldade": "facil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_012",
+      "temaId": "bioetica",
+      "categoria": "geral",
+      "enunciado": "Usuários que permanecem em filas de espera para atendimento em clínicas de Instituições de Ensino podem se sentir pouco à vontade para expressar sua opinião sobre o cuidado ofertado, pois eles tendem a pensar que perderão a vaga se 'reclamarem' de alguma coisa. Do ponto de vista da ética, é correto afirmar que, nesse tipo de situação, ocorre",
+      "alternativas": [
+        "a) resiliência.",
+        "b) capacidade de adaptação.",
+        "c) limitação de autonomia.",
+        "d) liberdade de escolha.",
+        "e) não malefício."
+      ],
+      "correta": 2,
+      "explicacao": "Quando o usuário se sente coagido a não manifestar sua opinião por medo de perder o atendimento, há limitação de autonomia — ele não exerce livremente sua capacidade de tomar decisões e expressar preferências sobre seu cuidado. O princípio da autonomia exige que o usuário tenha liberdade real para participar das decisões.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_013",
+      "temaId": "bioetica",
+      "categoria": "geral",
+      "enunciado": "Do ponto de vista da ética, o profissional deverá fornecer ao usuário todas as informações relativas ao cuidado e tratamento ofertado. Em relação ao processo de informação, é correto afirmar:",
+      "alternativas": [
+        "a) Ele deve acontecer apenas na primeira consulta, para não confundir o usuário com informações que ele não conseguiria compreender.",
+        "b) Consiste na compreensão e na assimilação das informações pelo usuário, as quais podem ser retomadas ao longo do tratamento.",
+        "c) Ele não deve ocorrer quando o usuário é portador de transtornos mentais; nesse caso, a família é que deve ser informada sobre o cuidado ofertado.",
+        "d) A informação sobre o cuidado ofertado deve ser disponibilizada por meio da leitura do prontuário, conforme a exigência do usuário.",
+        "e) Qualquer familiar pode ser informado sobre o tratamento ofertado ao usuário, mesmo sem o seu consentimento prévio."
+      ],
+      "correta": 1,
+      "explicacao": "O processo de informação é contínuo e visa garantir que o usuário compreenda e assimile as informações sobre seu cuidado, podendo retomá-las ao longo do tratamento. Não é um evento único (apenas na primeira consulta) nem exclusivo do prontuário. Usuários com transtornos mentais também têm direito à informação.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_014",
+      "temaId": "bioetica",
+      "categoria": "geral",
+      "enunciado": "Os profissionais de saúde são, muitas vezes, considerados responsáveis por curar as pessoas. Essa crença, construída social e historicamente e validada em nossa cultura, sustenta práticas que podem desrespeitar a dignidade humana. Em relação às posturas paternalistas, tanto por parte dos profissionais, quanto dos usuários, é correto afirmar que elas se expressam quando o profissional",
+      "alternativas": [
+        "a) não respeita a autonomia do usuário e quando o usuário questiona a conduta do profissional.",
+        "b) não permite ao usuário manifestar sua vontade e quando o usuário aceita tudo o que é proposto pelo profissional, por considerar que 'o doutor é quem sabe'.",
+        "c) não leva em consideração a opinião do usuário e quando o usuário busca compartilhar com a equipe as suas decisões em relação ao cuidado ofertado.",
+        "d) busca informar o usuário sobre o cuidado ofertado para facilitar a sua compreensão e quando o usuário não se vê como agente ativo em seu tratamento.",
+        "e) leva em consideração apenas a vontade dos familiares e quando o usuário questiona a não consideração de sua vontade por parte do profissional."
+      ],
+      "correta": 1,
+      "explicacao": "O paternalismo ocorre quando o profissional não permite que o usuário manifeste sua vontade (toma decisões por ele, 'sabe o que é melhor') e quando o usuário, por sua vez, delega toda decisão ao profissional sem questionar. Ambos reforçam a relação de dependência assimétrica.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_015",
+      "temaId": "bioetica",
+      "categoria": "geral",
+      "enunciado": "A descoberta dos micro-organismos durante o século XIX provocou a evolução no campo das ciências da saúde (Junqueira, 2010). Em relação a esse acontecimento, é correto afirmar que houve",
+      "alternativas": [
+        "a) descrédito da comunidade científica em relação ao modelo biomédico emergente.",
+        "b) validação pela ciência dos saberes populares sobre o adoecimento.",
+        "c) significativo avanço das atitudes relacionais nas práticas de saúde.",
+        "d) retrocesso do modelo agente-hospedeiro-ambiente em função de um modelo explicativo mágico-religioso.",
+        "e) mudança de foco do 'doente' para as 'doenças' nas práticas de saúde."
+      ],
+      "correta": 4,
+      "explicacao": "Com a microbiologia e o modelo biomédico emergente no século XIX, o foco das práticas de saúde deslocou-se do 'doente' (sujeito em sofrimento) para as 'doenças' (entidades nosológicas com causas específicas). Isso marcou a ascensão do paradigma biomédico, que valorizou a doença mais do que o adoecimento vivenciado pelo sujeito.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_016",
+      "temaId": "anestesiologia",
+      "categoria": "especifico",
+      "enunciado": "Considerando-se que, em qualquer espécie animal, o conhecimento dos planos anestésicos é essencial ao bom estabelecimento de uma anestesia geral para procedimentos cirúrgicos e para o acompanhamento da recuperação anestésica, é correto afirmar que, no estágio",
+      "alternativas": [
+        "a) III, considerado o estágio de anestesia cirúrgica, encontra-se bradicardia progressiva e hipertensão.",
+        "b) I, denominado estágio de movimento voluntário, é comum a ocorrência de nistagmo, principalmente em equinos.",
+        "c) III, considerado o estágio de anestesia cirúrgica, observa-se reflexo laríngeo diminuído mas ainda sem possibilidade de intubação.",
+        "d) II, denominado estágio respiratório, ocorre progressiva diminuição da frequência respiratória.",
+        "e) I, denominado estágio de movimento voluntário, há ausência de salivação e de reflexo orofaringeano."
+      ],
+      "correta": 1,
+      "explicacao": "Na classificação de Guedel adaptada para medicina veterinária, o estágio I (indução/movimento voluntário) pode ser acompanhado de nistagmo em equinos, reflexo que indica que o animal ainda está em plano superficial de anestesia. O estágio III é o de anestesia cirúrgica, onde os reflexos protetores estão abolidos e a intubação já é possível.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_017",
+      "temaId": "semiologia",
+      "categoria": "especifico",
+      "enunciado": "O correto exame físico é a base para qualquer diagnóstico clínico, sendo o mesmo para qualquer espécie animal, mas com algumas características específicas que devem ser conhecidas para a correta interpretação dos achados, sobre os quais é correto afirmar que, em",
+      "alternativas": [
+        "a) equinos, a percussão torácica pode ser utilizada em casos de suspeita de efusão pleural.",
+        "b) ruminantes, o ceco pode ser facilmente acessado por palpação retal.",
+        "c) equinos, os linfonodos pré-crurais podem ser facilmente palpados.",
+        "d) ruminantes, os linfonodos palpáveis na cabeça são o lingual, o submandibular e o retrofaríngeo.",
+        "e) equinos, a palpação retal permite facilmente o acesso ao rim direito."
+      ],
+      "correta": 0,
+      "explicacao": "Em equinos, a percussão torácica é um método semiológico válido para detectar efusão pleural: o líquido acumulado gera som maciço/submaciço à percussão. Em ruminantes, é o omaso e o retículo que são acessíveis por palpação retal, não o ceco. O rim direito em equinos está profundamente posicionado e raramente é acessível por palpação retal.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_018",
+      "temaId": "grandes-animais",
+      "categoria": "especifico",
+      "enunciado": "A propósito das pneumonias em equinos, problema relativamente comum nesses animais, indique a afirmação correta.",
+      "alternativas": [
+        "a) Entre 6 e 10 meses de idade, os potros geralmente são afetados pelo Rhodococcus equi.",
+        "b) Geralmente adquiridas por via inalatória, as pneumonias fúngicas são as mais comuns em animais jovens.",
+        "c) Em casos de pleuropneumonia, o animal pode apresentar dor à palpação da parede torácica.",
+        "d) Em potros, um fator determinante importante para as pneumonias é a predisposição genética.",
+        "e) Em casos de pleuropneumonia bacteriana, o uso de antibióticos é contraindicado, visto que o acúmulo de secreção pleural impede sua atuação."
+      ],
+      "correta": 2,
+      "explicacao": "Na pleuropneumonia equina, o acúmulo de exsudato na cavidade pleural provoca inflamação da pleura parietal, que é ricamente inervada, causando dor intensa à palpação da parede torácica. O Rhodococcus equi acomete potros entre 1 e 6 meses; pneumonias fúngicas não são as mais comuns; antibióticos são indicados na pleuropneumonia bacteriana.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_019",
+      "temaId": "grandes-animais",
+      "categoria": "especifico",
+      "enunciado": "Em bovinos, as alterações de glândula mamária representam grande parte da casuística em rebanhos leiteiros. Das afirmações a seguir, qual a que expressa corretamente o que se conhece em casos de mastite?",
+      "alternativas": [
+        "a) Em casos de mastite de origem ambiental, o controle é bastante simples e envolve a pulverização do ambiente.",
+        "b) Mastite sem alterações visíveis no leite, detectada apenas pelo CMT (California Mastitis Test), não deve ser motivo de preocupação, visto que tem resolução espontânea.",
+        "c) A mastite gangrenosa tem bom prognóstico, resolvendo-se rapidamente após 24h de aplicação de anti-inflamatório.",
+        "d) Em casos de mastite, a colheita de amostras de leite para cultivo microbiológico deve ser feita por punção da glândula mamária para evitar contaminação externa.",
+        "e) A imersão dos tetos em solução desinfetante antes da ordenha é uma das medidas mais importantes de prevenção da mastite contagiosa."
+      ],
+      "correta": 4,
+      "explicacao": "O pré-dipping (imersão dos tetos em solução desinfetante antes da ordenha) é uma das principais medidas preventivas da mastite contagiosa, eliminando microrganismos do canal do teto antes da entrada da unidade de ordenha. A mastite subclínica (CMT+) exige atenção e tratamento; a mastite gangrenosa tem prognóstico reservado; a coleta de leite é feita por técnica asséptica no canal do teto, não por punção.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_020",
+      "temaId": "semiologia",
+      "categoria": "especifico",
+      "enunciado": "Durante o exame do sistema nervoso, procura-se estabelecer a localização da lesão. Várias manifestações clínicas são mais indicativas dessa localização do que da causa em si. A partir desse raciocínio, indique a alternativa que relaciona corretamente a manifestação clínica e a localização da lesão no sistema nervoso.",
+      "alternativas": [
+        "a) Paresia de membros pélvicos com movimentos espásticos indicam lesão de neurônio motor inferior.",
+        "b) Tremor intencional é observado nas lesões de nervos periféricos.",
+        "c) Paralisia de lábios, pálpebras e orelha indicam lesão do nervo trigêmeo.",
+        "d) Déficits proprioceptivos nos quatro membros, sem alterações encefálicas, podem indicar lesão medular cervical.",
+        "e) A inclinação lateral da cabeça (head tilt) é encontrada na alteração cerebral."
+      ],
+      "correta": 3,
+      "explicacao": "Déficits proprioceptivos nos quatro membros sem sinais encefálicos indicam lesão medular cervical (C1-C5), pois os tratos sensitivos e motores para os quatro membros passam pela medula cervical. Movimentos espásticos indicam lesão de neurônio motor superior; tremor intencional é sinal cerebelar; paralisia facial envolve o nervo facial (VII), não o trigêmeo; head tilt indica lesão vestibular (periférica ou central).",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_021",
+      "temaId": "zoonoses",
+      "categoria": "especifico",
+      "enunciado": "Sobre Mormo, é correto afirmar:",
+      "alternativas": [
+        "a) É uma doença infectocontagiosa que acomete somente equinos, cujo agente é a bactéria Burkholderia mallei.",
+        "b) Caracteriza-se macroscopicamente por lesões nodulares ulcerativas na pele e na mucosa genitourinária. O padrão morfológico da lesão é granulomatoso.",
+        "c) É causado pela Burkholderia mallei, que é considerado agente potencial de bioterrorismo, pois é uma protozoose.",
+        "d) O diagnóstico é baseado nos achados laboratoriais de avaliação da exsudação nasal e na pesquisa de antígenos em provas sorológicas.",
+        "e) Os animais suspeitos e os animais aparentemente normais devem ser testados por provas sorológicas e, em todos os casos positivos, deve ser realizada a eutanásia em local oficial, por agentes oficiais do governo."
+      ],
+      "correta": 4,
+      "explicacao": "O Mormo é doença de notificação obrigatória e de controle oficial no Brasil. Todo animal positivo deve ser sacrificado por agentes oficiais em instalações adequadas, pois é zoonose de alto risco e a Burkholderia mallei é agente potencial de bioterrorismo (mas é bactéria, não protozoário). O Mormo pode acometer outros equídeos além dos equinos, e as lesões característicass são nodulares nas vias aéreas superiores e na pele.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_022",
+      "temaId": "patologia",
+      "categoria": "especifico",
+      "enunciado": "As células respondem às agressões na dependência da intensidade e da duração do agente agressor. Quanto à lesão e à adaptação celular, NÃO é correto afirmar:",
+      "alternativas": [
+        "a) Necrose celular é a lesão irreversível causada por hipóxia/anoxia, isquemia ou lesão de membrana plasmática, e os tipos morfológicos são necrose por coagulação, liquefação, caseificação, necrose gangrenosa e esteatonecrose.",
+        "b) Degeneração é a lesão reversível que resulta em acúmulo de substâncias nas células, sendo exemplos degeneração hidrópica, balonosa ou tumefação celular.",
+        "c) Atrofia é a redução no tamanho do tecido ou órgão devido à redução no tamanho da célula e no número.",
+        "d) Adaptações são alterações reversíveis no tamanho e número de células, tais como hipertrofia e hiperplasia, respectivamente, aumento do tamanho de células e redução do número de células.",
+        "e) Metaplasia é uma alteração reversível na qual uma célula diferenciada (epitelial ou mesenquimal) é substituída por outro tipo celular."
+      ],
+      "correta": 3,
+      "explicacao": "A alternativa D está INCORRETA porque inverte os conceitos: hipertrofia é o aumento do TAMANHO das células (não do número), e hiperplasia é o aumento do NÚMERO de células (não redução). As demais definições estão corretas: necrose irreversível, degeneração reversível, atrofia como redução e metaplasia como substituição celular.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_023",
+      "temaId": "patologia",
+      "categoria": "especifico",
+      "enunciado": "Quanto ao processo de cicatrização cutânea, é correto afirmar que",
+      "alternativas": [
+        "a) cicatrização por primeira intenção se caracteriza por bordos aproximados por suturas ou bandagens, ferida séptica e a ocorrência de fenômeno de contração.",
+        "b) o tecido lesionado passa pelas etapas de hemostasia, inflamação aguda, proliferação de vasos e fibroblastos e formação da cicatriz com maturação do colágeno.",
+        "c) o tecido de granulação é marca do processo de cicatrização e se caracteriza por ser firme, esbranquiçado, sem anexos cutâneos e retraído.",
+        "d) os macrófagos desempenham função fundamental na liberação de fatores de crescimento e na contração da ferida.",
+        "e) a matriz extracelular é sintetizada por metaloproteinases, as quais são sinalizadas por citocinas, fatores de crescimentos liberados no local da ferida."
+      ],
+      "correta": 1,
+      "explicacao": "A cicatrização segue fases sequenciais: hemostasia (coagulação), inflamação aguda (neutrófilos, macrófagos), proliferação (angiogênese, fibroblastos produzindo colágeno) e remodelação (maturação do colágeno e formação da cicatriz). A cicatrização por primeira intenção requer ferida asséptica. O tecido de granulação é rosado, úmido e friável — não firme e esbranquiçado. As metaloproteinases degradam a matriz, não a sintetizam.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_024",
+      "temaId": "patologia",
+      "categoria": "especifico",
+      "enunciado": "Inflamação é uma reação complexa tecidual que consiste na resposta de vasos sanguíneos e leucócitos. A inflamação aguda (IA) difere da inflamação crônica (IC) pois",
+      "alternativas": [
+        "a) IC é a inflamação de duração prolongada que ocorre devido a persistência/resistência de agentes ou estímulo incitante, isolamento do tecido, doença inflamatória imune-mediada, autoimunidade e outros mecanismos não identificados.",
+        "b) IA se caracteriza por sinais cardinais: calor, rubor, tumor, dor, perda de função e, morfologicamente, por edema, infiltrado de monócitos e plasmócitos.",
+        "c) IC se caracteriza por edema, infiltrado de neutrófilos, linfócitos, macrófagos e calcificação.",
+        "d) IC tem como marca tecido de granulação caracterizado por macrófagos epitelioides, infiltrado de linfócitos e células gigantes.",
+        "e) IA se caracteriza por contração arteriolar e venular associada à presença de macrófagos e proliferação de fibroblastos."
+      ],
+      "correta": 0,
+      "explicacao": "A inflamação crônica é de duração prolongada, ocorrendo quando o agente persiste, quando há resposta imune mediada (como doenças autoimunes) ou quando o tecido se torna isolado. A IA se caracteriza por neutrófilos (não monócitos/plasmócitos) como infiltrado principal. A IC tem como marca macrófagos, linfócitos e plasma, e pode formar granulomas.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_025",
+      "temaId": "patologia",
+      "categoria": "especifico",
+      "enunciado": "Neoplasma é um novo crescimento composto por células, originalmente derivadas de tecidos normais, que sofreram alterações genéticas herdadas. Sobre os tumores é correto afirmar:",
+      "alternativas": [
+        "a) Tumores benignos apresentam baixa diferenciação, grau variável da anaplasia, crescimento lento, figuras de mitose normais e não apresentam metástases.",
+        "b) Tumores bem diferenciados, com estrutura semelhante ao tecido de origem, com crescimento infiltrativo e grau variável de anaplasia caracterizam neoplasmas benignos.",
+        "c) Ausência de anaplasia, ausência de invasão local, crescimento lento, cápsula presente, estrutura semelhante ao tecido de origem e células bem diferenciadas são características de neoplasmas benignos.",
+        "d) Tumores sem metástases, com baixa anaplasia, mitoses variáveis e infiltração local são considerados de mau prognóstico.",
+        "e) Metástases, crescimento rápido, mitoses numerosas com figuras anormais e anaplasia em grau variável são características de bom prognóstico."
+      ],
+      "correta": 2,
+      "explicacao": "Neoplasmas benignos são caracterizados por: ausência de anaplasia, ausência de invasão local, crescimento lento e expansivo (com cápsula), estrutura histológica semelhante ao tecido de origem e células bem diferenciadas. Nenhuma dessas características se aplica a tumores malignos, que apresentam anaplasia, invasão, crescimento rápido e potencial metastático.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_026",
+      "temaId": "zoonoses",
+      "categoria": "especifico",
+      "enunciado": "Sobre a raiva, NÃO é correto afirmar que",
+      "alternativas": [
+        "a) todos os mamíferos, sem exceção, são suscetíveis à infecção pelo vírus rábico, às manifestações clínicas e ao desenrolar fatal da doença.",
+        "b) morcegos hematófagos, frugívoros, insetívoros, nectarívoros ou onívoros são suscetíveis à infecção e ao óbito pela doença e apresentam diferentes linhagens ou variantes do vírus da raiva, cujo conhecimento é importante para estabelecer políticas de controle específicas.",
+        "c) a variante de vírus rábico clássica em cães e gatos, no Brasil, é a variante antigênica 2 (AgV2), enquanto no morcego hematófago Desmodus rotundus, que é o reservatório da raiva para herbívoros e seres humanos, tem-se a variante antigênica 3 (AgV3).",
+        "d) a detecção de anticorpos contra o vírus da raiva em amostras de soro sanguíneo de cães e gatos é um teste de triagem importante para se proceder ou não a outros testes complementares específicos, como a inoculação em camundongos, para estabelecimento do diagnóstico.",
+        "e) as vacinas utilizadas em campanhas públicas ou mesmo pelos médicos veterinários do setor privado são sempre inativadas, podendo ser produzidas a partir de camundongos ou em cultivo celular."
+      ],
+      "correta": 3,
+      "explicacao": "A alternativa D está INCORRETA: a detecção de anticorpos antirrábicos indica vacinação prévia ou resposta imune, não é teste de triagem diagnóstica para raiva ativa. O diagnóstico da raiva em cães e gatos suspeitos é feito post-mortem por imunofluorescência direta no encéfalo e inoculação em camundongos — não por sorologia.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_027",
+      "temaId": "patologia-clinica",
+      "categoria": "especifico",
+      "enunciado": "Considere os seguintes resultados no eritrograma de um animal:\nHemácias: 3,6 x10⁶/mm³ (ref: 5,0 a 8,0)\nHemoglobina: 6,0 g/dL (ref: 12 a 18)\nHematócrito: 21% (ref: 37 a 54)\nVolume corpuscular médio: 58,3 µ³ (ref: 60 a 77)\nHemoglobina corpuscular média: 16,6 pg (ref: 22 a 27)\nConcentração da hemoglobina corpuscular média: 28,6% (ref: 31 a 36)\nReticulócitos: 40.000/mm³ (ref: 60.000)\nOs dados da tabela acima estão corretamente interpretados em:",
+      "alternativas": [
+        "a) anemia normocítica normocrômica arregenerativa, processo associado à deficiência de ferro.",
+        "b) anemia microcítica normocrômica regenerativa, processo associado a alterações medulares.",
+        "c) anemia macrocítica hipocrômica regenerativa, processo associado a alterações extramedulares.",
+        "d) anemia macrocítica hipocrômica arregenerativa, processo associado a alterações medulares.",
+        "e) anemia microcítica hipocrômica arregenerativa, processo associado à deficiência de ferro."
+      ],
+      "correta": 4,
+      "explicacao": "VCM 58,3 µ³ (abaixo de 60) = microcítica; CHCM 28,6% (abaixo de 31) = hipocrômica; reticulócitos 40.000 (abaixo de 60.000) = arregenerativa. Anemia microcítica hipocrômica arregenerativa é o padrão clássico de deficiência de ferro: pouca hemoglobina por eritrócito (hipocrômica), eritrócitos menores (microcítica) e medula sem resposta regenerativa eficaz.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_028",
+      "temaId": "patologia-clinica",
+      "categoria": "especifico",
+      "enunciado": "No exame de urina, com relação à detecção de proteinúria, NÃO é correto afirmar:",
+      "alternativas": [
+        "a) A perda de proteínas plasmáticas de alto peso molecular, principalmente albumina, pela urina, associada à ausência de achados em sedimento urinário, é a principal característica das glomerulopatias.",
+        "b) Proteinúria renal funcional refere-se a uma alteração renal patológica transitória decorrente de exercício físico intenso ou febre, podendo, por exemplo, ocorrer com a presença ocasional de cilindros hialinos.",
+        "c) Proteinúria tubular é representada por proteínas de baixo peso molecular e reflete lesões que comprometem a reabsorção de proteínas. Nesses casos, ocasionalmente, pode-se encontrar albuminúria.",
+        "d) A avaliação da proteinúria, frente à dificuldade de coleta da urina produzida em 24 horas e à variação da quantidade de proteína presente durante o dia, pode ser realizada pela razão proteína/creatinina urinária (RPC), uma vez que a creatinina é produzida em taxa constante.",
+        "e) Proteinúria pós-renal refere-se à perda de proteínas advindas de processos localizados desde a pelve renal, ureter, bexiga ou uretra ou, ainda, do trato genital e genitália externa."
+      ],
+      "correta": 1,
+      "explicacao": "A alternativa B está INCORRETA: a proteinúria renal 'funcional' é uma condição transitória e NÃO patológica (exercício intenso, febre), sem lesão estrutural renal. A questão a descreve como 'patológica transitória', o que é contraditório — funcional implica ausência de lesão, apenas variação fisiológica transitória da filtração.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_029",
+      "temaId": "caes-gatos",
+      "categoria": "especifico",
+      "enunciado": "Considere as seguintes afirmações sobre cardiopatias:\nI. Na evolução da doença valvar degenerativa, à medida que o quadro progride, o volume regurgitante aumenta, diminuindo, com isso, o volume sistólico e ativando mecanismos compensatórios, como: aumento da atividade do sistema nervoso central, atenuação do tônus vagal e ativação do sistema renina-angiotensina-aldosterona, além de dilatação do átrio e ventrículo esquerdos, o que pode manter o animal assintomático por muito tempo.\nII. Nas cardiomiopatias, quando o comprometimento miocárdico é grave, sobrepondo a capacidade de compensação do sistema cardiovascular, ocorre aumento da pressão diastólica final, causando edema pulmonar. Caso o ventrículo esquerdo também esteja comprometido, além de edema pulmonar, observa-se ascite e/ou efusão pleural.\nIII. Gatos com cardiomiopatia hipertrófica apresentam, em geral, hipertrofia do septo e da parede livre do ventrículo esquerdo. Quando o átrio esquerdo também está dilatado, há predisposição à formação de trombos, sendo esse um fator de risco para o tromboembolismo nessa espécie.\nIV. Considerando a fisiopatologia da insuficiência cardíaca, esta pode ocorrer por disfunção sistólica, quando o coração não é capaz de ejetar volume suficiente de sangue, ou por disfunção diastólica, quando o enchimento ventricular não é adequado.\nEstá correto apenas o que se afirma em",
+      "alternativas": [
+        "a) I, II e III.",
+        "b) II e III.",
+        "c) I, III e IV.",
+        "d) I e IV.",
+        "e) II e IV."
+      ],
+      "correta": 2,
+      "explicacao": "I é correta: a doença valvar degenerativa (endocardiose) progride com ativação do SRAA e dilatação cardíaca compensatória. III é correta: na cardiomiopatia hipertrófica felina, a dilatação do átrio esquerdo predispõe a trombos e tromboembolismo aórtico. IV é correta: insuficiência cardíaca pode ocorrer por disfunção sistólica (baixo débito) ou diastólica (enchimento inadequado). II está errada pois confunde lados: edema pulmonar é do lado esquerdo; ascite/efusão pleural são do lado direito.",
+      "dificuldade": "dificil",
+      "origem": "rp-2017"
+    },
+    {
+      "id": "rp_2017_030",
+      "temaId": "cirurgia",
+      "categoria": "especifico",
+      "enunciado": "Quanto aos processos infecciosos em procedimentos cirúrgicos, é correto afirmar:",
+      "alternativas": [
+        "a) Laparotomia exploratória e correção da persistência de duto arterioso são exemplos de cirurgias 'limpas' com taxas de infecção muito baixas, enquanto perfuração de trato intestinal e peritonite são consideradas 'contaminadas', sendo que a infecção já está presente no momento da intervenção cirúrgica.",
+        "b) Desinfecção refere-se à destruição da maioria dos microrganismos patogênicos em pacientes, enquanto antissepsia refere-se à destruição da maioria dos microrganismos patogênicos em objetos. Os dois processos envolvem o uso de compostos líquidos.",
+        "c) Pasteurella multocida e Corynebacterium spp são os agentes responsáveis pela maior parte dos casos de infecções cirúrgicas.",
+        "d) O risco de infecção cirúrgica depende do grau de contaminação do meio ambiente e não tem relação com o tempo de duração da cirurgia.",
+        "e) A hipotermia perioperatória é um fator de proteção contra infecção, pois a manutenção da temperatura abaixo de 37°C impede a proliferação bacteriana."
+      ],
+      "correta": 0,
+      "explicacao": "Na classificação de feridas cirúrgicas: laparotomia exploratória e correção de duto arterioso são 'limpas' (sem contaminação); perfuração intestinal e peritonite são 'sujas/infectadas' (infecção já estabelecida). Os conceitos de antissepsia (pele/tecido vivo) e desinfecção (inanimados) estão invertidos na alternativa B. O tempo cirúrgico é fator de risco para infecção. A hipotermia prejudica a imunidade e favorece infecções.",
+      "dificuldade": "media",
+      "origem": "rp-2017"
     }
   ],
   "dissertativas": [
