@@ -71,33 +71,74 @@ def classify(text: str, categoria: str) -> str:
 
 # ─── gabarito ─────────────────────────────────────────────────────────────────
 def parse_gabarito(path: Path) -> dict:
-    """Retorna {num: letra} para Grupo 5 – Veterinária."""
+    """Retorna {num: letra} para Grupo 5 / Medicina Veterinária.
+
+    Suporta dois formatos:
+    - Até 2018: colunas "Grupo 1…5", Veterinária = Grupo 5 (última coluna da pg 0)
+    - 2019+: colunas "Profissão 1…N", Veterinária numa das páginas seguintes
+    Usa posições X palavra-a-palavra para isolar a coluna correta.
+    """
     doc = fitz.open(str(path))
-    page = doc[0]
 
-    # Achar x0 do cabeçalho "Grupo 5"
-    grupo5_x = None
-    for block in page.get_text("blocks"):
-        if "Grupo 5" in block[4] or "Veterinária" in block[4]:
-            grupo5_x = block[0]
+    # Buscar em todas as páginas a palavra que contém "eterin" (Veterinária)
+    vet_page = None
+    vet_x = None
+    for pg_i in range(len(doc)):
+        for w in doc[pg_i].get_text("words"):
+            txt = w[4].replace('\xa0', '').strip()
+            if 'eterin' in txt.lower():
+                vet_page = pg_i
+                vet_x = w[0]
+                break
+        if vet_page is not None:
+            break
 
-    if grupo5_x is None:
-        # fallback: última coluna (rightmost header block)
-        headers = [b for b in page.get_text("blocks") if re.search(r'Grupo\s+\d', b[4])]
-        if headers:
-            grupo5_x = max(h[0] for h in headers)
+    if vet_x is None:
+        raise ValueError("Coluna Veterinária não encontrada no gabarito.")
 
-    if grupo5_x is None:
-        raise ValueError("Não encontrei 'Grupo 5' no gabarito.")
+    # Descobrir x exato das respostas: coletar xs de letras A-E nessa página,
+    # pegar o mais próximo de vet_x (com tolerância de 0–80 pts para direita)
+    page = doc[vet_page]
+    letter_xs = sorted({
+        round(w[0]) for w in page.get_text("words")
+        if w[4].strip() in ('A', 'B', 'C', 'D', 'E')
+    })
+
+    # Coluna de resposta = primeiro x de letra tal que vet_x <= x <= vet_x + 80
+    resp_x = None
+    for lx in sorted(letter_xs):
+        if vet_x - 5 <= lx <= vet_x + 80:
+            resp_x = lx
+            break
+    if resp_x is None:
+        resp_x = vet_x  # fallback
+
+    # Agrupar palavras por linha (y arredondado) e extrair respostas
+    rows: dict = {}
+    for w in page.get_text("words"):
+        y_key = round(w[1])
+        rows.setdefault(y_key, []).append(w)
 
     answers = {}
-    col_x = grupo5_x - 15
+    for _, row_words in sorted(rows.items()):
+        row_words.sort(key=lambda w: w[0])
 
-    for block in page.get_text("blocks"):
-        if block[0] < col_x:
-            continue
-        for m in re.finditer(r'(\d{2})\s+(ANULADA|[A-E])', block[4]):
-            answers[int(m.group(1))] = m.group(2)
+        q_num = None
+        answer = None
+
+        for w in row_words:
+            txt = w[4].replace('\xa0', '').replace(' ', '').strip()
+            x = w[0]
+
+            if re.match(r'^\d{1,2}$', txt) and 1 <= int(txt) <= 30:
+                q_num = int(txt)
+
+            # Resposta na coluna Veterinária (x dentro de ±15 do resp_x)
+            if abs(x - resp_x) <= 15 and txt in ('A', 'B', 'C', 'D', 'E', 'ANULADA'):
+                answer = txt
+
+        if q_num and answer:
+            answers[q_num] = answer
 
     doc.close()
     return answers
@@ -105,62 +146,145 @@ def parse_gabarito(path: Path) -> dict:
 
 # ─── questões ─────────────────────────────────────────────────────────────────
 def parse_prova(path: Path) -> dict:
-    """Retorna {num: {enunciado, alternativas}}."""
+    """Retorna {num: {enunciado, alternativas}}.
+
+    Modo 1: detecta blocos com número isolado (ex: "01") — funciona até 2017.
+    Modo 2 (fallback): segmenta por marcadores a)…e) e numera sequencialmente.
+    """
     doc = fitz.open(str(path))
-    questions: dict = {}
 
     SKIP = {"CONHECIMENTOS GERAIS", "VETERINÁRIA", "GRUPO 5: VETERINÁRIA",
             "GRUPO 5 – VETERINÁRIA", "GRUPO 5-VETERINÁRIA"}
+    MIN_FONT = 5  # ignorar watermarks/barcodes
 
-    for pg in range(1, len(doc)):
-        page = doc[pg]
-        midx = page.rect.width / 2
+    def all_lines_sorted():
+        """Linhas de texto ordenadas por (página, coluna, y).
 
-        # Ordenar blocos de texto: coluna esquerda antes, depois por y
-        blocks = [b for b in page.get_text("dict")["blocks"] if b["type"] == 0]
-        blocks.sort(key=lambda b: (
-            0 if (b["bbox"][0] + b["bbox"][2]) / 2 < midx else 1,
-            b["bbox"][1]
-        ))
-
-        cur_q = None
-        enunc = []
-        alts = []
-        in_alts = False
-
-        def flush():
-            if cur_q and enunc:
-                questions[cur_q] = {
-                    "enunciado": " ".join(enunc).strip(),
-                    "alternativas": alts[:]
-                }
-
-        for block in blocks:
-            for line in block["lines"]:
-                txt = "".join(s["text"] for s in line["spans"]).strip()
-                if not txt or txt.upper() in SKIP:
+        A ordem correta para o exame é: dentro de cada página,
+        coluna esquerda antes da direita; páginas em sequência.
+        """
+        result = []
+        for pg in range(1, len(doc)):
+            page = doc[pg]
+            midx = page.rect.width / 2
+            page_h = page.rect.height
+            for block in page.get_text("dict")["blocks"]:
+                if block["type"] != 0:
                     continue
-
-                # Número de questão isolado
-                if re.match(r'^\d{1,2}$', txt) and 1 <= int(txt) <= 30:
-                    flush()
-                    cur_q = int(txt)
-                    enunc, alts, in_alts = [], [], False
+                by = block["bbox"][1]
+                # Ignorar cabeçalho (<50pt) e rodapé (>80% altura da página)
+                if by < 40 or by > page_h * 0.85:
                     continue
+                col = 0 if (block["bbox"][0] + block["bbox"][2]) / 2 < midx else 1
+                for line in block["lines"]:
+                    sz = line["spans"][0]["size"] if line["spans"] else 0
+                    if sz < MIN_FONT:
+                        continue
+                    txt = "".join(s["text"] for s in line["spans"]).strip()
+                    if txt and txt.upper() not in SKIP:
+                        result.append({"col": col, "pg": pg,
+                                       "y": by, "txt": txt})
+        # Ordem: página → coluna → y  (esquerda antes da direita em cada página)
+        result.sort(key=lambda l: (l["pg"], l["col"], l["y"]))
+        return result
 
-                if cur_q is None:
-                    continue
+    lines = all_lines_sorted()
 
-                # Alternativa: a) … e)
-                if re.match(r'^[a-eA-E]\)', txt):
-                    in_alts = True
-                    alts.append(txt)
-                elif in_alts and alts:
-                    alts[-1] += " " + txt
-                else:
-                    enunc.append(txt)
+    # ── Modo 1: número isolado ───────────────────────────────────────────────
+    questions: dict = {}
+    cur_q = None
+    enunc: list = []
+    alts: list = []
+    in_alts = False
 
-        flush()
+    def flush1():
+        if cur_q and enunc:
+            questions[cur_q] = {
+                "enunciado": " ".join(enunc).strip(),
+                "alternativas": alts[:]
+            }
+
+    for ln in lines:
+        txt = ln["txt"]
+        if re.match(r'^\d{1,2}$', txt) and 1 <= int(txt) <= 30:
+            flush1()
+            cur_q = int(txt)
+            enunc, alts, in_alts = [], [], False
+        elif cur_q is None:
+            continue
+        elif re.match(r'^[a-eA-E]\)', txt):
+            in_alts = True
+            alts.append(txt)
+        elif in_alts and alts:
+            alts[-1] += " " + txt
+        else:
+            enunc.append(txt)
+
+    flush1()
+
+    if len(questions) >= 25:
+        doc.close()
+        return questions
+
+    # ── Modo 2: fallback por alternativas ────────────────────────────────────
+    # Robusto para PDFs com texto justificado onde "a) palavra" fica em linhas
+    # separadas (cada palavra numa linha). Fica em modo "alts" até ver as 5
+    # alternativas ou uma linha longa com maiúscula (início de novo enunciado).
+    questions = {}
+    segments: list = []   # (enunciado_str, [alt_a, alt_b, alt_c, alt_d, alt_e])
+    cur_enunc: list = []
+    cur_alts: list = []
+    in_alts = False
+    alt_count = 0
+
+    def flush2():
+        if cur_enunc and len(cur_alts) >= 4:
+            segments.append((" ".join(cur_enunc).strip(), cur_alts[:]))
+
+    def is_new_enunciado(txt: str) -> bool:
+        """Heurística: linha longa e com inicial maiúscula = provável novo enunciado."""
+        return len(txt) >= 25 and bool(re.match(r'^[A-ZÀ-Ö]', txt))
+
+    for ln in lines:
+        txt = ln["txt"]
+        alt_match = re.match(r'^([a-eA-E])\)', txt)
+
+        if alt_match:
+            letter = alt_match.group(1).lower()
+            if not in_alts and letter == 'a':
+                # Início das alternativas
+                in_alts = True
+                alt_count = 1
+                cur_alts = [txt]
+            elif in_alts:
+                alt_count += 1
+                cur_alts.append(txt)
+            # Ignorar marcadores 'a)' fora de contexto (já temos alts em andamento
+            # ou a letra não é 'a' para iniciar)
+        elif in_alts:
+            # Sair dos alts só quando temos ≥4 alts E o texto parece
+            # um enunciado novo (longo, começa com maiúscula).
+            # Textos curtos / minúsculos são continuação da última alt.
+            if alt_count >= 4 and is_new_enunciado(txt):
+                flush2()
+                cur_enunc = [txt]
+                cur_alts = []
+                in_alts = False
+                alt_count = 0
+            else:
+                # Continuação da última alternativa (texto justificado)
+                if cur_alts:
+                    cur_alts[-1] += " " + txt
+        else:
+            if not cur_enunc:
+                pass
+            cur_enunc.append(txt)
+
+    flush2()
+
+    for i, (enunc_txt, alts_list) in enumerate(segments, 1):
+        if i <= 30:
+            questions[i] = {"enunciado": enunc_txt, "alternativas": alts_list}
 
     doc.close()
     return questions
@@ -221,7 +345,7 @@ def extract_images(prova_path: Path, out_dir: Path, ano: str) -> dict:
                 fname = f"q{best_q:03d}.{ext}"
                 (out_dir / fname).write_bytes(img_data["image"])
                 result[best_q] = f"/questoes/rp-{ano}/{fname}"
-                print(f"  Imagem salva: Q{best_q:02d} → {fname}")
+                print(f"  Imagem salva: Q{best_q:02d} -> {fname}")
             except Exception as e:
                 print(f"  Erro Q{best_q:02d}: {e}")
 
@@ -230,22 +354,55 @@ def extract_images(prova_path: Path, out_dir: Path, ano: str) -> dict:
 
 
 # ─── main ─────────────────────────────────────────────────────────────────────
+def find_pdfs(ano: str):
+    """
+    Descobre automaticamente prova e gabarito na pasta scripts/provas/.
+    Suporta nomes como ProvaResidencia17.pdf, ProvaResidencia18(Fase1).pdf, etc.
+    Também aceita caminhos explícitos como argv[2] e argv[3].
+    """
+    if len(sys.argv) >= 4:
+        return Path(sys.argv[2]), Path(sys.argv[3])
+
+    provas_dir = PROJECT / "scripts" / "provas"
+    yy = ano[-2:]  # últimos 2 dígitos: 2017 → "17"
+
+    prova = gabarito = None
+    for f in provas_dir.iterdir():
+        name = f.name.lower()
+        if f.suffix.lower() != ".pdf":
+            continue
+        if f"residencia{yy}" not in name:
+            continue
+        # Fase1 ou FaseUnica → é a prova objetiva; ignorar Fase2 (dissertativa)
+        if "fase2" in name:
+            continue
+        if "prova" in name:
+            prova = f
+        elif "gabarito" in name:
+            gabarito = f
+
+    return prova, gabarito
+
+
 def main():
     ano = sys.argv[1] if len(sys.argv) > 1 else None
     if not ano:
         print(__doc__)
         sys.exit(1)
 
-    prova_dir = PROJECT / "scripts" / "provas" / f"rp-{ano}"
-    prova_path = prova_dir / "prova.pdf"
-    gabarito_path = prova_dir / "gabarito.pdf"
+    prova_path, gabarito_path = find_pdfs(ano)
 
-    for p in (prova_path, gabarito_path):
-        if not p.exists():
-            print(f"Arquivo não encontrado: {p}")
-            sys.exit(1)
+    if not prova_path or not prova_path.exists():
+        print(f"Prova não encontrada para RP {ano} em scripts/provas/")
+        sys.exit(1)
+    if not gabarito_path or not gabarito_path.exists():
+        print(f"Gabarito não encontrado para RP {ano} em scripts/provas/")
+        sys.exit(1)
 
-    print(f"\n📚 Importando RP {ano}...\n")
+    print(f"  Prova:    {prova_path.name}")
+    print(f"  Gabarito: {gabarito_path.name}")
+
+    print(f"\n=== Importando RP {ano} ===\n")
 
     print("Lendo gabarito (Grupo 5)...")
     gabarito = parse_gabarito(gabarito_path)
@@ -315,7 +472,7 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"✅ Concluído: {inserted} inseridas · {anuladas} anuladas · {dups} duplicatas")
+    print(f"\nConcluido: {inserted} inseridas . {anuladas} anuladas . {dups} duplicatas")
     if erros:
         print("Erros:")
         for e in erros:
