@@ -6,6 +6,7 @@ import { ClipboardList, Clock, Check, X, Sparkles } from 'lucide-react';
 import GerarIA from '../components/GerarIA';
 
 type Fase = 'config' | 'prova' | 'gabarito';
+type FiltroOrigem = 'todas' | 'fuvest';
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
@@ -23,6 +24,7 @@ export default function Simulados() {
   const [searchParams] = useSearchParams();
   const [fase, setFase] = useState<Fase>('config');
   const [tipo, setTipo] = useState<'completo' | 'tema'>('completo');
+  const [filtroOrigem, setFiltroOrigem] = useState<FiltroOrigem>('todas');
   const [temasSel, setTemasSel] = useState<string[]>([]);
   const [qtd, setQtd] = useState(10);
   const [useTimer, setUseTimer] = useState(false);
@@ -64,15 +66,18 @@ export default function Simulados() {
 
   function montarProva() {
     let selecionadas: Questao[] = [];
+    const pool = filtroOrigem === 'fuvest'
+      ? todasQuestoes.filter((q) => q.origem === 'rp')
+      : todasQuestoes;
 
     if (tipo === 'completo') {
-      const gerais = shuffle(todasQuestoes.filter((q) => q.categoria === 'geral')).slice(0, 8);
-      const interp = shuffle(todasQuestoes.filter((q) => q.categoria === 'interpretacao')).slice(0, 7);
-      const espec = shuffle(todasQuestoes.filter((q) => q.categoria === 'especifico')).slice(0, 25);
+      const gerais = shuffle(pool.filter((q) => q.categoria === 'geral')).slice(0, 8);
+      const interp = shuffle(pool.filter((q) => q.categoria === 'interpretacao')).slice(0, 7);
+      const espec = shuffle(pool.filter((q) => q.categoria === 'especifico')).slice(0, 25);
       selecionadas = shuffle([...gerais, ...interp, ...espec]);
     } else {
-      const pool = todasQuestoes.filter((q) => temasSel.length === 0 || temasSel.includes(q.temaId));
-      selecionadas = shuffle(pool).slice(0, qtd);
+      const temaPool = pool.filter((q) => temasSel.length === 0 || temasSel.includes(q.temaId));
+      selecionadas = shuffle(temaPool).slice(0, qtd);
     }
 
     if (selecionadas.length === 0) {
@@ -118,6 +123,24 @@ export default function Simulados() {
         </div>
 
         <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 p-5 space-y-5">
+          <div>
+            <label className="block text-sm font-medium mb-2">Banco de questões</label>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setFiltroOrigem('todas')}
+                className={`flex-1 py-2 rounded-lg border text-sm transition-colors ${filtroOrigem === 'todas' ? 'bg-blue-600 text-white border-blue-600' : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800'}`}
+              >
+                Todas
+              </button>
+              <button
+                onClick={() => setFiltroOrigem('fuvest')}
+                className={`flex-1 py-2 rounded-lg border text-sm transition-colors ${filtroOrigem === 'fuvest' ? 'bg-amber-500 text-white border-amber-500' : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800'}`}
+              >
+                Só FUVEST
+              </button>
+            </div>
+          </div>
+
           <div>
             <label className="block text-sm font-medium mb-2">Tipo de simulado</label>
             <div className="flex gap-3">
@@ -256,8 +279,8 @@ export default function Simulados() {
                   </span>
                 )}
                 {q.origem === 'rp' && q.anoFuvest && (
-                  <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
-                    RP {q.anoFuvest}
+                  <span className="text-[10px] font-bold bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full">
+                    FUVEST {q.anoFuvest}
                   </span>
                 )}
               </div>
@@ -331,8 +354,8 @@ export default function Simulados() {
                       </span>
                     )}
                     {q.origem === 'rp' && q.anoFuvest && (
-                      <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
-                        RP {q.anoFuvest}
+                      <span className="text-[10px] font-bold bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full">
+                        FUVEST {q.anoFuvest}
                       </span>
                     )}
                   </div>

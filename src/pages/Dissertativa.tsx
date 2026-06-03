@@ -47,8 +47,8 @@ export default function Dissertativa() {
           <div className="flex items-center gap-2 mb-3">
             <h2 className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide">Caso clínico</h2>
             {caso.origem === 'rp' && caso.anoFuvest && (
-              <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
-                RP {caso.anoFuvest} · Fase 2
+              <span className="text-[10px] font-bold bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full">
+                FUVEST {caso.anoFuvest} · Fase 2
               </span>
             )}
           </div>
@@ -151,8 +151,8 @@ export default function Dissertativa() {
                     <p className="text-xs text-blue-600 dark:text-blue-400 font-medium">{temaObj.nome}</p>
                   )}
                   {d.origem === 'rp' && d.anoFuvest && (
-                    <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
-                      RP {d.anoFuvest} · F2
+                    <span className="text-[10px] font-bold bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full">
+                      FUVEST {d.anoFuvest} · F2
                     </span>
                   )}
                 </div>
