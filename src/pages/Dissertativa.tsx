@@ -44,8 +44,15 @@ export default function Dissertativa() {
         )}
 
         <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 p-5">
-          <h2 className="text-sm font-semibold mb-3 text-gray-600 dark:text-gray-400 uppercase tracking-wide">Caso clínico</h2>
-          <p className="text-sm leading-relaxed">{caso.caso}</p>
+          <div className="flex items-center gap-2 mb-3">
+            <h2 className="text-sm font-semibold text-gray-600 dark:text-gray-400 uppercase tracking-wide">Caso clínico</h2>
+            {caso.origem === 'rp' && caso.anoFuvest && (
+              <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
+                RP {caso.anoFuvest} · Fase 2
+              </span>
+            )}
+          </div>
+          <p className="text-sm leading-relaxed whitespace-pre-line">{caso.caso}</p>
         </div>
 
         <div>
@@ -139,9 +146,16 @@ export default function Dissertativa() {
                 onClick={() => abrirCaso(d)}
                 className="w-full bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl p-4 text-left hover:shadow-md hover:border-blue-300 dark:hover:border-blue-700 transition-all"
               >
-                {temaObj && (
-                  <p className="text-xs text-blue-600 dark:text-blue-400 font-medium mb-1">{temaObj.nome}</p>
-                )}
+                <div className="flex items-center gap-2 mb-1">
+                  {temaObj && (
+                    <p className="text-xs text-blue-600 dark:text-blue-400 font-medium">{temaObj.nome}</p>
+                  )}
+                  {d.origem === 'rp' && d.anoFuvest && (
+                    <span className="text-[10px] font-bold bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 px-2 py-0.5 rounded-full">
+                      RP {d.anoFuvest} · F2
+                    </span>
+                  )}
+                </div>
                 <p className="text-sm line-clamp-3">{d.caso.slice(0, 180)}...</p>
                 <p className="text-xs text-gray-400 mt-2">{d.pontosEsperados.length} pontos esperados</p>
               </button>

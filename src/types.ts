@@ -40,6 +40,7 @@ export interface Dissertativa {
   pontosEsperados: string[];
   comentario: string;
   origem?: Origem;
+  anoFuvest?: number;
 }
 
 export interface Meta {
