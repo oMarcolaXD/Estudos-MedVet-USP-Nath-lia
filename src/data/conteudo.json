@@ -2215,7 +2215,7 @@
     {
       "id": "rp_2019_015",
       "temaId": "epidemiologia",
-      "categoria": "geral",
+      "categoria": "especifico",
       "enunciado": "Considere as seguintes afirmações relacionadas ao SUS: Segundo o Art. 17, da Lei n. 8080, de 19 de setembro de 1990, à direção ESTADUAL do Sistema Único de Saúde (SUS) compete\nI. promover a descentralização para os Municípios dos serviços e das ações de saúde;\nII. acompanhar, controlar e avaliar as redes hierarquizadas do Sistema Único de Saúde (SUS);\nIII. prestar apoio técnico e financeiro aos Municípios e executar supletivamente ações e serviços de saúde;\nIV. coordenar e, em caráter complementar, executar ações e serviços: vigilância epidemiológica, vigilância sanitária, vigilância da alimentação e nutrição e vigilância da saúde do trabalhador. Está correto o que se afirma em",
       "alternativas": [
         "a) I e III, apenas.",
@@ -2233,7 +2233,7 @@
     {
       "id": "rp_2019_016",
       "temaId": "sus",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "De acordo com a Lei Orgânica da Saúde 8080/90, NÃO são considerados princípios do SUS (Sistema Único de Saúde):",
       "alternativas": [
         "a) universalidade de acesso e integralidade de assistência.",
@@ -2250,8 +2250,8 @@
     },
     {
       "id": "rp_2019_017",
-      "temaId": "caes-gatos",
-      "categoria": "especifico",
+      "temaId": "redes",
+      "categoria": "geral",
       "enunciado": "Com relação às redes de atenção à saúde no SUS, conforme definidas pelo Decreto 7508 de 2011, é correto afirmar que elas",
       "alternativas": [
         "a) estarão compreendidas no âmbito de uma região de Saúde, ou de várias delas, em consonância com diretrizes pactuadas nas comissões intergestores.",
@@ -2287,7 +2287,7 @@
     {
       "id": "rp_2019_019",
       "temaId": "pnab",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Considere as seguintes diretrizes relativas aos NASFs ‐ AB (Nucleo de apoio à Saúde da Família), conforme descritas na atual PNAB (Política Nacional de Atenção Básica):\nI. Constitui uma equipe multiprofissional e interdisciplinar composta por categorias de profissionais da saúde, complementar às equipes que atuam na Atenção Básica, formada por diferentes ocupações (profissões e especialidades) da área da saúde.\nII. A definição das categorias profissionais cabe ao gestor federal, considerando o financiamento e o número de profissionais disponíveis em cada território.\nIII. Compete à Equipe do Núcleo Ampliado de Saúde da Família e Atenção Básica (NASF ‐ AB) participar do planejamento conjunto com as equipes que atuam na Atenção Básica a que está vinculada.\nIV. Compete à Equipe do Núcleo Ampliado de Saúde da Família e Atenção Básica (NASF ‐ AB) realizar discussão de casos, atendimento individual, compartilhado, interconsulta, construção conjunta de projetos terapêuticos, educação permanente e intervenções no território.\nV. Os NASF‐AB se constituem como serviços com unidades físicas independentes ou especiais, mas não são de livre acesso para atendimento individual ou coletivo. Estão corretas as diretrizes",
       "alternativas": [
         "a) I, II, III, IV e V.",
@@ -2305,7 +2305,7 @@
     {
       "id": "rp_2019_020",
       "temaId": "pnh",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "A Política Nacional de Humanização (PNH) procura pôr em prática os princípios do SUS no cotidiano dos serviços de saúde, construindo mudanças nos modos de gerir e cuidar. Dentre as diretrizes da PNH, NÃO se inclui o (a)",
       "alternativas": [
         "a) Clínica ampliada.",
@@ -2341,7 +2341,7 @@
     {
       "id": "rp_2019_022",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Embora existam diferenças anatômicas e funcionais entre os dígitos de equinos e ruminantes, as bases do exame semiológico são bastante parecidas, com algumas diferenças relacionadas com a espécie e utilização dos mesmos. Em relação ao exame do sistema locomotor de grandes animais, é correto afirmar:",
       "alternativas": [
         "a) A avaliação em movimento é importante tanto nos equinos quanto nos ruminantes, mas, nesses últimos, é essencial a avaliação a trote, puxado por cabresto, devido às grandes distâncias que devem percorrer nos pastos.",
@@ -2395,7 +2395,7 @@
     {
       "id": "rp_2019_025",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Imagine que o veterinário foi chamado para atender a um equino, macho, de 3 anos de idade com síndrome cólica iniciada há 5 horas. Durante o atendimento, foram identificados os seguintes achados de exame clínico: dor intensa; frequência cardíaca de 80 bpm (batimentos por minuto); TPC (tempo de preenchimento capilar) de 4 segundos; sudorese intensa; desidratação leve ao teste do turgor de pele; refluxo nasogástrico à sondagem de 3 litros e pH = 4; alças de intestino delgado distendidas à palpação retal; líquido peritoneal avermelhado. Para este caso, um possível diagnóstico, tratamento e prognóstico são:",
       "alternativas": [
         "a) enterite anterior (duodenojejunite proximal); fluidoterapia, anti‐inflamatórios e pró‐cinéticos; bom.",
@@ -2449,7 +2449,7 @@
     {
       "id": "rp_2019_028",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "A mastite é uma das principais causas de prejuízo nas criações de vacas leiteiras. Em relação a essa afecção, NÃO é correto afirmar:",
       "alternativas": [
         "a) A mastite ambiental é facilmente controlada na propriedade com o emprego de antibióticos intramários no período seco.",
@@ -2467,7 +2467,7 @@
     {
       "id": "rp_2019_029",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "A hipotensão arterial é um achado frequente durante a anestesia geral, tanto em cães quanto em equinos. Para corrigir a hipotensão durante o procedimento, se não houver contraindicação por alguma situação específica, as condutas a serem tomadas são:",
       "alternativas": [
         "a) aumentar a profundidade da anestesia; infusão de corticosteroides; infusão de medicamentos vasoativos.",
@@ -2485,7 +2485,7 @@
     {
       "id": "rp_2019_030",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Existem características de cada animal (espécie/raça/idade) que podem levar a complicações ou necessidades especiais durante ou após um procedimento anestésico. As alternativas a seguir relacionam complicações dos procedimentos anestésicos e a espécie associada a elas. A única que NÃO está correta é:",
       "alternativas": [
         "a) Antissepsia 2) Ausência de microrganismos que causam doenças",
@@ -2755,7 +2755,7 @@
     {
       "id": "rp_2018_015",
       "temaId": "cirurgia",
-      "categoria": "geral",
+      "categoria": "especifico",
       "enunciado": "Os fios de sutura compostos de poliglactina 910, amplamente utilizados em medicina veterinária, em diferentes tipos de tecidos, estão indicados na síntese",
       "alternativas": [
         "a) muscular, por apresentarem elevada resistência, permitirem fácil manipulação e não serem absorvíveis, prolongando seu tempo de ação.",
@@ -2845,7 +2845,7 @@
     {
       "id": "rp_2018_020",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "A avaliação das concentrações das proteínas plasmáticas e séricas é parte da avaliação hematológica e bioquímica dos animais. Alterações nas concentrações de proteínas podem auxiliar na elucidação de diagnósticos diferenciais. A eletroforese em tiras de acetato de celulose é uma técnica que permite a separação dessas proteínas. Analise os perfis migratórios nos quatro eletroforetogramas em ordem alfabética e indique a alternativa que melhor representa as possibilidades diagnósticas.",
       "alternativas": [
         "a) resposta de fase aguda, peritonite infecciosa felina, leucose enzoótica, mieloma múltiplo.",
@@ -3097,7 +3097,7 @@
     {
       "id": "rp_2020_008",
       "temaId": "epidemiologia",
-      "categoria": "geral",
+      "categoria": "especifico",
       "enunciado": "Na organização do Sistema Único de Saúde (SUS), a Região de Saúde é um espaço geográfico contínuo, constituído por grupos de municípios limítrofes, delimitado a partir de identidades culturais, econômicas e sociais, com redes de comunicação e infraestrutura de transportes compartilhados, com a finalidade de integrar a organização, o planejamento e a execução de ações e serviços de saúde. Para ser instituída, uma Região de Saúde deve conter, no mínimo, as seguintes ações e serviços:",
       "alternativas": [
         "a) Atenção primária; urgência e emergência; atenção ambulatorial especializada; atenção hospitalar; vigilância epidemiológica; vigilância sanitária.",
@@ -3241,7 +3241,7 @@
     {
       "id": "rp_2020_017",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Um dos agentes responsáveis pela manifestação do quadro de piroplasmose equina é a Babesia caballi. Considerando as características desse organismo, é correto afirmar:",
       "alternativas": [
         "a) É um protozoário intracelular, que parasita hemácias circulantes, podendo causar grave anemia.",
@@ -3331,7 +3331,7 @@
     {
       "id": "rp_2020_022",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "O exame ultrassonográfico tem sido amplamente empregado em Medicina Veterinária. Para as seguintes estruturas, quais aspectos estão corretamente citados e podem ser avaliados?",
       "alternativas": [
         "a) Intestino delgado: dilatação, motilidade, espessura de parede e vascularização.",
@@ -3349,7 +3349,7 @@
     {
       "id": "rp_2020_023",
       "temaId": "bioetica",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "São efeitos de uma anestesia dissociativa:",
       "alternativas": [
         "a) Depressão central, espasmos musculares, hipotensão e bradicardia.",
@@ -3439,7 +3439,7 @@
     {
       "id": "rp_2020_029",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "A febre maculosa tornou‐se uma doença reemergente e relevante problema de saúde pública no Brasil. Tem‐se observado aumento no número de casos, expansão das áreas de transmissão, ocorrência da transmissão em áreas urbanas e, principalmente, manutenção de elevadas taxas de letalidade. Os principais vetor e agente causador da febre maculosa são, respectivamente:",
       "alternativas": [
         "a) Rhipicephalus sanguineus; Eimeria donovanni.",
@@ -3457,7 +3457,7 @@
     {
       "id": "rp_2020_030",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Os tipos de opacidades radiográficas que podem ser reconhecidos em um exame radiográfico são:",
       "alternativas": [
         "a) Radiopaco (ou radiodenso) e radioluscente.",
@@ -3565,7 +3565,7 @@
     {
       "id": "rp_2021_008",
       "temaId": "epidemiologia",
-      "categoria": "geral",
+      "categoria": "especifico",
       "enunciado": "Entende-se por vigilância epidemiológica",
       "alternativas": [
         "a) um conjunto de ações capaz de eliminar, diminuir ou prevenir riscos à saúde, bem como de intervir nos problemas sanitários decorrentes do meio ambiente, da produção e circulação de bens e da prestação de serviços de interesse da saúde.",
@@ -3745,7 +3745,7 @@
     {
       "id": "rp_2021_018",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Diversas substâncias podem provocar coloração avermelhada ou enegrecida à urina. Algumas dessas substâncias são:",
       "alternativas": [
         "a) Hematina parasitária, bilirrubina e hematoidina.",
@@ -3835,7 +3835,7 @@
     {
       "id": "rp_2021_023",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "As úlceras em cavidade oral observadas em animais com insuficiência renal crônica devem-se à:",
       "alternativas": [
         "a) lesão cáustica, devido à produção de amônia, após a degradação da ureia salivar por bactérias.",
@@ -3853,7 +3853,7 @@
     {
       "id": "rp_2021_024",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Indique a alternativa que apresenta corretamente a associação entre um tipo de sutura, uma vantagem de seu uso e um local em que pode ser utilizada:",
       "alternativas": [
         "a) Ponto simples separado; apresenta um fechamento anatômico mais preciso; indicada para órgãos ocos.",
@@ -3907,7 +3907,7 @@
     {
       "id": "rp_2021_027",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Ao examinar um cão com dor abdominal, o médico-veterinário suspeita de intussuscepção. Para confirmar o diagnóstico, deve-se solicitar um exame de imagem. Qual o exame de escolha e por quê?",
       "alternativas": [
         "a) Ultrassonografia abdominal; é o exame que melhor permite a visibilização das características clássicas de uma intussuscepção: aparência pregueada / franzida das alças intestinais com pequenas áreas de gás.",
@@ -3925,7 +3925,7 @@
     {
       "id": "rp_2021_028",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Assinale a alternativa correta sobre a brucelose:",
       "alternativas": [
         "a) A Brucella sp e suas toxinas permanecem viáveis mesmo após a pasteurização do leite. Para evitar o contágio por meio do leite, este deve passar por processamento industrial.",
@@ -3961,7 +3961,7 @@
     {
       "id": "rp_2021_030",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Em relação ao tratamento cirúrgico das sinusites em equinos, é correto afirmar:",
       "alternativas": [
         "a) As sinusites secundárias ocorrem principalmente por alterações dentárias e devem ser tratadas apenas com antibioticoterapia sistêmica e lavagem do seio paranasal.",
@@ -4159,7 +4159,7 @@
     {
       "id": "rp_2022_016",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Assinale a alternativa correta em relação à urinálise:",
       "alternativas": [
         "a) A coloração da urina de um cão ou gato sadio varia do amarelo claro ao amarelo escuro; a urina de equinos é normalmente turva devido à presença de muco, cristais de carbonato de cálcio e mioglobinúria.",
@@ -4195,7 +4195,7 @@
     {
       "id": "rp_2022_018",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Sabendo que a monitoração da anestesia é fundamental, analise as frases a seguir e assinale a alternativa correta: I - Na monitoração da profundidade anestésica, o plano adequado em cães inclui pupilas em miose, bulbo ocular centralizado, depressão cardiopulmonar discreta e salivação. II - A monitoração da pressão arterial tem o método invasivo como gold standard, pois é um método mais confiável em relação ao oscilométrico e ao doppler. III - A oximetria de pulso é um método não invasivo que fornece informações contínuas da saturação da hemoglobina no sangue arterial, sendo indicado para a avaliação da oxigenação durante procedimentos anestésicos e terapia intensiva por ser mais preciso que os outros métodos de monitoração da oxigenação. IV - A capnografia é um sinal gráfico do CO2 expirado por meio de absorção de luz infravermelha e espectrometria de massa e traz informações apenas relacionadas à ventilação.",
       "alternativas": [
         "a) As frases I, II e IV estão corretas.",
@@ -4303,7 +4303,7 @@
     {
       "id": "rp_2022_026",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Qual conjunto de achados ao exame físico é compatível com o deslocamento de abomaso à esquerda?",
       "alternativas": [
         "a) Distensão abdominal bilateral e ventral, hipertermia, fezes ressecadas e queda abrupta na produção de leite.",
@@ -4321,7 +4321,7 @@
     {
       "id": "rp_2022_028",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Considerando que as hérnias podem ser classificadas, dentre outras características, pelo conteúdo, epidemiologia, localização, abertura e redutibilidade, é correto afirmar:",
       "alternativas": [
         "a) A hérnia incisional pode ocorrer no período pós- operatório de celiotomia, sendo também classificada como hérnia mediana ventral.",
@@ -4357,7 +4357,7 @@
     {
       "id": "rp_2022_030",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "As fraturas que envolvem a linha fisária possuem classificação específica, dependendo das estruturas acometidas. Aquelas que ocorrem ao longo da linha fisária e epífise, sendo geralmente articulares, são denominadas de fraturas do tipo:",
       "alternativas": [
         "a) Articular complexa.",
@@ -4556,7 +4556,7 @@
     {
       "id": "rp_2023_019",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Assinale a alternativa correta quanto à avaliação de um exame ultrassonográfico:",
       "alternativas": [
         "a) As características acústicas das estruturas avaliadas são definidas pela impedância acústica dos tecidos, que determinarão o nível de reflexão do ultrassom e, portanto, a ecogenicidade.",
@@ -4574,7 +4574,7 @@
     {
       "id": "rp_2023_020",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "A respeito da avaliação do pulmão por meio de uma radiografia torácica, é correto afirmar:",
       "alternativas": [
         "a) No padrão intersticial há um aumento geral de contraste nos campos pulmonares devido ao aumento da opacidade dos tecidos intersticiais.",
@@ -4610,7 +4610,7 @@
     {
       "id": "rp_2023_024",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Determinadas enzimas utilizadas para análises clínicas em animais exigem interpretação cuidadosa dos exames, por estarem presentes em mais de um tipo de tecido. Das alternativas a seguir, qual delas refere-se a uma enzima presente no músculo estriado, nas hemácias e no fígado?",
       "alternativas": [
         "a) Alanina aminotransferase.",
@@ -4647,7 +4647,7 @@
     {
       "id": "rp_2023_027",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "As moléculas do complexo de histocompatibilidade (MHC) são reconhecidamente importantes para a indução e a regulação das respostas do sistema imune. Acerca dessas moléculas, assinale a alternativa correta:",
       "alternativas": [
         "a) As moléculas MHC classe II regulam a imunidade mediada por células, com o desencadeamento de resposta imune vigorosa a agentes infecciosos, após ligação da molécula ao antígeno.",
@@ -4665,7 +4665,7 @@
     {
       "id": "rp_2023_028",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Diarreia, definida como um aumento na frequência, fluidez ou volume dos movimentos intestinais, é um problema clínico comumente encontrado no cavalo. A diarreia pode ocorrer como doença do trato gastrointestinal ou como resposta secundária a outro processo de doença, como sepse ou doença hepática. Considerando a diarreia nos equinos e os mecanismos básicos descritos no desenvolvimento desta, assinale a alternativa correta:",
       "alternativas": [
         "a) Diarreia por má absorção: ocorrerá a partir de um aumento da área de superfície do alimento além da capacidade absortiva funcional do trato gastrointestinal.",
@@ -4701,7 +4701,7 @@
     {
       "id": "rp_2023_030",
       "temaId": "redes",
-      "categoria": "especifico",
+      "categoria": "geral",
       "enunciado": "Com relação à interpretação do leucograma, assinale a alternativa correta:",
       "alternativas": [
         "a) A resposta inflamatória em cães e gatos caracteriza-se por neutrofilia acentuada, enquanto nos bovinos essa resposta é de menor magnitude pela baixa capacidade de reserva medular.",
