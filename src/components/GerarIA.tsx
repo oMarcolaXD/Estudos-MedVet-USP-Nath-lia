@@ -21,18 +21,25 @@ export default function GerarIA({ tema, onClose }: Props) {
   const [sucesso, setSucesso] = useState('');
 
   async function gerar() {
-    if (!state.apiKey) {
-      setErro('Configure a chave da API nas Configurações antes de gerar conteúdo.');
+    const chaveAtiva = state.provider === 'gemini' ? state.geminiApiKey : state.apiKey;
+    if (!chaveAtiva) {
+      const providerLabel = state.provider === 'gemini' ? 'Gemini' : 'Anthropic';
+      setErro(`Configure a chave da API ${providerLabel} nas Configurações antes de gerar conteúdo.`);
       return;
     }
     setLoading(true);
     setErro('');
     setSucesso('');
+    const baseParams = {
+      provider: state.provider,
+      apiKey: state.apiKey,
+      geminiApiKey: state.geminiApiKey,
+      modelId: state.modelId,
+    };
     try {
       if (modo === 'questoes') {
         const questoes = await gerarQuestoes({
-          apiKey: state.apiKey,
-          modelId: state.modelId,
+          ...baseParams,
           contexto: tema.contextoGeracao,
           temaId: tema.id,
           temaCategoria: tema.categoria,
@@ -43,8 +50,7 @@ export default function GerarIA({ tema, onClose }: Props) {
         setSucesso(`${questoes.length} questão(ões) adicionada(s) ao banco!`);
       } else if (modo === 'flashcards') {
         const cards = await gerarFlashcards({
-          apiKey: state.apiKey,
-          modelId: state.modelId,
+          ...baseParams,
           contexto: tema.contextoGeracao,
           temaId: tema.id,
           quantidade,
@@ -53,8 +59,7 @@ export default function GerarIA({ tema, onClose }: Props) {
         setSucesso(`${cards.length} flashcard(s) adicionado(s)!`);
       } else {
         const diss = await gerarDissertativa({
-          apiKey: state.apiKey,
-          modelId: state.modelId,
+          ...baseParams,
           contexto: tema.contextoGeracao,
           temaId: tema.id,
         });

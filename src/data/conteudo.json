@@ -28,7 +28,8 @@
         "PAIM et al. O sistema de saúde brasileiro (The Lancet, 2011)"
       ],
       "resumo": "O SUS foi criado pela Constituição de 1988 e regulamentado pela **Lei 8.080/1990** (organização e funcionamento) e pela **Lei 8.142/1990** (participação da comunidade e transferências intergovernamentais).\n\n**Princípios doutrinários:**\n- Universalidade: saúde como direito de todos e dever do Estado.\n- Integralidade: ações de promoção, proteção e recuperação; o indivíduo visto de forma integral.\n- Equidade: tratar de forma desigual os desiguais, priorizando quem mais precisa.\n\n**Princípios organizativos:**\n- Descentralização com direção única em cada esfera (União, estado, município).\n- Regionalização e hierarquização: serviços organizados por níveis de complexidade, com referência e contrarreferência.\n- Participação social: controle social via Conselhos e Conferências de Saúde (Lei 8.142/1990).\n\n**Decreto 7.508/2011:** regiões de saúde, portas de entrada, mapa da saúde, RENASES (Relação Nacional de Ações e Serviços de Saúde), RENAME (Relação Nacional de Medicamentos Essenciais) e o COAP (Contrato Organizativo da Ação Pública). Financiamento é tripartite.",
-      "contextoGeracao": "Tema: Sistema Único de Saúde. Resumo de referência:\nO SUS foi criado pela Constituição de 1988 e regulamentado pela **Lei 8.080/1990** (organização e funcionamento) e pela **Lei 8.142/1990** (participação da comunidade e transferências intergovernamentais).\n\n**Princípios doutrinários:**\n- Universalidade: saúde como direito de todos e dever do Estado.\n- Integralidade: ações de promoção, proteção e recuperação; o indivíduo visto de forma integral.\n- Equidade: tratar de forma desigual os desiguais, priorizando quem mais precisa.\n\n**Princípios organizativos:**\n- Descentralização com direção única em cada esfera (União, estado, município).\n- Regionalização e hierarquização: serviços organizados por níveis de complexidade, com referência e contrarreferência.\n- Participação social: controle social via Conselhos e Conferências de Saúde (Lei 8.142/1990).\n\n**Decreto 7.508/2011:** regiões de saúde, portas de entrada, mapa da saúde, RENASES (Relação Nacional de Ações e Serviços de Saúde), RENAME (Relação Nacional de Medicamentos Essenciais) e o COAP (Contrato Organizativo da Ação Pública). Financiamento é tripartite.\n\nBibliografia oficial do tema: BRASIL. Lei 8.080/1990; BRASIL. Decreto 7.508/2011; BRASIL. O SUS de A a Z (MS, 2009); PAIM et al. O sistema de saúde brasileiro (The Lancet, 2011)"
+      "contextoGeracao": "Tema: Sistema Único de Saúde. Resumo de referência:\nO SUS foi criado pela Constituição de 1988 e regulamentado pela **Lei 8.080/1990** (organização e funcionamento) e pela **Lei 8.142/1990** (participação da comunidade e transferências intergovernamentais).\n\n**Princípios doutrinários:**\n- Universalidade: saúde como direito de todos e dever do Estado.\n- Integralidade: ações de promoção, proteção e recuperação; o indivíduo visto de forma integral.\n- Equidade: tratar de forma desigual os desiguais, priorizando quem mais precisa.\n\n**Princípios organizativos:**\n- Descentralização com direção única em cada esfera (União, estado, município).\n- Regionalização e hierarquização: serviços organizados por níveis de complexidade, com referência e contrarreferência.\n- Participação social: controle social via Conselhos e Conferências de Saúde (Lei 8.142/1990).\n\n**Decreto 7.508/2011:** regiões de saúde, portas de entrada, mapa da saúde, RENASES (Relação Nacional de Ações e Serviços de Saúde), RENAME (Relação Nacional de Medicamentos Essenciais) e o COAP (Contrato Organizativo da Ação Pública). Financiamento é tripartite.\n\nBibliografia oficial do tema: BRASIL. Lei 8.080/1990; BRASIL. Decreto 7.508/2011; BRASIL. O SUS de A a Z (MS, 2009); PAIM et al. O sistema de saúde brasileiro (The Lancet, 2011)",
+      "fase": 1
     },
     {
       "id": "politicas-saude",
@@ -39,7 +40,8 @@
         "BRASIL. O SUS de A a Z (MS, 2009)"
       ],
       "resumo": "Contexto histórico: o movimento da Reforma Sanitária e a 8ª Conferência Nacional de Saúde (1986) embasaram a criação do SUS na CF/1988, rompendo com o modelo anterior (dividido entre INAMPS/previdência e saúde pública).\n\nPontos-chave do artigo de **Paim et al. (Lancet, 2011)**: avanços (expansão do acesso, APS/Saúde da Família, programas de imunização e de HIV/AIDS) e desafios (subfinanciamento, segmentação público-privado, desigualdades regionais, judicialização). O sistema brasileiro combina SUS (público, universal) e Saúde Suplementar (planos privados).",
-      "contextoGeracao": "Tema: Políticas e Sistema de Saúde. Resumo de referência:\nContexto histórico: o movimento da Reforma Sanitária e a 8ª Conferência Nacional de Saúde (1986) embasaram a criação do SUS na CF/1988, rompendo com o modelo anterior (dividido entre INAMPS/previdência e saúde pública).\n\nPontos-chave do artigo de **Paim et al. (Lancet, 2011)**: avanços (expansão do acesso, APS/Saúde da Família, programas de imunização e de HIV/AIDS) e desafios (subfinanciamento, segmentação público-privado, desigualdades regionais, judicialização). O sistema brasileiro combina SUS (público, universal) e Saúde Suplementar (planos privados).\n\nBibliografia oficial do tema: PAIM et al. (The Lancet, 2011); BRASIL. O SUS de A a Z (MS, 2009)"
+      "contextoGeracao": "Tema: Políticas e Sistema de Saúde. Resumo de referência:\nContexto histórico: o movimento da Reforma Sanitária e a 8ª Conferência Nacional de Saúde (1986) embasaram a criação do SUS na CF/1988, rompendo com o modelo anterior (dividido entre INAMPS/previdência e saúde pública).\n\nPontos-chave do artigo de **Paim et al. (Lancet, 2011)**: avanços (expansão do acesso, APS/Saúde da Família, programas de imunização e de HIV/AIDS) e desafios (subfinanciamento, segmentação público-privado, desigualdades regionais, judicialização). O sistema brasileiro combina SUS (público, universal) e Saúde Suplementar (planos privados).\n\nBibliografia oficial do tema: PAIM et al. (The Lancet, 2011); BRASIL. O SUS de A a Z (MS, 2009)",
+      "fase": 1
     },
     {
       "id": "pnh",
@@ -50,7 +52,8 @@
         "BRASIL. Clínica ampliada, equipe de referência e PTS (MS, 2007)"
       ],
       "resumo": "A PNH (HumanizaSUS) é transversal a todo o SUS e propõe humanizar gestão e atenção.\n\n**Diretrizes e dispositivos principais:**\n- Acolhimento (com escuta qualificada e classificação de risco).\n- Clínica Ampliada e Compartilhada (olhar para o sujeito, não só a doença).\n- Projeto Terapêutico Singular (PTS): plano de cuidado construído em equipe para casos complexos.\n- Equipe de Referência e Apoio Matricial.\n- Cogestão / gestão participativa.\n- Ambiência (organização do espaço como ferramenta de cuidado).\n- Valorização do trabalhador e defesa dos direitos dos usuários.",
-      "contextoGeracao": "Tema: Política Nacional de Humanização (HumanizaSUS). Resumo de referência:\nA PNH (HumanizaSUS) é transversal a todo o SUS e propõe humanizar gestão e atenção.\n\n**Diretrizes e dispositivos principais:**\n- Acolhimento (com escuta qualificada e classificação de risco).\n- Clínica Ampliada e Compartilhada (olhar para o sujeito, não só a doença).\n- Projeto Terapêutico Singular (PTS): plano de cuidado construído em equipe para casos complexos.\n- Equipe de Referência e Apoio Matricial.\n- Cogestão / gestão participativa.\n- Ambiência (organização do espaço como ferramenta de cuidado).\n- Valorização do trabalhador e defesa dos direitos dos usuários.\n\nBibliografia oficial do tema: BRASIL. HumanizaSUS: Documento Base (MS, 2010); BRASIL. Clínica ampliada, equipe de referência e PTS (MS, 2007)"
+      "contextoGeracao": "Tema: Política Nacional de Humanização (HumanizaSUS). Resumo de referência:\nA PNH (HumanizaSUS) é transversal a todo o SUS e propõe humanizar gestão e atenção.\n\n**Diretrizes e dispositivos principais:**\n- Acolhimento (com escuta qualificada e classificação de risco).\n- Clínica Ampliada e Compartilhada (olhar para o sujeito, não só a doença).\n- Projeto Terapêutico Singular (PTS): plano de cuidado construído em equipe para casos complexos.\n- Equipe de Referência e Apoio Matricial.\n- Cogestão / gestão participativa.\n- Ambiência (organização do espaço como ferramenta de cuidado).\n- Valorização do trabalhador e defesa dos direitos dos usuários.\n\nBibliografia oficial do tema: BRASIL. HumanizaSUS: Documento Base (MS, 2010); BRASIL. Clínica ampliada, equipe de referência e PTS (MS, 2007)",
+      "fase": 1
     },
     {
       "id": "pnab",
@@ -62,7 +65,8 @@
         "BRASIL. Portaria GM/MS 635/2023 (eMulti)"
       ],
       "resumo": "A **Portaria 2.436/2017** define a Atenção Básica/APS como porta de entrada preferencial e **ordenadora da rede** de atenção à saúde, coordenando o cuidado.\n\n**Atributos da APS (Starfield):**\n- Essenciais: primeiro contato/acesso, longitudinalidade, integralidade e coordenação.\n- Derivados: orientação familiar, orientação comunitária e competência cultural.\n\n**Estratégia Saúde da Família (ESF)** é o modelo prioritário, com território adscrito e equipe multiprofissional. Os antigos NASF deram lugar às **equipes Multiprofissionais (eMulti)** pela Portaria GM/MS 635/2023, que apoiam as equipes de APS via apoio matricial.",
-      "contextoGeracao": "Tema: Política Nacional de Atenção Básica. Resumo de referência:\nA **Portaria 2.436/2017** define a Atenção Básica/APS como porta de entrada preferencial e **ordenadora da rede** de atenção à saúde, coordenando o cuidado.\n\n**Atributos da APS (Starfield):**\n- Essenciais: primeiro contato/acesso, longitudinalidade, integralidade e coordenação.\n- Derivados: orientação familiar, orientação comunitária e competência cultural.\n\n**Estratégia Saúde da Família (ESF)** é o modelo prioritário, com território adscrito e equipe multiprofissional. Os antigos NASF deram lugar às **equipes Multiprofissionais (eMulti)** pela Portaria GM/MS 635/2023, que apoiam as equipes de APS via apoio matricial.\n\nBibliografia oficial do tema: BRASIL. Portaria 2.436/2017 (PNAB); STARFIELD, B. Atenção primária (2002); BRASIL. Portaria GM/MS 635/2023 (eMulti)"
+      "contextoGeracao": "Tema: Política Nacional de Atenção Básica. Resumo de referência:\nA **Portaria 2.436/2017** define a Atenção Básica/APS como porta de entrada preferencial e **ordenadora da rede** de atenção à saúde, coordenando o cuidado.\n\n**Atributos da APS (Starfield):**\n- Essenciais: primeiro contato/acesso, longitudinalidade, integralidade e coordenação.\n- Derivados: orientação familiar, orientação comunitária e competência cultural.\n\n**Estratégia Saúde da Família (ESF)** é o modelo prioritário, com território adscrito e equipe multiprofissional. Os antigos NASF deram lugar às **equipes Multiprofissionais (eMulti)** pela Portaria GM/MS 635/2023, que apoiam as equipes de APS via apoio matricial.\n\nBibliografia oficial do tema: BRASIL. Portaria 2.436/2017 (PNAB); STARFIELD, B. Atenção primária (2002); BRASIL. Portaria GM/MS 635/2023 (eMulti)",
+      "fase": 1
     },
     {
       "id": "redes",
@@ -73,7 +77,8 @@
         "MENDES, E.V. As redes de atenção à saúde (OPAS, 2011)"
       ],
       "resumo": "A **Portaria 4.279/2010** estabelece diretrizes para as Redes de Atenção à Saúde (RAS): arranjos organizativos de ações e serviços de **diferentes densidades tecnológicas**, integrados por sistemas de apoio, logística e governança, para garantir a integralidade.\n\n**Elementos das RAS:** (1) população e território; (2) estrutura operacional — tendo a **APS como centro de comunicação** da rede; (3) modelo de atenção à saúde.\n\nObjetivo: superar a fragmentação do cuidado, organizando-o em rede poliárquica (sem hierarquia rígida) com referência e contrarreferência.",
-      "contextoGeracao": "Tema: Redes de Atenção à Saúde. Resumo de referência:\nA **Portaria 4.279/2010** estabelece diretrizes para as Redes de Atenção à Saúde (RAS): arranjos organizativos de ações e serviços de **diferentes densidades tecnológicas**, integrados por sistemas de apoio, logística e governança, para garantir a integralidade.\n\n**Elementos das RAS:** (1) população e território; (2) estrutura operacional — tendo a **APS como centro de comunicação** da rede; (3) modelo de atenção à saúde.\n\nObjetivo: superar a fragmentação do cuidado, organizando-o em rede poliárquica (sem hierarquia rígida) com referência e contrarreferência.\n\nBibliografia oficial do tema: BRASIL. Portaria 4.279/2010; MENDES, E.V. As redes de atenção à saúde (OPAS, 2011)"
+      "contextoGeracao": "Tema: Redes de Atenção à Saúde. Resumo de referência:\nA **Portaria 4.279/2010** estabelece diretrizes para as Redes de Atenção à Saúde (RAS): arranjos organizativos de ações e serviços de **diferentes densidades tecnológicas**, integrados por sistemas de apoio, logística e governança, para garantir a integralidade.\n\n**Elementos das RAS:** (1) população e território; (2) estrutura operacional — tendo a **APS como centro de comunicação** da rede; (3) modelo de atenção à saúde.\n\nObjetivo: superar a fragmentação do cuidado, organizando-o em rede poliárquica (sem hierarquia rígida) com referência e contrarreferência.\n\nBibliografia oficial do tema: BRASIL. Portaria 4.279/2010; MENDES, E.V. As redes de atenção à saúde (OPAS, 2011)",
+      "fase": 1
     },
     {
       "id": "interprofissionalidade",
@@ -84,7 +89,8 @@
         "PEDUZZI, M. et al. Educação interprofissional (Rev. Esc. Enferm. USP, 2013)"
       ],
       "resumo": "**Peduzzi** distingue dois tipos de equipe:\n- Equipe **agrupamento**: justaposição de ações, fragmentação.\n- Equipe **integração**: articulação das ações e interação/comunicação entre os profissionais (modelo desejável).\n\n**Educação Interprofissional (EIP):** ocorre quando profissionais aprendem **com, sobre e entre** si, para colaboração efetiva e melhoria do cuidado centrado no usuário. Competências colaborativas: comunicação, clareza de papéis, trabalho em equipe, resolução de conflitos. É a base das residências multiprofissionais.",
-      "contextoGeracao": "Tema: Trabalho em Saúde e Interprofissionalidade. Resumo de referência:\n**Peduzzi** distingue dois tipos de equipe:\n- Equipe **agrupamento**: justaposição de ações, fragmentação.\n- Equipe **integração**: articulação das ações e interação/comunicação entre os profissionais (modelo desejável).\n\n**Educação Interprofissional (EIP):** ocorre quando profissionais aprendem **com, sobre e entre** si, para colaboração efetiva e melhoria do cuidado centrado no usuário. Competências colaborativas: comunicação, clareza de papéis, trabalho em equipe, resolução de conflitos. É a base das residências multiprofissionais.\n\nBibliografia oficial do tema: PEDUZZI, M. et al. Trabalho em equipe (Trab. Educ. Saúde, 2020); PEDUZZI, M. et al. Educação interprofissional (Rev. Esc. Enferm. USP, 2013)"
+      "contextoGeracao": "Tema: Trabalho em Saúde e Interprofissionalidade. Resumo de referência:\n**Peduzzi** distingue dois tipos de equipe:\n- Equipe **agrupamento**: justaposição de ações, fragmentação.\n- Equipe **integração**: articulação das ações e interação/comunicação entre os profissionais (modelo desejável).\n\n**Educação Interprofissional (EIP):** ocorre quando profissionais aprendem **com, sobre e entre** si, para colaboração efetiva e melhoria do cuidado centrado no usuário. Competências colaborativas: comunicação, clareza de papéis, trabalho em equipe, resolução de conflitos. É a base das residências multiprofissionais.\n\nBibliografia oficial do tema: PEDUZZI, M. et al. Trabalho em equipe (Trab. Educ. Saúde, 2020); PEDUZZI, M. et al. Educação interprofissional (Rev. Esc. Enferm. USP, 2013)",
+      "fase": 1
     },
     {
       "id": "bioetica",
@@ -94,7 +100,8 @@
         "JUNQUEIRA, C.R. Bioética: conceito, fundamentação e princípios (UNASUS, 2010)"
       ],
       "resumo": "**Principialismo (Beauchamp & Childress)** — quatro princípios:\n- Autonomia: respeito à decisão livre e informada do sujeito (consentimento informado).\n- Beneficência: agir em benefício do paciente.\n- Não maleficência: *primum non nocere* (não causar dano).\n- Justiça: distribuição equitativa de recursos e cuidados.\n\nTemas correlatos: confidencialidade/sigilo, conflitos de interesse, vulnerabilidade, ética em pesquisa. Em saúde, a bioética orienta a tomada de decisão diante de dilemas.",
-      "contextoGeracao": "Tema: Bioética. Resumo de referência:\n**Principialismo (Beauchamp & Childress)** — quatro princípios:\n- Autonomia: respeito à decisão livre e informada do sujeito (consentimento informado).\n- Beneficência: agir em benefício do paciente.\n- Não maleficência: *primum non nocere* (não causar dano).\n- Justiça: distribuição equitativa de recursos e cuidados.\n\nTemas correlatos: confidencialidade/sigilo, conflitos de interesse, vulnerabilidade, ética em pesquisa. Em saúde, a bioética orienta a tomada de decisão diante de dilemas.\n\nBibliografia oficial do tema: JUNQUEIRA, C.R. Bioética: conceito, fundamentação e princípios (UNASUS, 2010)"
+      "contextoGeracao": "Tema: Bioética. Resumo de referência:\n**Principialismo (Beauchamp & Childress)** — quatro princípios:\n- Autonomia: respeito à decisão livre e informada do sujeito (consentimento informado).\n- Beneficência: agir em benefício do paciente.\n- Não maleficência: *primum non nocere* (não causar dano).\n- Justiça: distribuição equitativa de recursos e cuidados.\n\nTemas correlatos: confidencialidade/sigilo, conflitos de interesse, vulnerabilidade, ética em pesquisa. Em saúde, a bioética orienta a tomada de decisão diante de dilemas.\n\nBibliografia oficial do tema: JUNQUEIRA, C.R. Bioética: conceito, fundamentação e princípios (UNASUS, 2010)",
+      "fase": 2
     },
     {
       "id": "interpretacao",
@@ -104,7 +111,8 @@
         "Textos da área da saúde (notícias, artigos, normativas) selecionados pela banca"
       ],
       "resumo": "A P1 traz **7 questões de interpretação de textos** relacionados à área da saúde. Não cobram só conteúdo, mas a leitura: identificar ideia central, inferências, relações de causa/consequência, posicionamento do autor e vocabulário em contexto.\n\nDica de treino: ler artigos curtos (ex.: SciELO, boletins do MS, notícias de saúde) e praticar questões com um texto-base curto seguido de pergunta objetiva.",
-      "contextoGeracao": "Tema: Interpretação de Textos em Saúde. Resumo de referência:\nA P1 traz **7 questões de interpretação de textos** relacionados à área da saúde. Não cobram só conteúdo, mas a leitura: identificar ideia central, inferências, relações de causa/consequência, posicionamento do autor e vocabulário em contexto.\n\nDica de treino: ler artigos curtos (ex.: SciELO, boletins do MS, notícias de saúde) e praticar questões com um texto-base curto seguido de pergunta objetiva.\n\nBibliografia oficial do tema: Textos da área da saúde (notícias, artigos, normativas) selecionados pela banca"
+      "contextoGeracao": "Tema: Interpretação de Textos em Saúde. Resumo de referência:\nA P1 traz **7 questões de interpretação de textos** relacionados à área da saúde. Não cobram só conteúdo, mas a leitura: identificar ideia central, inferências, relações de causa/consequência, posicionamento do autor e vocabulário em contexto.\n\nDica de treino: ler artigos curtos (ex.: SciELO, boletins do MS, notícias de saúde) e praticar questões com um texto-base curto seguido de pergunta objetiva.\n\nBibliografia oficial do tema: Textos da área da saúde (notícias, artigos, normativas) selecionados pela banca",
+      "fase": 2
     },
     {
       "id": "etica-vet",
@@ -114,7 +122,8 @@
         "CFMV. Código de Ética do Médico Veterinário (Resolução CFMV 1.138/2016)"
       ],
       "resumo": "Referência central: **Código de Ética do Médico Veterinário (Res. CFMV 1.138/2016)**. Aborda deveres fundamentais, sigilo profissional, responsabilidade técnica, relação com colegas e com o cliente, bem-estar animal, vedações e infrações.\n\nConceitos cobrados: responsabilidade técnica (RT/ART), guarda responsável, atestados e receituário, conflito ético entre interesse do tutor e bem-estar do animal, e a função social do médico-veterinário em saúde pública (Saúde Única).",
-      "contextoGeracao": "Tema: Ética Profissional (Medicina Veterinária). Resumo de referência:\nReferência central: **Código de Ética do Médico Veterinário (Res. CFMV 1.138/2016)**. Aborda deveres fundamentais, sigilo profissional, responsabilidade técnica, relação com colegas e com o cliente, bem-estar animal, vedações e infrações.\n\nConceitos cobrados: responsabilidade técnica (RT/ART), guarda responsável, atestados e receituário, conflito ético entre interesse do tutor e bem-estar do animal, e a função social do médico-veterinário em saúde pública (Saúde Única).\n\nBibliografia oficial do tema: CFMV. Código de Ética do Médico Veterinário (Resolução CFMV 1.138/2016)"
+      "contextoGeracao": "Tema: Ética Profissional (Medicina Veterinária). Resumo de referência:\nReferência central: **Código de Ética do Médico Veterinário (Res. CFMV 1.138/2016)**. Aborda deveres fundamentais, sigilo profissional, responsabilidade técnica, relação com colegas e com o cliente, bem-estar animal, vedações e infrações.\n\nConceitos cobrados: responsabilidade técnica (RT/ART), guarda responsável, atestados e receituário, conflito ético entre interesse do tutor e bem-estar do animal, e a função social do médico-veterinário em saúde pública (Saúde Única).\n\nBibliografia oficial do tema: CFMV. Código de Ética do Médico Veterinário (Resolução CFMV 1.138/2016)",
+      "fase": 2
     },
     {
       "id": "acolhimento",
@@ -125,7 +134,8 @@
         "BRASIL. Clínica ampliada e compartilhada (MS, 2009)"
       ],
       "resumo": "Acolhimento é diretriz da **PNH**: postura e prática de **escuta qualificada**, vínculo e responsabilização, presente em todo encontro do cuidado (não é uma triagem isolada).\n\nComponentes: recepção do usuário, avaliação de necessidades, **classificação de risco** (priorização por gravidade, não por ordem de chegada) e encaminhamento responsável. Visa ampliar o acesso e a resolutividade.",
-      "contextoGeracao": "Tema: Acolhimento. Resumo de referência:\nAcolhimento é diretriz da **PNH**: postura e prática de **escuta qualificada**, vínculo e responsabilização, presente em todo encontro do cuidado (não é uma triagem isolada).\n\nComponentes: recepção do usuário, avaliação de necessidades, **classificação de risco** (priorização por gravidade, não por ordem de chegada) e encaminhamento responsável. Visa ampliar o acesso e a resolutividade.\n\nBibliografia oficial do tema: BRASIL. PNH/HumanizaSUS (MS, 2010); BRASIL. Clínica ampliada e compartilhada (MS, 2009)"
+      "contextoGeracao": "Tema: Acolhimento. Resumo de referência:\nAcolhimento é diretriz da **PNH**: postura e prática de **escuta qualificada**, vínculo e responsabilização, presente em todo encontro do cuidado (não é uma triagem isolada).\n\nComponentes: recepção do usuário, avaliação de necessidades, **classificação de risco** (priorização por gravidade, não por ordem de chegada) e encaminhamento responsável. Visa ampliar o acesso e a resolutividade.\n\nBibliografia oficial do tema: BRASIL. PNH/HumanizaSUS (MS, 2010); BRASIL. Clínica ampliada e compartilhada (MS, 2009)",
+      "fase": 2
     },
     {
       "id": "anestesiologia",
@@ -135,7 +145,8 @@
         "FANTONI, D.T.; CORTOPASSI, S.R.G. Anestesia em Cães e Gatos (2010)"
       ],
       "resumo": "**Tríade anestésica:** hipnose (inconsciência), analgesia e relaxamento muscular.\n\n**Fases:** (1) medicação pré-anestésica/MPA — reduz estresse, dose de indução e provê analgesia; (2) indução; (3) manutenção; (4) recuperação.\n\nPontos-chave: avaliação pré-anestésica e classificação **ASA**; jejum pré-operatório (atenção a filhotes, diabéticos e espécies que não vomitam, como equinos e ruminantes); monitoração (FC, FR, PA, capnografia, oximetria, temperatura); analgesia multimodal (opioides, AINEs, alfa-2 agonistas, anestésicos locais); planos de Guedel/profundidade anestésica.",
-      "contextoGeracao": "Tema: Anestesiologia Veterinária. Resumo de referência:\n**Tríade anestésica:** hipnose (inconsciência), analgesia e relaxamento muscular.\n\n**Fases:** (1) medicação pré-anestésica/MPA — reduz estresse, dose de indução e provê analgesia; (2) indução; (3) manutenção; (4) recuperação.\n\nPontos-chave: avaliação pré-anestésica e classificação **ASA**; jejum pré-operatório (atenção a filhotes, diabéticos e espécies que não vomitam, como equinos e ruminantes); monitoração (FC, FR, PA, capnografia, oximetria, temperatura); analgesia multimodal (opioides, AINEs, alfa-2 agonistas, anestésicos locais); planos de Guedel/profundidade anestésica.\n\nBibliografia oficial do tema: FANTONI, D.T.; CORTOPASSI, S.R.G. Anestesia em Cães e Gatos (2010)"
+      "contextoGeracao": "Tema: Anestesiologia Veterinária. Resumo de referência:\n**Tríade anestésica:** hipnose (inconsciência), analgesia e relaxamento muscular.\n\n**Fases:** (1) medicação pré-anestésica/MPA — reduz estresse, dose de indução e provê analgesia; (2) indução; (3) manutenção; (4) recuperação.\n\nPontos-chave: avaliação pré-anestésica e classificação **ASA**; jejum pré-operatório (atenção a filhotes, diabéticos e espécies que não vomitam, como equinos e ruminantes); monitoração (FC, FR, PA, capnografia, oximetria, temperatura); analgesia multimodal (opioides, AINEs, alfa-2 agonistas, anestésicos locais); planos de Guedel/profundidade anestésica.\n\nBibliografia oficial do tema: FANTONI, D.T.; CORTOPASSI, S.R.G. Anestesia em Cães e Gatos (2010)",
+      "fase": 3
     },
     {
       "id": "cirurgia",
@@ -147,7 +158,8 @@
         "FUBINI & DUCHARME. Farm animal surgery (2017)"
       ],
       "resumo": "Princípios: assepsia e antissepsia, **tempos cirúrgicos** (diérese, hemostasia, exérese, síntese), princípios de Halsted (manuseio delicado dos tecidos, hemostasia, assepsia, preservação do suprimento sanguíneo, sem tensão, espaço morto mínimo).\n\n**Cicatrização:** fases inflamatória, proliferativa e de maturação/remodelamento; primeira vs segunda intenção. Fios de sutura (absorvíveis x não absorvíveis; mono x multifilamentares). Procedimentos comuns: OSH (ovariossalpingo-histerectomia), orquiectomia, laparotomia exploratória. Complicações: deiscência, infecção de sítio cirúrgico, seroma.",
-      "contextoGeracao": "Tema: Cirurgia Veterinária. Resumo de referência:\nPrincípios: assepsia e antissepsia, **tempos cirúrgicos** (diérese, hemostasia, exérese, síntese), princípios de Halsted (manuseio delicado dos tecidos, hemostasia, assepsia, preservação do suprimento sanguíneo, sem tensão, espaço morto mínimo).\n\n**Cicatrização:** fases inflamatória, proliferativa e de maturação/remodelamento; primeira vs segunda intenção. Fios de sutura (absorvíveis x não absorvíveis; mono x multifilamentares). Procedimentos comuns: OSH (ovariossalpingo-histerectomia), orquiectomia, laparotomia exploratória. Complicações: deiscência, infecção de sítio cirúrgico, seroma.\n\nBibliografia oficial do tema: FOSSUM, T. Small animal surgery (2018); AUER & STICK. Equine Surgery (2018); FUBINI & DUCHARME. Farm animal surgery (2017)"
+      "contextoGeracao": "Tema: Cirurgia Veterinária. Resumo de referência:\nPrincípios: assepsia e antissepsia, **tempos cirúrgicos** (diérese, hemostasia, exérese, síntese), princípios de Halsted (manuseio delicado dos tecidos, hemostasia, assepsia, preservação do suprimento sanguíneo, sem tensão, espaço morto mínimo).\n\n**Cicatrização:** fases inflamatória, proliferativa e de maturação/remodelamento; primeira vs segunda intenção. Fios de sutura (absorvíveis x não absorvíveis; mono x multifilamentares). Procedimentos comuns: OSH (ovariossalpingo-histerectomia), orquiectomia, laparotomia exploratória. Complicações: deiscência, infecção de sítio cirúrgico, seroma.\n\nBibliografia oficial do tema: FOSSUM, T. Small animal surgery (2018); AUER & STICK. Equine Surgery (2018); FUBINI & DUCHARME. Farm animal surgery (2017)",
+      "fase": 3
     },
     {
       "id": "imagem",
@@ -158,7 +170,8 @@
         "PENNINCK & D'JOU. Atlas of Small Animal Ultrasonography (2015)"
       ],
       "resumo": "**Densidades radiográficas (do mais radiolúcido/escuro ao mais radiopaco/claro):** gás (ar) < gordura < tecidos moles/água < osso/mineral < metal.\n\nModalidades: **radiografia** (projeções e posicionamento — ex.: latero-lateral, ventrodorsal), **ultrassonografia** (tempo real, partes moles, gestação), **TC** e **RM** (alta definição, SNC e estruturas complexas). Princípios de proteção radiológica e qualidade da imagem (contraste, definição, artefatos).",
-      "contextoGeracao": "Tema: Diagnóstico por Imagem. Resumo de referência:\n**Densidades radiográficas (do mais radiolúcido/escuro ao mais radiopaco/claro):** gás (ar) < gordura < tecidos moles/água < osso/mineral < metal.\n\nModalidades: **radiografia** (projeções e posicionamento — ex.: latero-lateral, ventrodorsal), **ultrassonografia** (tempo real, partes moles, gestação), **TC** e **RM** (alta definição, SNC e estruturas complexas). Princípios de proteção radiológica e qualidade da imagem (contraste, definição, artefatos).\n\nBibliografia oficial do tema: THRALL, D.E. Textbook of Veterinary Diagnostic Radiology (2016); PENNINCK & D'JOU. Atlas of Small Animal Ultrasonography (2015)"
+      "contextoGeracao": "Tema: Diagnóstico por Imagem. Resumo de referência:\n**Densidades radiográficas (do mais radiolúcido/escuro ao mais radiopaco/claro):** gás (ar) < gordura < tecidos moles/água < osso/mineral < metal.\n\nModalidades: **radiografia** (projeções e posicionamento — ex.: latero-lateral, ventrodorsal), **ultrassonografia** (tempo real, partes moles, gestação), **TC** e **RM** (alta definição, SNC e estruturas complexas). Princípios de proteção radiológica e qualidade da imagem (contraste, definição, artefatos).\n\nBibliografia oficial do tema: THRALL, D.E. Textbook of Veterinary Diagnostic Radiology (2016); PENNINCK & D'JOU. Atlas of Small Animal Ultrasonography (2015)",
+      "fase": 3
     },
     {
       "id": "epidemiologia",
@@ -168,7 +181,8 @@
         "THRUSFIELD, M. Veterinary Epidemiology (2018)"
       ],
       "resumo": "**Medidas de frequência:** prevalência (casos existentes / população em um momento) e incidência (casos novos / período em risco).\n\n**Medidas de associação:** Risco Relativo (RR — estudos de coorte) e Odds Ratio (OR — caso-controle).\n\n**Tipos de estudo:** descritivos e analíticos (transversal/seccional, coorte, caso-controle, ensaios). **Testes diagnósticos:** sensibilidade, especificidade, valores preditivos. Conceitos de vigilância, surto/epidemia/endemia, transmissão (direta/indireta, vetorial) e investigação de surtos.",
-      "contextoGeracao": "Tema: Epidemiologia Veterinária. Resumo de referência:\n**Medidas de frequência:** prevalência (casos existentes / população em um momento) e incidência (casos novos / período em risco).\n\n**Medidas de associação:** Risco Relativo (RR — estudos de coorte) e Odds Ratio (OR — caso-controle).\n\n**Tipos de estudo:** descritivos e analíticos (transversal/seccional, coorte, caso-controle, ensaios). **Testes diagnósticos:** sensibilidade, especificidade, valores preditivos. Conceitos de vigilância, surto/epidemia/endemia, transmissão (direta/indireta, vetorial) e investigação de surtos.\n\nBibliografia oficial do tema: THRUSFIELD, M. Veterinary Epidemiology (2018)"
+      "contextoGeracao": "Tema: Epidemiologia Veterinária. Resumo de referência:\n**Medidas de frequência:** prevalência (casos existentes / população em um momento) e incidência (casos novos / período em risco).\n\n**Medidas de associação:** Risco Relativo (RR — estudos de coorte) e Odds Ratio (OR — caso-controle).\n\n**Tipos de estudo:** descritivos e analíticos (transversal/seccional, coorte, caso-controle, ensaios). **Testes diagnósticos:** sensibilidade, especificidade, valores preditivos. Conceitos de vigilância, surto/epidemia/endemia, transmissão (direta/indireta, vetorial) e investigação de surtos.\n\nBibliografia oficial do tema: THRUSFIELD, M. Veterinary Epidemiology (2018)",
+      "fase": 4
     },
     {
       "id": "farmacologia",
@@ -178,7 +192,8 @@
         "SPINOSA, GORNIAK & BERNARDI. Farmacologia aplicada à medicina veterinária (2023)"
       ],
       "resumo": "**Farmacocinética (ADME):** absorção, distribuição, metabolismo (hepático) e excreção (renal). **Farmacodinâmica:** mecanismo de ação, agonistas/antagonistas, janela terapêutica.\n\nClasses: **AINEs** (inibem a ciclooxigenase — COX-1/COX-2; risco GI e renal), corticosteroides, **opioides** (morfina, metadona, tramadol, fentanil, butorfanol), anestésicos, antimicrobianos (uso racional e resistência).\n\n**Particularidades por espécie:** gatos têm deficiência de glicuronoconjugação → maior toxicidade de **paracetamol** (metahemoglobinemia) e de alguns AINEs; equinos e ruminantes têm metabolismo e sensibilidades próprias.",
-      "contextoGeracao": "Tema: Farmacologia Veterinária. Resumo de referência:\n**Farmacocinética (ADME):** absorção, distribuição, metabolismo (hepático) e excreção (renal). **Farmacodinâmica:** mecanismo de ação, agonistas/antagonistas, janela terapêutica.\n\nClasses: **AINEs** (inibem a ciclooxigenase — COX-1/COX-2; risco GI e renal), corticosteroides, **opioides** (morfina, metadona, tramadol, fentanil, butorfanol), anestésicos, antimicrobianos (uso racional e resistência).\n\n**Particularidades por espécie:** gatos têm deficiência de glicuronoconjugação → maior toxicidade de **paracetamol** (metahemoglobinemia) e de alguns AINEs; equinos e ruminantes têm metabolismo e sensibilidades próprias.\n\nBibliografia oficial do tema: SPINOSA, GORNIAK & BERNARDI. Farmacologia aplicada à medicina veterinária (2023)"
+      "contextoGeracao": "Tema: Farmacologia Veterinária. Resumo de referência:\n**Farmacocinética (ADME):** absorção, distribuição, metabolismo (hepático) e excreção (renal). **Farmacodinâmica:** mecanismo de ação, agonistas/antagonistas, janela terapêutica.\n\nClasses: **AINEs** (inibem a ciclooxigenase — COX-1/COX-2; risco GI e renal), corticosteroides, **opioides** (morfina, metadona, tramadol, fentanil, butorfanol), anestésicos, antimicrobianos (uso racional e resistência).\n\n**Particularidades por espécie:** gatos têm deficiência de glicuronoconjugação → maior toxicidade de **paracetamol** (metahemoglobinemia) e de alguns AINEs; equinos e ruminantes têm metabolismo e sensibilidades próprias.\n\nBibliografia oficial do tema: SPINOSA, GORNIAK & BERNARDI. Farmacologia aplicada à medicina veterinária (2023)",
+      "fase": 3
     },
     {
       "id": "caes-gatos",
@@ -189,7 +204,8 @@
         "NELSON & COUTO. Medicina Interna de Pequenos Animais (2023)"
       ],
       "resumo": "Doenças infecciosas comuns: **parvovirose** e **cinomose** (caninas), **FeLV** e **FIV** (felinas), leptospirose, erliquiose.\n\nCrônicas/sistêmicas: **doença renal crônica (DRC)** — muito frequente em gatos idosos; diabetes mellitus; cardiopatias (CMH em gatos, doença valvar mitral degenerativa em cães); endocrinopatias (hipotireoidismo canino, hipertireoidismo felino, hiperadrenocorticismo). Abordagem clínica integra anamnese, exame físico, laboratório e imagem.",
-      "contextoGeracao": "Tema: Medicina de Cães e Gatos. Resumo de referência:\nDoenças infecciosas comuns: **parvovirose** e **cinomose** (caninas), **FeLV** e **FIV** (felinas), leptospirose, erliquiose.\n\nCrônicas/sistêmicas: **doença renal crônica (DRC)** — muito frequente em gatos idosos; diabetes mellitus; cardiopatias (CMH em gatos, doença valvar mitral degenerativa em cães); endocrinopatias (hipotireoidismo canino, hipertireoidismo felino, hiperadrenocorticismo). Abordagem clínica integra anamnese, exame físico, laboratório e imagem.\n\nBibliografia oficial do tema: JERICÓ, ANDRADE NETO & KOGIKA. Tratado de Medicina Interna de Cães e Gatos (2023); NELSON & COUTO. Medicina Interna de Pequenos Animais (2023)"
+      "contextoGeracao": "Tema: Medicina de Cães e Gatos. Resumo de referência:\nDoenças infecciosas comuns: **parvovirose** e **cinomose** (caninas), **FeLV** e **FIV** (felinas), leptospirose, erliquiose.\n\nCrônicas/sistêmicas: **doença renal crônica (DRC)** — muito frequente em gatos idosos; diabetes mellitus; cardiopatias (CMH em gatos, doença valvar mitral degenerativa em cães); endocrinopatias (hipotireoidismo canino, hipertireoidismo felino, hiperadrenocorticismo). Abordagem clínica integra anamnese, exame físico, laboratório e imagem.\n\nBibliografia oficial do tema: JERICÓ, ANDRADE NETO & KOGIKA. Tratado de Medicina Interna de Cães e Gatos (2023); NELSON & COUTO. Medicina Interna de Pequenos Animais (2023)",
+      "fase": 4
     },
     {
       "id": "grandes-animais",
@@ -201,7 +217,8 @@
         "CONSTABLE et al. Veterinary Medicine (2017)"
       ],
       "resumo": "**Equinos:** síndrome cólica (abdome agudo) é emergência clássica — avaliar dor, FC, motilidade, refluxo, distensão; decidir entre tratamento clínico e cirúrgico. Laminite, doenças respiratórias.\n\n**Ruminantes:** doenças metabólicas do periparto/transição — **hipocalcemia puerperal (febre do leite)**, cetose, deslocamento de abomaso; distúrbios do rúmen (timpanismo, acidose ruminal); reticuloperitonite traumática. Manejo sanitário de rebanho e prevenção.",
-      "contextoGeracao": "Tema: Medicina de Animais de Grande Porte. Resumo de referência:\n**Equinos:** síndrome cólica (abdome agudo) é emergência clássica — avaliar dor, FC, motilidade, refluxo, distensão; decidir entre tratamento clínico e cirúrgico. Laminite, doenças respiratórias.\n\n**Ruminantes:** doenças metabólicas do periparto/transição — **hipocalcemia puerperal (febre do leite)**, cetose, deslocamento de abomaso; distúrbios do rúmen (timpanismo, acidose ruminal); reticuloperitonite traumática. Manejo sanitário de rebanho e prevenção.\n\nBibliografia oficial do tema: SMITH, B.P. Large Animal Internal Medicine (2020); REED, BAYLY & SELLON. Equine internal medicine (2017); CONSTABLE et al. Veterinary Medicine (2017)"
+      "contextoGeracao": "Tema: Medicina de Animais de Grande Porte. Resumo de referência:\n**Equinos:** síndrome cólica (abdome agudo) é emergência clássica — avaliar dor, FC, motilidade, refluxo, distensão; decidir entre tratamento clínico e cirúrgico. Laminite, doenças respiratórias.\n\n**Ruminantes:** doenças metabólicas do periparto/transição — **hipocalcemia puerperal (febre do leite)**, cetose, deslocamento de abomaso; distúrbios do rúmen (timpanismo, acidose ruminal); reticuloperitonite traumática. Manejo sanitário de rebanho e prevenção.\n\nBibliografia oficial do tema: SMITH, B.P. Large Animal Internal Medicine (2020); REED, BAYLY & SELLON. Equine internal medicine (2017); CONSTABLE et al. Veterinary Medicine (2017)",
+      "fase": 4
     },
     {
       "id": "microbiologia",
@@ -211,7 +228,8 @@
         "FORSYTHE, S.J. Microbiologia da Segurança Alimentar (2005)"
       ],
       "resumo": "**Doenças transmitidas por alimentos (DTAs):** *Salmonella* spp., *Escherichia coli* (incl. STEC/EHEC), *Listeria monocytogenes*, *Staphylococcus aureus* (toxina termoestável), *Clostridium botulinum* e *C. perfringens*, *Campylobacter*.\n\n**Controle:** Boas Práticas de Fabricação (BPF), **APPCC/HACCP** (Análise de Perigos e Pontos Críticos de Controle), cadeia do frio, higiene, controle de contaminação cruzada. Papel do médico-veterinário na inspeção e na vigilância sanitária de alimentos de origem animal.",
-      "contextoGeracao": "Tema: Microbiologia e Segurança dos Alimentos. Resumo de referência:\n**Doenças transmitidas por alimentos (DTAs):** *Salmonella* spp., *Escherichia coli* (incl. STEC/EHEC), *Listeria monocytogenes*, *Staphylococcus aureus* (toxina termoestável), *Clostridium botulinum* e *C. perfringens*, *Campylobacter*.\n\n**Controle:** Boas Práticas de Fabricação (BPF), **APPCC/HACCP** (Análise de Perigos e Pontos Críticos de Controle), cadeia do frio, higiene, controle de contaminação cruzada. Papel do médico-veterinário na inspeção e na vigilância sanitária de alimentos de origem animal.\n\nBibliografia oficial do tema: FORSYTHE, S.J. Microbiologia da Segurança Alimentar (2005)"
+      "contextoGeracao": "Tema: Microbiologia e Segurança dos Alimentos. Resumo de referência:\n**Doenças transmitidas por alimentos (DTAs):** *Salmonella* spp., *Escherichia coli* (incl. STEC/EHEC), *Listeria monocytogenes*, *Staphylococcus aureus* (toxina termoestável), *Clostridium botulinum* e *C. perfringens*, *Campylobacter*.\n\n**Controle:** Boas Práticas de Fabricação (BPF), **APPCC/HACCP** (Análise de Perigos e Pontos Críticos de Controle), cadeia do frio, higiene, controle de contaminação cruzada. Papel do médico-veterinário na inspeção e na vigilância sanitária de alimentos de origem animal.\n\nBibliografia oficial do tema: FORSYTHE, S.J. Microbiologia da Segurança Alimentar (2005)",
+      "fase": 4
     },
     {
       "id": "patologia-clinica",
@@ -221,7 +239,8 @@
         "STOCKHAM & SCOTT. Fundamentals of Veterinary Clinical Pathology (2008)"
       ],
       "resumo": "**Hemograma:** eritrograma (anemia x policitemia; classificar anemia em regenerativa — com **reticulocitose** — ou arregenerativa), leucograma (neutrofilia, desvio à esquerda, linfopenia de estresse) e plaquetas.\n\n**Bioquímica:** função hepática (ALT, AST, FA, GGT, bilirrubinas), função renal (ureia, creatinina, SDMA), proteínas, eletrólitos e glicemia. **Urinálise:** densidade, sedimento, proteinúria. Interpretação integrada com a clínica.",
-      "contextoGeracao": "Tema: Patologia Clínica Veterinária. Resumo de referência:\n**Hemograma:** eritrograma (anemia x policitemia; classificar anemia em regenerativa — com **reticulocitose** — ou arregenerativa), leucograma (neutrofilia, desvio à esquerda, linfopenia de estresse) e plaquetas.\n\n**Bioquímica:** função hepática (ALT, AST, FA, GGT, bilirrubinas), função renal (ureia, creatinina, SDMA), proteínas, eletrólitos e glicemia. **Urinálise:** densidade, sedimento, proteinúria. Interpretação integrada com a clínica.\n\nBibliografia oficial do tema: STOCKHAM & SCOTT. Fundamentals of Veterinary Clinical Pathology (2008)"
+      "contextoGeracao": "Tema: Patologia Clínica Veterinária. Resumo de referência:\n**Hemograma:** eritrograma (anemia x policitemia; classificar anemia em regenerativa — com **reticulocitose** — ou arregenerativa), leucograma (neutrofilia, desvio à esquerda, linfopenia de estresse) e plaquetas.\n\n**Bioquímica:** função hepática (ALT, AST, FA, GGT, bilirrubinas), função renal (ureia, creatinina, SDMA), proteínas, eletrólitos e glicemia. **Urinálise:** densidade, sedimento, proteinúria. Interpretação integrada com a clínica.\n\nBibliografia oficial do tema: STOCKHAM & SCOTT. Fundamentals of Veterinary Clinical Pathology (2008)",
+      "fase": 4
     },
     {
       "id": "patologia",
@@ -232,7 +251,8 @@
         "ZACHARY et al. Bases da Patologia em Veterinária (2021)"
       ],
       "resumo": "**Patologia geral:** lesões e adaptações celulares (atrofia, hipertrofia, hiperplasia, metaplasia, displasia), degenerações, morte celular (necrose x apoptose), distúrbios circulatórios (congestão, hemorragia, trombose, infarto, edema), **inflamação** (aguda x crônica) e neoplasias (benignas x malignas; nomenclatura).\n\n**Patologia clínica/necropsia:** exame post mortem sistemático e correlação anatomoclínica.",
-      "contextoGeracao": "Tema: Patologia Veterinária. Resumo de referência:\n**Patologia geral:** lesões e adaptações celulares (atrofia, hipertrofia, hiperplasia, metaplasia, displasia), degenerações, morte celular (necrose x apoptose), distúrbios circulatórios (congestão, hemorragia, trombose, infarto, edema), **inflamação** (aguda x crônica) e neoplasias (benignas x malignas; nomenclatura).\n\n**Patologia clínica/necropsia:** exame post mortem sistemático e correlação anatomoclínica.\n\nBibliografia oficial do tema: SANTOS & ALESSI. Patologia Veterinária (2016); ZACHARY et al. Bases da Patologia em Veterinária (2021)"
+      "contextoGeracao": "Tema: Patologia Veterinária. Resumo de referência:\n**Patologia geral:** lesões e adaptações celulares (atrofia, hipertrofia, hiperplasia, metaplasia, displasia), degenerações, morte celular (necrose x apoptose), distúrbios circulatórios (congestão, hemorragia, trombose, infarto, edema), **inflamação** (aguda x crônica) e neoplasias (benignas x malignas; nomenclatura).\n\n**Patologia clínica/necropsia:** exame post mortem sistemático e correlação anatomoclínica.\n\nBibliografia oficial do tema: SANTOS & ALESSI. Patologia Veterinária (2016); ZACHARY et al. Bases da Patologia em Veterinária (2021)",
+      "fase": 4
     },
     {
       "id": "semiologia",
@@ -242,7 +262,8 @@
         "FEITOSA, F.L. Semiologia: a arte do diagnóstico (2020)"
       ],
       "resumo": "**Anamnese** + **exame físico**. No exame geral avaliar: estado mental e postura, escore corporal, **mucosas** (coloração), **tempo de preenchimento capilar (TPC < 2 segundos)**, **hidratação/turgor cutâneo**, linfonodos, temperatura, frequência cardíaca, frequência respiratória e pulso.\n\nEm seguida, exame específico por sistema (cardiovascular — ausculta; respiratório; digestório; etc.). Sinais vitais variam por espécie e porte; reconhecer padrões de normalidade é essencial.",
-      "contextoGeracao": "Tema: Semiologia Veterinária. Resumo de referência:\n**Anamnese** + **exame físico**. No exame geral avaliar: estado mental e postura, escore corporal, **mucosas** (coloração), **tempo de preenchimento capilar (TPC < 2 segundos)**, **hidratação/turgor cutâneo**, linfonodos, temperatura, frequência cardíaca, frequência respiratória e pulso.\n\nEm seguida, exame específico por sistema (cardiovascular — ausculta; respiratório; digestório; etc.). Sinais vitais variam por espécie e porte; reconhecer padrões de normalidade é essencial.\n\nBibliografia oficial do tema: FEITOSA, F.L. Semiologia: a arte do diagnóstico (2020)"
+      "contextoGeracao": "Tema: Semiologia Veterinária. Resumo de referência:\n**Anamnese** + **exame físico**. No exame geral avaliar: estado mental e postura, escore corporal, **mucosas** (coloração), **tempo de preenchimento capilar (TPC < 2 segundos)**, **hidratação/turgor cutâneo**, linfonodos, temperatura, frequência cardíaca, frequência respiratória e pulso.\n\nEm seguida, exame específico por sistema (cardiovascular — ausculta; respiratório; digestório; etc.). Sinais vitais variam por espécie e porte; reconhecer padrões de normalidade é essencial.\n\nBibliografia oficial do tema: FEITOSA, F.L. Semiologia: a arte do diagnóstico (2020)",
+      "fase": 3
     },
     {
       "id": "teriogenologia",
@@ -252,7 +273,8 @@
         "PLANT & ZELEZNIK. Knobil & Neill's Physiology of Reproduction (2015)"
       ],
       "resumo": "**Ciclo estral** varia por espécie. Cadela: **monoéstrica não sazonal**, com fases proestro → estro → diestro → anestro. Gata: poliéstrica sazonal, ovulação induzida. Vaca e égua: poliéstricas (égua, sazonal de dias longos).\n\nTópicos: controle hormonal (GnRH, FSH, LH, estrógeno, progesterona), diagnóstico de gestação, manejo do parto (distocia), puerpério e biotécnicas (IA, **IATF** — inseminação artificial em tempo fixo, TE). Afecções reprodutivas: piometra, prostatite.",
-      "contextoGeracao": "Tema: Teriogenologia (Reprodução). Resumo de referência:\n**Ciclo estral** varia por espécie. Cadela: **monoéstrica não sazonal**, com fases proestro → estro → diestro → anestro. Gata: poliéstrica sazonal, ovulação induzida. Vaca e égua: poliéstricas (égua, sazonal de dias longos).\n\nTópicos: controle hormonal (GnRH, FSH, LH, estrógeno, progesterona), diagnóstico de gestação, manejo do parto (distocia), puerpério e biotécnicas (IA, **IATF** — inseminação artificial em tempo fixo, TE). Afecções reprodutivas: piometra, prostatite.\n\nBibliografia oficial do tema: PLANT & ZELEZNIK. Knobil & Neill's Physiology of Reproduction (2015)"
+      "contextoGeracao": "Tema: Teriogenologia (Reprodução). Resumo de referência:\n**Ciclo estral** varia por espécie. Cadela: **monoéstrica não sazonal**, com fases proestro → estro → diestro → anestro. Gata: poliéstrica sazonal, ovulação induzida. Vaca e égua: poliéstricas (égua, sazonal de dias longos).\n\nTópicos: controle hormonal (GnRH, FSH, LH, estrógeno, progesterona), diagnóstico de gestação, manejo do parto (distocia), puerpério e biotécnicas (IA, **IATF** — inseminação artificial em tempo fixo, TE). Afecções reprodutivas: piometra, prostatite.\n\nBibliografia oficial do tema: PLANT & ZELEZNIK. Knobil & Neill's Physiology of Reproduction (2015)",
+      "fase": 4
     },
     {
       "id": "zoonoses",
@@ -262,7 +284,8 @@
         "ROMICHI, J.A. Understanding Zoonotic Diseases (2008)"
       ],
       "resumo": "Zoonoses são doenças transmitidas entre animais vertebrados e o ser humano. Conceito integrador de **Saúde Única (One Health)**.\n\nPrincipais (Brasil):\n- **Raiva:** *Lyssavirus* (família Rhabdoviridae); letalidade ~100%; ciclos urbano (cão/gato), rural e aéreo (morcegos hematófagos); profilaxia pré e pós-exposição.\n- **Leishmaniose Visceral:** *Leishmania infantum (chagasi)*; vetor flebotomíneo **Lutzomyia longipalpis**; **cão = principal reservatório urbano**.\n- **Leptospirose:** *Leptospira* spp.; transmissão pela urina (roedores); surtos em enchentes.\n- **Esporotricose:** *Sporothrix brasiliensis*; **gato** é importante fonte de transmissão zoonótica no Brasil.\n- **Febre Maculosa:** *Rickettsia rickettsii*; vetor carrapato *Amblyomma* (carrapato-estrela); capivaras como amplificadores.\n- **Toxoplasmose:** *Toxoplasma gondii*; gato é o hospedeiro definitivo.\n- Brucelose e tuberculose (importantes em grandes animais e alimentos).",
-      "contextoGeracao": "Tema: Zoonoses. Resumo de referência:\nZoonoses são doenças transmitidas entre animais vertebrados e o ser humano. Conceito integrador de **Saúde Única (One Health)**.\n\nPrincipais (Brasil):\n- **Raiva:** *Lyssavirus* (família Rhabdoviridae); letalidade ~100%; ciclos urbano (cão/gato), rural e aéreo (morcegos hematófagos); profilaxia pré e pós-exposição.\n- **Leishmaniose Visceral:** *Leishmania infantum (chagasi)*; vetor flebotomíneo **Lutzomyia longipalpis**; **cão = principal reservatório urbano**.\n- **Leptospirose:** *Leptospira* spp.; transmissão pela urina (roedores); surtos em enchentes.\n- **Esporotricose:** *Sporothrix brasiliensis*; **gato** é importante fonte de transmissão zoonótica no Brasil.\n- **Febre Maculosa:** *Rickettsia rickettsii*; vetor carrapato *Amblyomma* (carrapato-estrela); capivaras como amplificadores.\n- **Toxoplasmose:** *Toxoplasma gondii*; gato é o hospedeiro definitivo.\n- Brucelose e tuberculose (importantes em grandes animais e alimentos).\n\nBibliografia oficial do tema: ROMICHI, J.A. Understanding Zoonotic Diseases (2008)"
+      "contextoGeracao": "Tema: Zoonoses. Resumo de referência:\nZoonoses são doenças transmitidas entre animais vertebrados e o ser humano. Conceito integrador de **Saúde Única (One Health)**.\n\nPrincipais (Brasil):\n- **Raiva:** *Lyssavirus* (família Rhabdoviridae); letalidade ~100%; ciclos urbano (cão/gato), rural e aéreo (morcegos hematófagos); profilaxia pré e pós-exposição.\n- **Leishmaniose Visceral:** *Leishmania infantum (chagasi)*; vetor flebotomíneo **Lutzomyia longipalpis**; **cão = principal reservatório urbano**.\n- **Leptospirose:** *Leptospira* spp.; transmissão pela urina (roedores); surtos em enchentes.\n- **Esporotricose:** *Sporothrix brasiliensis*; **gato** é importante fonte de transmissão zoonótica no Brasil.\n- **Febre Maculosa:** *Rickettsia rickettsii*; vetor carrapato *Amblyomma* (carrapato-estrela); capivaras como amplificadores.\n- **Toxoplasmose:** *Toxoplasma gondii*; gato é o hospedeiro definitivo.\n- Brucelose e tuberculose (importantes em grandes animais e alimentos).\n\nBibliografia oficial do tema: ROMICHI, J.A. Understanding Zoonotic Diseases (2008)",
+      "fase": 4
     }
   ],
   "flashcards": [
@@ -1973,7 +1996,7 @@
         "e) depende de recursos físicos, humanos e financeiros."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. A judicialização da saúde, segundo o texto, \"altera práticas cotidianas e princípios pré-estabelecidos\" — perturba rotinas de trabalho e inverte lógicas instituídas. As demais alternativas distorcem ou contradizem o texto.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -1991,7 +2014,7 @@
         "e) “estabelece um circuito perverso” (L. 30‐31)."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. \"Restringe os gastos por habitante\" (L. 29) é enunciado descritivo, sem carga valorativa positiva ou negativa. Todas as outras expressões são marcadas por julgamento (mesquinharia, perturba, má qualidade, circuito perverso).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2009,7 +2032,7 @@
         "e) Além disso."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. \"Ainda assim\" indica adição reforçada (\"e mais ainda\"). \"Além disso\" tem valor aditivo equivalente. As alternativas de contraposição (Apesar disso, Não obstante) ou de conclusão inverteriam o sentido do trecho.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2027,7 +2050,7 @@
         "e) \"elevação\" (L. 26) e \"incremento\" (L. 27). Profissão 7 – Medicina Veterinária Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. \"Lentas\" e \"célere\" são antônimos diretos (lento vs. rápido), formando o exemplo mais nítido de oposição de ideias. Os outros pares são sinônimos ou pertencem ao mesmo campo semântico.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2045,7 +2068,7 @@
         "e) \"sangradores\" e \"parteiras\"."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. O texto sobre saúde no Brasil do século XIX opõe médicos formados (práticas científicas e europeias) a curandeiros (práticas populares e tradicionais) — os dois mundos do título.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2063,7 +2086,7 @@
         "e) da formação acadêmica e conhecimento que possuíam."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. A população recorria aos curandeiros e sangradores por compartilharem a mesma cosmovisão sobre doenças (interpretação cultural/mágico-religiosa), e não pela localização ou formação acadêmica.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2081,7 +2104,7 @@
         "e) curandeiros. Profissão 7 – Medicina Veterinária Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. Os boticários (farmacêuticos) preparavam medicamentos mas não realizavam diretamente o cuidado/cura dos doentes, distanciando-se das \"artes de cura\" (diagnóstico, tratamento, procedimentos) mais do que sangradores ou curandeiros.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2099,7 +2122,7 @@
         "e) o cuidado da dor e do sofrimento abrange uma esfera medicinal e outra mais humana."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. O texto defende que o cuidado da dor e do sofrimento abrange tanto a dimensão técnico-medicinal quanto a dimensão humana/relacional — ambas são incontornáveis na prática de saúde.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2117,7 +2140,7 @@
         "e) cuidar do sofrimento antes de enfrentar a inevitabilidade da morte."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A perspectiva holística pressupõe integrar todas as dimensões do sujeito (físico, psíquico, social, espiritual) sem hierarquizá-las. Priorizar só o espiritual em detrimento das demais seria parcial, não holístico.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2135,7 +2158,7 @@
         "e) emoção e sensação. Profissão 7 – Medicina Veterinária Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. No texto, \"dor\" remete ao aspecto físico-biológico (reação do corpo) e \"sofrimento\" ao aspecto psíquico-existencial (percepção e elaboração subjetiva do que se sente).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2153,7 +2176,7 @@
         "e) assumir um compromisso ético profundo com o usuário do serviço."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "A Clínica Ampliada (PNH/MS) não se reduz a \"utilizar a psicologia e a fisiologia para promover a cura\". Ela abrange compromisso ético com o sujeito singular, responsabilização, intersetorialidade e reconhecimento dos limites do saber técnico — vai além de instrumentos disciplinares.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2171,7 +2194,7 @@
         "e) Incidente: evento ou circunstância que poderia ter resultado, ou resultou em dano desnecessário ao paciente."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "\"Circunstância Notificável\" é um evento com potencial de causar dano, mas que não chegou a atingir o paciente. A definição correta da letra c) confunde Circunstância Notificável com \"Incidente sem lesão\" — o erro é afirmar que resulta em dano.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2189,7 +2212,7 @@
         "e) I, II, III, IV e V."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Para um sistema de notificação de incidentes ser efetivo, deve ser não punitivo (I), independente (III) e ter dados analisados por especialistas (V). Identificar quem cometeu o erro (II) é incompatível com a não punição; IV não consta como requisito essencial.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2207,7 +2230,7 @@
         "e) Comissão Intergestores do ProgeSUS (CIP)."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "As Comissões Intergestores Bipartites (CIB) são instâncias estaduais compostas paritariamente por representantes do Estado e dos Municípios para pactuar ações do SUS. A CIT é tripartite (Union + Estados + Municípios) e tem âmbito nacional.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2225,7 +2248,7 @@
         "e) I, II, III e IV."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "O Art. 17 da Lei 8.080/1990 atribui à direção estadual do SUS todas as quatro competências listadas: I) promover descentralização para municípios; II) acompanhar e avaliar redes; III) coordenar ações de vigilância epidemiológica; IV) executar supletivamente ações e serviços de saúde.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2243,7 +2266,7 @@
         "e) utilização da epidemiologia e estabelecimento de prioridades. Profissão 7 – Medicina Veterinária Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "\"Segmentação e focalização aos mais necessitados\" são princípios de modelos de saúde excludentes — o oposto do SUS. O SUS é universal (para todos), equânime e integral, não segmentado ou focalizado.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2261,7 +2284,7 @@
         "e) são espaços geográficos contínuos, constituídos por agrupamentos de Municípios limítrofes e delimitados a partir de identidades culturais, econômicas e sociais."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "O Decreto 7.508/2011 define que as RAS estarão compreendidas no âmbito de uma ou mais regiões de Saúde. Não exigem continuidade geográfica estrita nem se limitam a uma única região; possuem múltiplas portas de entrada e são pactuadas nas CIR.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2279,7 +2302,7 @@
         "e) uma atenção primária de qualidade estrutura‐se segundo três atributos: primeiro contato, longitudinalidade e eficiência. MEDICINA VETERINÁRIA"
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A Portaria 4.279/2010 descreve acesso como multidimensional: disponibilidade (oferta suficiente), comodidade (horários e localização) e aceitação (confiança e adequação cultural). Economia de escala, qualidade e suficiência têm definições distintas das apresentadas nas alternativas incorretas.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2297,7 +2320,7 @@
         "e) I, III e IV, apenas."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Segundo a PNAB, os NASF-AB constituem equipe multiprofissional (I), participam do planejamento conjunto com a ESF (III) e realizam atendimento compartilhado e interconsulta (IV). A definição de categorias profissionais não cabe ao gestor federal (II é falso), e os NASF-AB não são unidades independentes de acesso livre (V é falso).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2315,7 +2338,7 @@
         "e) Fomento das grupalidades. Profissão 7 – Medicina Veterinária Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "As diretrizes da PNH incluem Acolhimento, Clínica Ampliada, Defesa dos direitos dos usuários e Fomento de grupalidades. \"Priorização do trabalhador\" não é diretriz formal — a PNH valoriza o trabalhador, mas o princípio é a cogestão, não a priorização sobre o usuário.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2333,7 +2356,7 @@
         "e) A alta densidade populacional favorece a sobrevivência do agente na população."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Na epidemiologia descritiva: incidência = novos casos ÷ população em risco. Com 20 novos casos em 500 animais = 4%. A fatalidade (10%) seria a proporção de mortes entre os doentes, não do rebanho total. A transmissão horizontal direta por contato é correta, mas é a incidência de 4% que está assertivamente descrita na alternativa a.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2351,7 +2374,7 @@
         "e) Como os equinos são animais utilizados para montaria, o exame do sistema locomotor tem importância econômica apenas para eles, sendo que, para os ruminantes, as doenças que afetam tal sistema são de baixa ocorrência e impacto econômico."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "O pinçamento dos cascos (teste com tenaz/alicate de casco) é fundamental na avaliação de claudicação tanto em equinos quanto em ruminantes, pois permite localizar a dor no dígito. Exames de imagem são usados em ambas as espécies, e a anestesia perineural também é aplicada em ruminantes.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2369,7 +2392,7 @@
         "e) Os cavalos também podem ser castrados em estação, embora os emasculadores sejam mais usados para a castração com os animais em anestesia geral."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "A castração em estação (standing castration) é possível em cavalos com sedação e anestesia local adequadas, embora a posição deitada (decúbito) seja mais comum. O uso de emasculador é necessário em ambas as posições para hemostasia do cordão espermático.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2387,7 +2410,7 @@
         "e) região abaxial na unha medial; curetagem do casco, antibiótico e amputação da unha saudável. Profissão 7 – Medicina Veterinária Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "A doença da linha branca em bovinos ocorre mais frequentemente na região abaxial da unha lateral do membro posterior. O tratamento em casos graves com envolvimento profundo (articulações, tendões) inclui desbridamento de todo tecido necrótico, antibioticoterapia sistêmica e, conforme o caso, amputação do dígito.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2405,7 +2428,7 @@
         "e) úlcera gástrica; com bloqueadores da bomba de prótons; bom."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "O quadro (dor intensa, FC 80 bpm, TPC 4 s, refluxo nasogástrico 3 L pH ácido, alças de intestino delgado distendidas ao toque retal e líquido peritoneal avermelhado) é clássico de estrangulamento de intestino delgado. Indica laparotomia exploratória com ressecção; prognóstico reservado a mau pela natureza isquêmica.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2423,7 +2446,7 @@
         "e) fluidoterapia, antibiótico e corticoide; insuficiência hepática."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Na rabdomiólise por esforço em equinos, o tratamento padrão é: fluidoterapia agressiva (para diluir a mioglobina e proteger os rins), relaxantes musculares (acepromazina, metocarbamol) e AINEs (fenilbutazona). A principal complicação em casos graves é a insuficiência renal aguda por mioglobinúria.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2441,7 +2464,7 @@
         "e) caprino, macho, alimentado com ração de engorda, poliúria e polidipsia."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Urolitíase obstrutiva em pequenos ruminantes acomete principalmente machos (uretra mais longa e estreita), alimentados com ração de engorda (desequilíbrio Ca:P e cristalização de estruvita ou carbonato de cálcio). A obstrução ocorre no processo uretral, causando estrangúria — não poliúria.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2459,7 +2482,7 @@
         "e) A avaliação das características físicas do leite antes da ordenha serve para auxiliar o diagnóstico de casos iniciais de mastite."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "A mastite ambiental (causada por E. coli, Streptococcus uberis etc.) NÃO é facilmente controlada apenas com antibióticos intramários no período seco, pois os agentes estão no ambiente e a recontaminação é constante. O controle efetivo exige higiene de instalações, manejo de ordenha e secagem seletiva.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2477,7 +2500,7 @@
         "e) diminuir a profundidade da anestesia; infusão de fluidos intravenosos; infusão de medicamentos vasoativos."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Hipotensão intraanestésica: a conduta correta é diminuir a profundidade anestésica (agentes inalatórios são cardiodepressores dose-dependentes), administrar fluidos IV e, se necessário, vasopressores/inotrópicos. Corticosteroides não têm indicação de rotina; bloqueadores neuromusculares piorariam o quadro.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2495,7 +2518,7 @@
         "e) Esterilização Pela ordem, a relação correta é: (A) 1a, 2b, 3c, 4d, 5e. (B) 1b, 2d, 3a, 4c, 5e. (C) 1e, 2b, 3c, 4a, 5d. (D) 1c, 2d, 3b, 4e, 5a. (E) 1d, 2b, 3c, 4e, 5a. Processo Seletivo às Vagas dos Programas de Pós-Graduação Lato Sensu de Residência em Área Profissional da Saúde – Modalidades Uniprofissional e Multiprofissional da USP- 2019"
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de associação de termos de controle microbiano. Assepsia = ausência/prevenção de microrganismos viáveis (letra d da correspondência); Antissepsia = inibição do crescimento em tecido vivo; Esterilização = destruição de todos os microrganismos. O item d corresponde ao conceito de assepsia.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2019
@@ -2513,7 +2536,7 @@
         "e) priorizar as demandas de saúde de origem orgânica e genética."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "A Clínica Ampliada (PNH) busca construir Projetos Terapêuticos Singulares (PTS), tratando o usuário de forma integral e singular — não apenas a doença. Não prioriza consultas e exames (a), nem encaminhamentos hospitalares (b), nem a lógica biomédica restrita.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2531,7 +2554,7 @@
         "e) a decisão centralizada no médico e a execução das ações pelos outros profissionais da equipe."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Equipes interdisciplinares de referência caracterizam-se pela centralidade nas necessidades do usuário e pela divisão horizontal do poder (gestão colegiada), em oposição à hierarquia médica e à comunicação vertical das equipes tradicionais.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2549,7 +2572,7 @@
         "e) a intersetorialidade é necessária, na medida em que as condições de vida e de trabalho podem agravar a saúde dos indivíduos."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "No PTS, a reunião de equipe é essencial para integrar saberes; a participação do usuário deve ser estimulada sempre; o diagnóstico psicossocial tem peso equivalente ao orgânico; e as metas devem contemplar curto, médio e longo prazo — o que torna d) (e) a alternativa correta.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2873,7 +2896,7 @@
         "e) osteodistrofia e osteocondrite dissecante."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "A Doença Ortopédica do Desenvolvimento (DOD) em equinos inclui principalmente: osteocondrite dissecante (OCD) — falha na ossificação endocondral — e deformidades angulares (valgismo/varismo). Poliartrite/onfaloflebite são de outras etiologias; deformidade flexural pertence à DOD mas desmite proximal não é o par canônico.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2891,7 +2914,7 @@
         "e) cardiomiopatia restritiva está associada à deficiência nutricional de taurina, ao aumento das quatro câmeras cardíacas e à hipertrofia de ventrículos, que diminui o volume de sangue ejetado nos gatos."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "A cardiomiopatia restritiva felina está associada à deficiência nutricional de taurina em dietas deficientes, cursando com aumento das quatro câmaras e redução do volume ejetado. Nos gatos reconhecem-se as formas hipertrófica, restritiva e dilatada (não fibrosante — esta é de outras espécies).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2909,7 +2932,7 @@
         "e) Os linfonodos jejunais e mediastínicos em cães podem ser avaliados por inspeção indireta por meio de exame ultrassonográfico e radiográfico, respectivamente; já os linfonodos ileofemorais e da bifurcação aórtica podem ser avaliados por palpação retal nos bovinos."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "A frequência respiratória normal de cães e gatos adultos em repouso é de 15–30 mrm, e não o valor indicado na alternativa c). A cianose/enantema são alterações de cor de mucosas; a temperatura máxima retal em ambiente adequado é 39,5°C; linfonodos jejunais são avaliados por palpação abdominal.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2927,7 +2950,7 @@
         "e) displasia, incontinência pigmentar, acantose, hipopigmentação e pústula são termos utilizados para as alterações dérmicas."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Em dermatopatologia veterinária, furunculose (ruptura folicular), paniculite (inflamação do tecido subcutâneo), fibroplasia (proliferação de fibroblastos), acantólise (quebra de desmossomas) e degeneração balonosa são termos histopatológicos válidos. As outras alternativas incluem combinações incoerentes.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2945,7 +2968,7 @@
         "e) obstrução e ruptura esofágica que evolui para celulite e flegmão."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "O quadro (redução de ingestão, queda de produção leiteira, regurgitação nasal) é compatível com linfadenite cervical por infecção respiratória comprimindo esôfago e faringe. O envolvimento de linfonodos retro/parafaríngeos é a causa mais comum de disfagia com drenagem nasogástrica em bovinos.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2963,7 +2986,7 @@
         "e) permitir a cicatrização da ferida de forma aberta após a ocorrência de deiscência da sutura."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Cicatrização por primeira intenção tardia (ou primária diferida) consiste em: desbridar e controlar infecção na ferida contaminada e, após estabilização (em torno de 3–5 dias), realizar sutura. Difere da segunda intenção (cicatrização aberta) e da sutura imediata.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2981,7 +3004,7 @@
         "e) Para o diagnóstico dos animais acometidos, utiliza cultivo micológico e, pela alta sensibilidade, pode ser indicada também a prova de esporotriquina."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "O diagnóstico de esporotricose em animais baseia-se em cultivo micológico (padrão-ouro) e, de forma rápida, em citologia/imprint de exsudato — onde o Sporothrix sp. pode ser visto como formas leveduriformes. O gato é o principal reservatório da esporotricose zoonótica no Brasil.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -2999,7 +3022,7 @@
         "e) I, II e III. RP 2018 1ª Fase − Prova Objetiva − P1 (03/09/2017) 1/100"
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A cicatrização é dividida em quatro fases: homeostasia, inflamação, proliferação e maturação (I — correto). A resposta inflamatória aguda pode ser completamente resolvida (II — correto). A fibrose (III) NÃO é resolução completa, mas sim reparo com substituição por tecido conjuntivo — portanto I e II são corretas; III é falsa.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2018
@@ -3017,7 +3040,7 @@
         "e) discriminação de aspectos individualizados de profissionais da saúde e a relação de conhecimentos de diferentes áreas envolvidas na equipe."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. O texto afirma que a especialização na saúde leva à \"particularização de atividades\" e \"consolidação de conhecimentos\" em nichos específicos — o que corresponde à alternativa d).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3035,7 +3058,7 @@
         "e) a precarização."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. O texto aponta que a atenção secundária no SUS é problemática principalmente pelo acesso limitado — a oferta restrita e a preferência dos serviços privados por conveniados geram barreiras de acesso.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3053,7 +3076,7 @@
         "e) A desigualdade socioeconômica não existe no acesso à assistência médica, já que o SUS proporcionou um aumento de 174% no uso de serviços de saúde."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Os dados indicam que o acesso melhorou no Brasil, mas permanecem desigualdades: pessoas de renda baixa consultam mais (76%) do que as de renda alta (59%), o que reflete maior carga de doença nos estratos vulneráveis, não equidade plena.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3071,7 +3094,7 @@
         "e) a proibição de procedimentos invasivos em pesquisas com seres humanos."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Van Rensselaer Potter cunhou o termo Bioética preocupado com a sobrevivência humana diante dos avanços tecnológicos e científicos — propondo um diálogo entre ciência e humanidade. Não se tratava de controlar ou proibir, mas de discutir as implicações éticas desse avanço.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3089,7 +3112,7 @@
         "e) interferir na baixa adesão a tratamentos e na dependência dos pacientes dos serviços de saúde. CONHECIMENTOS GERAIS"
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. A Clínica Ampliada deve \"considerar a multiplicidade de características dos usuários\" — cada pessoa é singular. As demais opções (generalizar, centrar na saúde, observar pela doença, depender dos profissionais) contradizem esse princípio.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3107,7 +3130,7 @@
         "e) Prevenção e promoção da saúde; atenção primária; atenção ambulatorial especializada; urgência e emergência; atenção hospitalar; central de regulação de vagas."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "O Decreto 7.508/2011 define que cada Região de Saúde deve oferecer, no mínimo: atenção primária, urgência e emergência, atenção psicossocial, atenção ambulatorial especializada e hospitalar, e vigilância em saúde — conjunto completo, conforme alternativa c).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3125,7 +3148,7 @@
         "e) Ressarcimento."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Antônio tem plano privado, mas é atendido pelo SUS. O princípio ilustrado é a Universalidade — o SUS atende a todos, independentemente de ter ou não plano de saúde. Equidade seria sobre distribuição proporcional; ressarcimento é o mecanismo financeiro posterior (não o princípio em si).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3143,7 +3166,7 @@
         "e) Os Núcleos Ampliados de Saúde da Família e Atenção Básica (Nasf‐AB) são serviços com unidades físicas independentes e especiais, de livre acesso para atendimento individual ou coletivo."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A PNAB 2017 permite que, em áreas de grande dispersão territorial e vulnerabilidade, o número de famílias adscritas seja inferior ao mínimo padrão (b — correto). A ESF exige médico, enfermeiro, auxiliar/técnico de enfermagem e ACS; a carga horária mínima das UBS é 40h semanais.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3161,7 +3184,7 @@
         "e) Respeito pela pessoa humana."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Os quatro princípios clássicos da Bioética são: Beneficência, Não-maleficência, Justiça e Autonomia (Beauchamp & Childress). \"Confidencialidade\" é uma regra derivada (deontológica), não um princípio fundante da bioética principialista.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3179,7 +3202,7 @@
         "e) Doenças crônicas não transmissíveis, homicídios e Alzheimer e outras demências."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "As principais causas de morte no Brasil, conforme dados do SIM/DATASUS, são: 1º doenças do aparelho circulatório, 2º neoplasias (câncer), 3º causas externas (acidentes e violências). Doenças infecciosas foram superadas pelas DCNT.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3197,7 +3220,7 @@
         "e) Continuidade (1) e Integralidade (2)."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Longitudinalidade (1) = continuidade do cuidado ao longo do tempo com vínculo; Coordenação do Cuidado (2) = articular o fluxo dos usuários entre os diferentes pontos da rede. São atributos da APS segundo Starfield.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3215,7 +3238,7 @@
         "e) Febre amarela. MEDICINA VETERINÁRIA"
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "A Revolta da Vacina (1904, Rio de Janeiro) foi motivada pela vacinação obrigatória contra a varíola, liderada por Oswaldo Cruz. A vacinação foi imposta de forma coercitiva, sem educação da população, gerando revolta popular.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3233,7 +3256,7 @@
         "e) Como as pneumonias bacterianas podem estar associadas a infecções virais e levar a graves consequências, o tratamento pode incluir a administração de agentes antivirais, além de associação de antibióticos de amplo espectro."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Pneumonia bacteriana em grandes animais pode ser causada tanto por Gram-positivos quanto por Gram-negativos (Mannheimia haemolytica, Pasteurella multocida, Trueperella pyogenes etc.) — a alternativa c) está correta. Bronquíolos não são estéreis (a é falsa); infecção viral não garante pneumonia bacteriana secundária automaticamente.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3251,7 +3274,7 @@
         "e) A ocorrência de reagudização do quadro, acompanhado de febre, depressão, dispneia e icterícia, indica que houve acentuada infestação por carrapatos, com consequente transmissão de elevada carga do agente."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Babesia caballi é um protozoário intracelular obrigatório que parasita hemácias de equinos, causando hemólise e anemia. Transmissão por carrapatos (Dermacentor, Rhipicephalus). Não é bactéria; não é transmitida por fômites de rotina; não se adere externamente à membrana.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3269,7 +3292,7 @@
         "e) Ausência de distensão abdominal, atonia intestinal, anorexia e febre."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "A indigestão vagal em bovinos cursa com distensão abdominal bilateral (papéis do rúmen e abomaso), diminuição ou ausência de movimentos ruminais, fezes escassas e pastosas — compatível com a alternativa d). Febre não é característica; distensão simétrica com ausência de movimentos é mais típica de meteorismo.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3287,7 +3310,7 @@
         "e) Poliglecaprone é um fio sintético, monofilamento, absorvível, de elevada resistência e baixa reatividade."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Poliglecaprone (Monocryl®) é sintético, monofilamento e absorvível, com excelente resistência tensil inicial e mínima reação tecidual — características corretas em e). Categute é orgânico multifilamento; poliglactina 910 (Vicryl®) é multifilamento; ácido poliglicólico (Dexon®) é multifilamento absorvível; náilon é monofilamento não-absorvível.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3305,7 +3328,7 @@
         "e) Nos traumas abdominais ventrolaterais, pode ocorrer abertura muscular, com solução de continuidade da pele e protrusão visceral, caracterizando falsa hérnia."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "O estrangulamento refere-se à interrupção do suprimento sanguíneo do conteúdo herniário (d — correto). Hérnia encarcerada não permite redução manual livre; hérnia incisional é classificada como \"falsa\" (sem saco herniário); hérnia inguinoescrotal pode ser verdadeira, mas não é definida pelo encarceramento.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3323,7 +3346,7 @@
         "e) Solução de iodopovidona a 0,1%; pomadas a base de aloe vera; pomadas à base de antibióticos (neomicina, bacitracina e polimixina); solução de clorexidina a 0,05%."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Em ferida com tecido de granulação estabelecido e início de epitelização, usar produtos não citotóxicos que estimulem a cicatrização: iodopovidona a 0,1% (antisético suave), aloe vera (cicatrizante), pomadas à base de vitaminas A e D (epitrofinas) — alternativa e). Produtos mais concentrados ou oxidantes (Dakin, água oxigenada) são indicados nas fases iniciais com necrose.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3341,7 +3364,7 @@
         "e) Tendão: ecotextura, dimensões, alinhamento de fibras e edema."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Na ultrassonografia do intestino delgado avalia-se: dilatação luminal, motilidade (peristaltismo em tempo real), espessura de parede e vascularização Doppler — tudo em a). Tendões são avaliados por ecotextura e alinhamento de fibras, mas não estão listados na alternativa a; o pulmão tem limitações por artefatos de ar.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3359,7 +3382,7 @@
         "e) Hipotensão arterial, redução da pressão intracraniana, analgesia e miorrelaxamento."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Anestesia dissociativa (quetamina) produz: analgesia somática intensa, hipertonicidade muscular esquelética (tônus aumentado), hipertensão arterial e aumento de secreções. Difere de anestesia inalatória que causa depressão e hipotensão.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3377,7 +3400,7 @@
         "e) Para ambas, sobrecarga de pressão, causada por estenose ou insuficiência valvular."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Hipertrofia concêntrica = sobrecarga de pressão (estenose valvular, hipertensão) → paredes espessas, câmara normal; hipertrofia excêntrica = sobrecarga de volume (insuficiência valvular, shunts) → câmara dilatada. Alternativa a) está correta.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3395,7 +3418,7 @@
         "e) Aspergilose."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Pitiose equina (Pythium insidiosum) cursa com lesão granulomatosa exuberante, piossanguinolenta, com massa de \"kunkers\" (fragmentos de hifas necróticas ao centro). Piogranuloma com eosinófilos e material granular central é patognomônico. Leishmaniose e esporotricose têm apresentação diferente.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3413,7 +3436,7 @@
         "e) Traumática."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Gangrena seca = isquemia sem infecção → necrose coagulativa (proteínas coagulam, preservam o contorno celular). Necrose liquefativa ocorre em tecido nervoso ou com bactérias piogênicas; caseosa é da tuberculose; enzimática (gordurosa) do pâncreas.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3431,7 +3454,7 @@
         "e) à diminuição da ativação da mácula densa, que é responsável, junto com a cicloxigenase 1, pela pressão sanguínea renal. Isso ocasiona uma diminuição do fluxo sanguíneo renal."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "AINEs inibem a COX → reduzem prostaglandinas renais (PGE2, PGI2). Essas prostaglandinas são vasodilatadoras e mantêm a taxa de filtração glomerular em estados de hipoperfusão. Sem elas, há vasoconstrição aferente → queda de filtração → falência renal aguda isquêmica.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3449,7 +3472,7 @@
         "e) Dermacentor nitens; Borrelia burgdorferi."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A febre maculosa brasileira é causada por Rickettsia rickettsii, transmitida pelo carrapato Amblyomma cajennense (e outros Amblyomma spp.). Rhipicephalus sanguineus transmite R. rickettsii em ambiente urbano, mas o vetor clássico no Brasil é o Amblyomma. Yersinia, Borrelia e Eimeria são agentes de outras doenças.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3467,7 +3490,7 @@
         "e) De metal, de osso ou mineral, de fluído ou tecido mole, de gás ou ar, de gordura."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "As cinco opacidades radiográficas reconhecidas na radiologia são: metal (branca intensa), osso/mineral, fluido/tecido mole, gordura e gás/ar (preta). Classificar apenas como \"radiopaco e radiolucente\" (a) é impreciso. A alternativa e) apresenta a classificação completa e correta.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2020
@@ -3485,7 +3508,7 @@
         "e) a compreensão dos condicionantes históricos, sociais e culturais do processo saúde/doença integra as novas concepções sobre as práticas de cuidado nos modelos assistenciais em saúde pública. BURLANDY, L. et al. “Modelos de assistência ao indivíduo com obesidade na atenção básica em saúde no Estado do Rio de Janeiro, Brasil”. Cad. Saúde Pública. 2020, v. 36, n. 3, p. 01-19."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto sobre ESF. O texto afirma que a compreensão dos condicionantes históricos, sociais e culturais é fundamental para superar o modelo biomédico — o que corresponde à alternativa e). As demais invertem ou simplificam o argumento do texto.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3503,7 +3526,7 @@
         "e) as políticas públicas para controlar a incidência de cáries dentárias não devem considerar o padrão alimentar como um fator relevante."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto sobre cárie dentária. O texto afirma que a fluoretação da água de abastecimento é um fator de provável impacto na redução de cáries — alternativa c) correta. Condições socioeconômicas foram relevantes; cárie ainda é doença comum no Brasil.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3521,7 +3544,7 @@
         "e) consistiram em estratégia fundamental do PDRAE para conter gastos estatais, ainda que a qualidade dos serviços tenha sido reduzida."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto sobre Organizações Sociais. O texto afirma que as OS foram implantadas no âmbito do PDRAE (Plano Diretor de Reforma do Estado) como reflexo do avanço do discurso neoliberal — alternativa d).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3539,7 +3562,7 @@
         "e) as instituições, visto que são elas que dispõem das potencialidades para garantir a equidade entre os meramente vulneráveis e os particularmente vulnerados."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Segundo o texto, a Bioética da Proteção prioriza os \"vulnerados\" — aqueles que, por condições concretas de vida, não conseguem exercer autonomia e acessar recursos por conta própria. Difere de \"vulneráveis em geral\" (grupo mais amplo).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3557,7 +3580,7 @@
         "e) sobrepõem, visto que ambos estão associados à subtração dos indivíduos de um estado de vulnerabilidade para um estado de autonomia."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Proteção e paternalismo se opõem: a proteção visa restaurar/promover a capacidade de autonomia do sujeito, enquanto o paternalismo substitui a decisão do outro. A proteção é temporária e visa a emancipação; o paternalismo é permanente e tutelador.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3575,7 +3598,7 @@
         "e) a prevenção e o controle de doenças transmissíveis, de doenças crônicas não transmissíveis, saúde ambiental e do trabalhador e análise de situação de saúde de determinada população."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Vigilância epidemiológica (VE) é definida pela Lei 8.080/90 como o conjunto de ações que proporcionam o conhecimento, detecção ou prevenção de qualquer mudança nos fatores determinantes de saúde, para recomendação de medidas de controle e prevenção. Difere de epidemiologia (b) e de controle de doenças (e).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3593,7 +3616,7 @@
         "e) de atenção primária, de atenção de urgência e emergência, de atenção psicossocial e especiais de acesso aberto."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "O Decreto 7.508/2011 define as portas de entrada do SUS como: atenção primária, urgência e emergência, atenção psicossocial e serviços especiais de acesso aberto — alternativa e). Atenção ambulatorial especializada e hospitalar NÃO são portas de entrada; são pontos de atenção.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3611,7 +3634,7 @@
         "e) Comunicação estritamente pessoal; autonomia técnica plena; projeto assistencial comum."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Na equipe-agrupamento: justaposição das ações, autonomia técnica plena individual e comunicação externa ao trabalho. Na equipe-integração: articulação das ações, autonomia técnica interdependente e comunicação intrínseca ao trabalho. A alternativa c) descreve corretamente a equipe-agrupamento.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3629,7 +3652,7 @@
         "e) a avaliação quanto ao risco e à vulnerabilidade deve considerar estritamente o grau de sofrimento físico apresentado pelo usuário."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "O Acolhimento com Classificação de Risco (ACCR) é um dispositivo técnico-assistencial que altera a forma de fazer gestão do cuidado: muda o critério de atendimento de \"ordem de chegada\" para \"risco e vulnerabilidade\". Não é prerrogativa só do médico; considera fatores além do biológico.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3647,7 +3670,7 @@
         "e) De acordo com o princípio da justiça, é preciso respeitar com imparcialidade o direito de cada um. Dentro desse princípio, a “objeção de consciência” refere-se ao profissional de saúde dever agir sempre de acordo com a legalidade e com o que é aceito pelo paciente."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "A vida é um processo contínuo, coordenado e progressivo desde a fertilização, reconhecido como tal pela bioética ao fundamentar a proteção da vida desde a concepção. O método cartesiano reducionista foi justamente criticado pela bioética; microrganismos mudaram o foco para a doença, não para o sujeito.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3665,7 +3688,7 @@
         "e) Entre as mudanças requeridas no ambiente organizacional dos hospitais para a incorporação de uma cultura de segurança, está a recomendação de adotar modelos de cuidado, caracterizado pelo trabalho em equipe interdependente, colaborativo e interprofissional, ao invés de modelos de cuidado baseados na excelência do desempenho individual e independente."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "O PNSP (Portaria 529/2013) foi criado para melhorar a qualidade e segurança do cuidado, reconhecendo que erros sistêmicos (não individuais) são a principal causa de eventos adversos. Baseia-se nos antecedentes da OMS (Aliança Mundial para a Segurança do Paciente, 2004).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3773,7 +3796,7 @@
         "e) Isostenúria em paciente azotêmico sugere incapacidade de concentrar urina."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Isostenúria (densidade urinária ≈ 1.008–1.012, igual ao ultrafiltrado) em paciente azotêmico indica incapacidade dos túbulos renais de concentrar urina — perda de função tubular, sugestiva de doença renal crônica. Azotemia pré-renal causa hiperstenúria (urina concentrada), não isostenúria.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3791,7 +3814,7 @@
         "e) A crepitação é um som patológico que pode ser obtido na percussão do tórax em casos de pneumonia."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "O sibilo (chiado) é ruído patológico, contínuo, de tonalidade aguda, auscultado sobre a traqueia e brônquios durante a respiração, gerado por estreitamento das vias aéreas. Crepitação é som obtido na percussão de áreas normais do tórax (não patológico); ronco é grave e contínuo.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3809,7 +3832,7 @@
         "e) Hipovolemia, hemorragia e coagulação intravascular disseminada."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "A obstrução do fluxo sanguíneo leva a: congestão (acúmulo de sangue venoso por dificuldade de drenagem), edema (transudação de líquido por aumento da pressão hidrostática) e hemorragia (ruptura vascular por congestão grave). Hiperemia é ativa (arteriolar); choque é sistêmico.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3827,7 +3850,7 @@
         "e) O fio de seda é multifilamentoso e indicado para áreas contaminadas."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Os fios de sutura devem ser escolhidos levando em conta o comportamento no tecido (reação inflamatória, absorção), a estrutura (mono ou multifilamento) e a origem (sintético, orgânico). As demais afirmativas contêm erros: monofilamentos têm menor resistência à tração que multifilamentos; catgut provoca reação intensa; poliglactina é multifilamento.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3845,7 +3868,7 @@
         "e) hipotensão arterial, redução da pressão intracraniana, analgesia e miorrelaxamento."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Em insuficiência renal crônica, a ureia retida é degradada pela urease salivar bacteriana em amônia (NH3). O NH3 tem efeito cáustico direto sobre a mucosa oral, causando ulcerações (estomatite urêmica). Não há isquemia vascular direta nem gangrena como mecanismo primário.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3863,7 +3886,7 @@
         "e) Sutura intradérmica contínua; reduz a tensão em áreas de grande tensão dos bordos; indicada para pele."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Sutura de Cushing é contínua, invertida (inversa os bordos para o lúmen), proporciona bom fechamento hermético de vísceras ocas (estômago, intestino, útero) — por isso é a melhor correspondência. Parker-Kerr é para coto uterino; ponto simples é para pele; intradérmica reduz tensão na pele.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3881,7 +3904,7 @@
         "e) espessamento da parede do intestino e aspecto cerebriforme da mucosa; macrófagos epitelioides na lâmina própria do intestino e granulomas em linfonodos mesentéricos."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Paratuberculose (Johne): macroscopicamente, espessamento da parede intestinal com mucosa de aspecto cerebriforme (dobras marcadas); microscopicamente, infiltrado de macrófagos espumosos (cheios de micobactérias) com linfangite granulomatosa — alternativa e).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3899,7 +3922,7 @@
         "e) Diabetes mellitus por excesso de catecolaminas."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Poliúria e polidipsia em cães e gatos têm como causa mais frequente a doença renal crônica (DRC), cujo mecanismo é a perda de nefróns funcionais → incapacidade de concentrar urina → diurese osmótica → compensação com polidipsia. Diabetes mellitus é a segunda causa; piometra causa poliúria por interferência no ADH.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3917,7 +3940,7 @@
         "e) Ultrassonografia abdominal; é o exame que melhor permite a visibilização das características clássicas de uma intussuscepção: visualização de anéis concêntricos hiper e hipoecoicos (lesão em alvo ou em “olho de boi”)."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Na intussuscepção, a ultrassonografia abdominal é o exame de escolha pois permite visualizar o \"sinal do alvo\" (camadas concêntricas de intestino) e a viabilidade vascular (Doppler). A radiografia mostra obstrução inespecífica; tomografia é mais cara e menos disponível.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3935,7 +3958,7 @@
         "e) Como sinais clínicos, os animais podem apresentar, principalmente, descarga nasal, ocular e vaginal purulenta e sinais neurológicos, como andar em círculos e opistótono."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Brucella sp. é eliminada pelo leite e outras secreções genitais. As vias de transmissão mais frequentes são: ingestão de alimento/água contaminados, ingestão de secreções genitais infectadas (lambedura de fetos/placentas abortados) e contato com fetos abortados — alternativa d). A pasteurização elimina a bactéria.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3953,7 +3976,7 @@
         "e) Criptococose e exame citológico."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Felino jovem, não castrado, em abrigo com acesso à rua em São Paulo + lesões ulceradas crônicas em região cefálica = esporotricose felina (zoonose emergente no Brasil). O diagnóstico é feito por cultivo micológico de exsudato/fragmento de lesão, que cresce em 7–15 dias.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3971,7 +3994,7 @@
         "e) As sinusites secundárias ocorrem principalmente por alterações dentárias e estas devem ser tratadas juntamente com a lavagem do seio paranasal e uso de antibioticoterapia sistêmica."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Sinusites secundárias em equinos ocorrem por alterações dentárias (raízes dos dentes 08–11 invadem o seio maxilar); o tratamento deve incluir a extração dentária + lavagem do seio. As primárias (sem causa dentária) são tratadas com lavagem e antibioticoterapia.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2021
@@ -3989,7 +4012,7 @@
         "e) investiga o impacto do meio social nas atitudes de indivíduos e grupos, com o objetivo de propor soluções cabíveis a determinada sociedade."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto sobre análise do comportamento. O texto define que o analista do comportamento atua para influir sobre o comportamento de indivíduos ou grupos — não apenas estudar subjetividade ou personalidade.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4007,7 +4030,7 @@
         "e) conclusão."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. \"Assim\" introduz conclusão — retoma o que foi argumentado e conclui. As conjunções de concessão (embora, mesmo que), comparação, condição e oposição têm funções distintas.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4025,7 +4048,7 @@
         "e) a necessidade de controlar a propagação da hanseníase."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A campanha sobre hanseníase analisada no cartaz aborda o preconceito contra o paciente — tema recorrente em campanhas do Ministério da Saúde que buscam combater o estigma social associado à doença.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4043,7 +4066,7 @@
         "e) Na ampliação do objeto de trabalho em saúde, compre- endendo os problemas de saúde, ou seja, entendendo as situações de risco ou a vulnerabilidade das pessoas."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A Portaria 4.279/2010 define trabalho vivo como as relações estabelecidas no ato de cuidar: vínculos, escuta, acolhimento e afeto entre profissional e usuário — o momento relacional do cuidado, que não pode ser totalmente protocolado.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4061,7 +4084,7 @@
         "e) entendem que a busca da supressão da dor e a extensão do prazer se tornou o único referencial para todas as ações."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "As descobertas de Pasteur e Koch mudaram o foco dos profissionais de saúde para as doenças e seus agentes causais, em detrimento do olhar sobre o doente como sujeito integral. Isso gerou um reducionismo biomédico que a bioética e a humanização buscaram superar.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4079,7 +4102,7 @@
         "e) Orientar os sujeitos a entender seus problemas de saúde e, de uma maneira ética, buscar ajuda de outros setores para realizar o diagnóstico e exames de acordo com as possibilidades do sujeito."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "A Clínica Ampliada consiste em assumir responsabilidade sobre o usuário com compromisso ético radical (alternativa d), reconhecendo o sujeito em sua singularidade. Não se resume a diagnóstico, nem a orientar o paciente sobre sua doença, nem a seguir protocolos.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4097,7 +4120,7 @@
         "e) A interdependência do trabalho em saúde é válida tanto para um serviço de saúde com seus diferentes profissionais quanto para o sistema de saúde com seus diferentes serviços."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "A metáfora da corrente com elo de plástico ilustra que a qualidade do cuidado em saúde depende de todos os envolvidos — equipe, gestão, usuários — de forma interdependente, tanto em nível de serviço quanto de sistema. O elo mais fraco determina a resistência do conjunto.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4115,7 +4138,7 @@
         "e) as reformas difundidas naquela época no resto do mundo questionavam a manutenção do estado de bem-estar social."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "As reformas da 8ª CNS (1986) iam contra a tendência mundial daquela época: o neoliberalismo e as reformas de Estado que questionavam o papel do Estado no bem-estar social. O contexto era de retração dos gastos públicos em saúde no mundo, tornando a proposta do SUS universal contracorrente.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4133,7 +4156,7 @@
         "e) Articulação das ações; articulação dos agentes."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Equipe-Integração (Peduzzi, 2001): articulação das ações + interação dos agentes. Equipe-Agrupamento: justaposição das ações + agrupamento dos agentes. A equipe-integração pressupõe projeto assistencial comum e comunicação intrínseca ao trabalho.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4151,7 +4174,7 @@
         "e) Cuidado respeitoso e responsivo às preferências, neces- sidades e valores individuais dos pacientes, assegurando que os valores do paciente orientem todas as decisões clínicas. MEDICINA VETERINÁRIA"
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "\"Oportunidade\" no PNSP = redução do tempo de espera e de atrasos potencialmente danosos — tanto para quem presta quanto para quem recebe o cuidado. \"Segurança\" = evitar lesões; \"Eficiência\" = sem desperdício; \"Equidade\" = sem variação por características pessoais; \"Centrado no paciente\" = responsivo às preferências.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4169,7 +4192,7 @@
         "e) A lesão glomerular é a principal causa de proteinúria renal e as principais proteínas perdidas são as globulinas alfa, beta e gama."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A avaliação do aspecto da urina deve ser feita em amostras frescas porque a turbidez, cor e odor se alteram com o tempo e o resfriamento. A coloração varia de amarelo claro a âmbar; a densidade é parâmetro importante; o pH pode alterar-se por dieta e condições sistêmicas, não só renais.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4187,7 +4210,7 @@
         "e) Os termos hipocorado e hipercorado podem ser adotados, pois consideram as nuances da coloração rósea."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "O exame das mucosas oculopalpebrais deve ser bilateral e incluir a conjuntiva bulbar E a palpebral — avaliação completa para detectar palidez, icterícia, hiperemia e alterações locais. A conjuntiva é o primeiro local onde se detecta icterícia leve.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4205,7 +4228,7 @@
         "e) A frase II está correta."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "Na monitoração anestésica em cães, a frase II está correta: \"no plano adequado, as pupilas estão em posição intermediária (não miose acentuada), reflexo palpebral ausente e atividade cardiopulmonar dentro dos limites fisiológicos.\" As frases I, III e IV contêm imprecisões sobre parâmetros específicos de profundidade.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4223,7 +4246,7 @@
         "e) O bicarbonato de sódio é indicado nos quadros que apresentem acidemia grave (pH < 7,2), seja de origem respiratória ou metabólica."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Alcalose metabólica é caracterizada por aumento do HCO3- plasmático ou perda de H+ (ex: vômitos, uso de diuréticos, alcalose por ingesta de bicarbonato). Acidose respiratória vem de hipoventilação (não a mais comum em grandes animais); hipoventilação causa acidose, não alcalose respiratória.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4241,7 +4264,7 @@
         "e) As alterações bronquiais responsáveis por sons anormais podem ser decorrentes de aumento de secreção, inflamação ou mudança estrutural."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "As alterações bronquiais (muco, edema, inflamação) são responsáveis por sons anormais — estertores, roncos e sibilos — ao exame torácico de pequenos animais. A auscultação normal em cães/gatos revela sons suaves e de baixa amplitude na inspiração.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4259,7 +4282,7 @@
         "e) A obstrução prolongada resulta em azotemia pós-renal, hipoperfusão tecidual e alterações eletrolíticas importantes, tais como hipercalemia, hiperfosfatemia e hipercalcemia."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "As manifestações clínicas da DTUI felina incluem: hematúria, disúria, polaciúria, periúria (micção em locais inapropriados) e/ou obstrução uretral. Pode afetar gatos de qualquer sexo, mas a obstrução é mais comum em machos; a etiologia é multifatorial.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4277,7 +4300,7 @@
         "e) A hipertensão pulmonar com progressão para insuficiência cardíaca congestiva são complicações frequentes."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "As anomalias de maior ocorrência na síndrome braquicefálica são: estenose de narina, palato mole elongado e sáculos laríngeos evertidos. Hipoplasia traqueal ocorre em toda a extensão; não há hipotermia, mas sim hipercapnia/hipertermia.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4295,7 +4318,7 @@
         "e) A evisceração é uma grave complicação da orquiectomia por técnica aberta em equinos."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "A evisceração (saída do intestino pela ferida escrotal) é complicação grave e relativamente comum da orquiectomia por técnica aberta em equinos, especialmente se a incisão for ampla ou o animal não estiver em decúbito adequado. Por isso a técnica fechada é preferida em muitos centros.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4313,7 +4336,7 @@
         "e) Distensão abdominal à esquerda, hipermotilidade intestinal, som metálico à percussão auscultatória, anorexia e diarreia."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Deslocamento de abomaso à esquerda (DAE): o abomaso desloca-se entre o rúmen e a parede abdominal esquerda. Achados: diminuição de movimentos ruminais, inapetência, fezes escuras em pequena quantidade e som metálico (ping) à percussão/auscultação simultânea no flanco esquerdo — alternativa b).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4331,7 +4354,7 @@
         "e) O estrangulamento do conteúdo herniário refere-se ao seu suprimento sanguíneo, enquanto o encarceramento refere-se à sua redutibilidade."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "O estrangulamento refere-se à interrupção do suprimento vascular do conteúdo herniário → necrose isquêmica. A hérnia incisional pode ocorrer após celiotomia e ser verdadeira ou falsa; a umbilical encarcerada não permite redução manual livre; trauma pode causar ruptura (evisceração), não hérnia encarcerada clássica.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4349,7 +4372,7 @@
         "e) Pomada de alantoína; óleo de copaíba; solução de iodo a 1,0%; pasta de sulfadiazina prata."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "Para ferida com tecido de granulação e início de epitelização: usar iodopovidona a 0,1% (antiséptico suave e não citotóxico nessa concentração), aloe vera (cicatrizante), pomadas com vitaminas A e D (epitrofinas) — alternativa d). Concentrações maiores de iodo ou água oxigenada são citotóxicas e prejudicam a epitelização.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4367,7 +4390,7 @@
         "e) Salter-Harris do tipo I."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Fraturas de Salter-Harris tipo III: comprometem a linha fisária e a epífise, com linha de fratura saindo da fise para a articulação (plano articular). São geralmente articulares e ocorrem em animais jovens com fise ainda aberta.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2022
@@ -4385,7 +4408,7 @@
         "e) “medicina humanizada” e “movimento da saúde centrada na pessoa”."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto sobre telemedicina. \"Barreiras hierárquicas\" (estruturas que limitam comunicação) opõe-se a \"via de mão dupla\" (comunicação bilateral/horizontal) — são conceitos antagônicos no texto.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4403,7 +4426,7 @@
         "e) denota ideia de intensidade ou excesso em “Chegar lá”."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Questão de interpretação de texto. \"Até lá\" no cartaz refere-se a um tempo futuro (quando a hanseníase for erradicada), portanto o pronome \"lá\" transmite ideia de tempo afastado no futuro, não de lugar próximo.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023,
@@ -4422,7 +4445,7 @@
         "e) A melhora do acesso à atenção básica e de emergência, a renegociação dos papéis público e privado para a adequação da melhora da cobertura universal de vacinação, da assistência pré-natal e dos recursos humanos e de tecnologia de produtos farmacêuticos."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Paim et al. (2011) no Lancet identificam como principais desafios futuros do SUS: reforma do financiamento para assegurar universalidade e equidade, e redução das iniquidades em saúde — alternativa a). Criar novos impostos ou ampliar apenas atenção básica não capta a amplitude do argumento do artigo.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4440,7 +4463,7 @@
         "e) individual das equipes, em que uma assume o papel preponderante sobre a outra de acordo com os conhecimentos disciplinares. Pressupõe uma relação horizontal entre profissionais de diferentes formações, valorizando-se o esquema tradicional dos saberes e a apropriação de novos conhecimentos."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "O apoio matricial organiza o trabalho entre equipes com papéis de referência e apoio em relação horizontal (sem hierarquia). Uma equipe assume o papel de referência para determinada população; a outra fornece suporte especializado — pressupondo relação interprofissional horizontal.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4458,7 +4481,7 @@
         "e) Os Estados e Municípios são os principais financiadores da saúde pública no país. Historicamente, a maioria dos gastos é feita pelos governos estadual e municipal, e somente uma parte menor fica para o governo federal."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "A União é o principal financiador do SUS no Brasil, historicamente respondendo por mais de 40% dos gastos federais em saúde. Estados e municípios complementam o financiamento conforme a EC 29/2000 e LC 141/2012, mas a União lidera o aporte.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4476,7 +4499,7 @@
         "e) Assumir compromissos radicais com as pessoas doentes que devem ser vistas de modo singular; assumir que as responsabilidades sobre os usuários dos serviços de saúde são prioritariamente dos gerentes ou coordenadores das unidades de saúde; buscar sempre a intersetorialidade; reconhecer limites dos conhecimentos profissionais de saúde e de tecnologias e buscar outros conhecimentos em diferentes setores; evitar compromissos éticos profundos."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Os objetivos da Clínica Ampliada (MS) incluem: ver o sujeito de modo singular (não foco na doença), assumir responsabilidade, buscar intersetorialidade, reconhecer limites dos saberes e comprometer-se eticamente. A alternativa b) reúne esses atributos corretamente.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4494,7 +4517,7 @@
         "e) Pressupõe a continuidade da relação de cuidado, com construção de vínculo e responsabilização entre profissionais e usuários ao longo do tempo e de modo permanente e consistente, acompanhando os efeitos das intervenções em saúde e de outros elementos na vida das pessoas, evitando a perda de referências e diminuindo os riscos de iatrogenia."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Equidade na PNAB 2017 = oferta do cuidado reconhecendo diferenças nas condições de vida e saúde, reduzindo desigualdades — dar mais a quem mais precisa, não tratar todos igualmente. Alternativas a) (acesso), b) (ações de saúde), d) (planejamento), e) (longitudinalidade) descrevem outros atributos.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4512,7 +4535,7 @@
         "e) A RPT circunscrita aguda cursa com diminuição dos movimentos dos pré-estômagos, ruminação e eructações, podendo estar em atonia e ainda timpanismo ruminal moderado."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "A RPT circunscrita aguda cursa com movimentos do pré-estômagos diminuídos (atonia), sinal de Rusterholz + ao teste do \"bastão\" e dor à apreensão cutânea. A RPT circunscrita crônica é de curso lento, com adesões que limitam a ruptura. A laparoruminotomia tem alto sucesso (>80%).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4530,7 +4553,7 @@
         "e) Atualmente, a principal forma de tratamento da DDB ainda é a excisão cirúrgica da lesão, pois esta pouco responde aos tratamentos com bandagens e antimicrobianos."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "As condições de alojamento (piso molhado, lama, superlotação) e manejo (higiene podal deficiente) são os principais fatores de risco para DDB. As lesões ocorrem tipicamente na região interdigital e na pele coronária (não no tecido córneo da sola). O tratamento é predominantemente tópico com oxitetraciclina.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4548,7 +4571,7 @@
         "e) A frequência de intoxicação por anestésicos locais é maior quando se utiliza o composto associado ao vasoconstritor."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Os anestésicos locais de ação específica (como lidocaína, bupivacaína) são os mais empregados por bloquearem seletivamente canais de sódio voltagem-dependentes. A lipossolubilidade determina potência; a ligação proteica determina duração; a via tópica tem absorção inferior à intravenosa.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4566,7 +4589,7 @@
         "e) A transmissão do som através de uma estrutura de baixa atenuação (cheia de fluido, por exemplo) resulta em ecos de retorno mais fortes de além da estrutura, chamados de sombreamento acústico."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Na ultrassonografia, as características acústicas são definidas pela impedância acústica dos tecidos. Onde há diferença de impedância entre duas estruturas adjacentes, ocorre reflexão (eco) — quanto maior a diferença, mais forte o eco. A reflexão é mais intensa, não fraca, onde há maior diferença de densidade.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4584,7 +4607,7 @@
         "e) O padrão misto ocorre em condições patológicas independentes e concomitantes, porém sem relações entre os tecidos adjacentes e afetados."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "O padrão alveolar radiográfico ocorre quando os alvéolos estão cheios de líquido (exsudato, transudato, sangue) ou células — substituindo o ar pelo material de maior radiopacidade. É caracterizado por broncograma aéreo (ar nos brônquios contrastado com alvéolos cheios).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4602,7 +4625,7 @@
         "e) Possui rápida progressão, pois o paratormônio, a vitamina D e a calcitonina têm baixa eficácia no controle da concentração do Ca2+ extracelular."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Hiperparatireoidismo nutricional secundário em equinos decorre de dietas com baixo Ca e/ou alto P (ex: ração à base de farelo de trigo/arroz), pois o Ca não absorvido leva ao aumento do PTH, reabsorção óssea e substituição por tecido conjuntivo fibroso. Dieta Ca:P de 3:1 ou mais está incorreta (relação ideal é 1,5–2:1 Ca:P).",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4620,7 +4643,7 @@
         "e) Fosfatase alcalina."
       ],
       "correta": 3,
-      "explicacao": "",
+      "explicacao": "A AST (aspartato aminotransferase) está presente no músculo estriado, nas hemácias e no fígado — tornando sua elevação inespecífica. ALT é hepático-específica em cães/gatos; GGT é biliar; CK é exclusiva do músculo estriado e cardíaco; FA é hepatobiliar e óssea.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4638,7 +4661,7 @@
         "e) Hiperemia e congestão e podem ser associadas, respectivamente, a atividade digestiva e lactação."
       ],
       "correta": 2,
-      "explicacao": "",
+      "explicacao": "Situação 1 (fluxo ativo aumentado para o tecido) = hiperemia (ativa, arteriolar, ex: inflamação, exercício físico). Situação 2 (dificuldade de drenagem, sangue acumulado) = congestão (passiva, venosa, ex: insuficiência cardíaca direita). A alternativa c) associa corretamente hiperemia ao exercício e congestão a causas de obstrução venosa.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023,
@@ -4657,7 +4680,7 @@
         "e) As células T CD8 são referidas como células MCH classe II restritas, pois só reconhecem um antígeno no contexto de expressão da MHC classe II."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "As moléculas MHC classe II são expressas apenas em células apresentadoras de antígenos profissionais (macrófagos, células dendríticas, linfócitos B) e apresentam antígenos exógenos a células T CD4+. MHC classe I está em todas as células nucleadas e apresenta antígenos endógenos a células T CD8+.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4675,7 +4698,7 @@
         "e) Diarreia por aumento da pressão hidráulica do sangue para o lúmen: ocorre em quadros agudos, resultando, por exemplo, no aumento da pressão oncótica associada à hiperproteinemia."
       ],
       "correta": 1,
-      "explicacao": "",
+      "explicacao": "Diarreia por sobrecarga osmótica: partículas osmoticamente ativas não absorvidas no lúmen retêm água por osmose, aumentando o volume fecal. Ocorre com lactose, lactulose, sulfato de magnésio. A diarreia cessa com jejum. Difere da secretória (que persiste com jejum) e da má absorção.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4693,7 +4716,7 @@
         "e) lesão hepatocelular e colestase intra-hepática."
       ],
       "correta": 4,
-      "explicacao": "",
+      "explicacao": "ALT e AST elevadas + bilirrubina direta (conjugada) elevada + bilirrubinúria = lesão hepatocelular (transaminases) E colestase intra-hepática (obstrução do fluxo biliar no interior do fígado → acúmulo de bilirrubina conjugada). FA normal afasta colestase extra-hepática.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4711,7 +4734,7 @@
         "e) Granulações tóxicas, basofilia citoplasmática difusa e corpúsculos de Heinz podem ser identificados em neutrófilos nos casos de infecções bacterianas."
       ],
       "correta": 0,
-      "explicacao": "",
+      "explicacao": "Na resposta inflamatória, cães e gatos apresentam neutrofilia acentuada (maior capacidade de reserva medular); bovinos têm reserva medular menor e neutrofilia modesta. Isso é correto e está na alternativa a). Monócitos aumentam (não desaparecem) na fase aguda; gatos têm proporções similares de neutrófilos aos cães no sangue circulante.",
       "dificuldade": "media",
       "origem": "rp",
       "anoFuvest": 2023
@@ -4773,7 +4796,8 @@
         "Hipoalbuminemia (2,5→2,3 g/dL): perda proteica urinária (proteinúria) + catabolismo tumoral; correlaciona-se com emagrecimento.",
         "Correlação clínica: poliúria/oligodipsia + azotemia = perda da concentração urinária; conjuntivas avermelhadas + febre = processo inflamatório/neoplásico; emagrecimento = catabolismo tumoral."
       ],
-      "comentario": "O diagnóstico final foi carcinoma de células renais (padrão papilar) no rim direito. A policitemia paraneoplásica ocorre pela produção ectópica de eritropoetina pelo tecido tumoral — achado clássico de neoplasias renais em cães. A progressão da azotemia reflete a destruição crescente do parênquima renal funcional."
+      "comentario": "O diagnóstico final foi carcinoma de células renais (padrão papilar) no rim direito. A policitemia paraneoplásica ocorre pela produção ectópica de eritropoetina pelo tecido tumoral — achado clássico de neoplasias renais em cães. A progressão da azotemia reflete a destruição crescente do parênquima renal funcional.",
+      "grupoId": "rp_2018_f2"
     },
     {
       "id": "rp_2018_f2_q2",
@@ -4789,7 +4813,8 @@
         "Densidade 1.018 na 2ª consulta: redução em relação à 1ª (1.025), refletindo piora da capacidade de concentração renal.",
         "Exames complementares indicados: (1) urocultura e antibiograma — bacteriúria em ambas as coletas; (2) USG abdominal — extensão da massa e invasão de adjacências; (3) radiografia torácica — metástases pulmonares."
       ],
-      "comentario": "A progressão dos achados urinários reflete a evolução do carcinoma renal: de inflamação renal inicial com ITU secundária para invasão ativa das vias urinárias pela neoplasia. A urocultura é mandatória antes de qualquer procedimento cirúrgico para direcionar o antimicrobiano adequado."
+      "comentario": "A progressão dos achados urinários reflete a evolução do carcinoma renal: de inflamação renal inicial com ITU secundária para invasão ativa das vias urinárias pela neoplasia. A urocultura é mandatória antes de qualquer procedimento cirúrgico para direcionar o antimicrobiano adequado.",
+      "grupoId": "rp_2018_f2"
     },
     {
       "id": "rp_2018_f2_q3",
@@ -4803,7 +4828,8 @@
         "Estadiamento prévio: USG abdominal (massa, invasão de cava e linfonodos); radiografia torácica (metástases pulmonares); hemograma e bioquímica completos.",
         "PAAF pode fornecer citologia prévia, mas a histopatologia de fragmento é necessária para diagnóstico definitivo e classificação do tipo tumoral."
       ],
-      "comentario": "O padrão histológico com formações papilares, células epiteliais pleomórficas e nucléolos evidentes são critérios de malignidade do carcinoma renal tubular-papilar. O estadiamento completo é essencial para definir a presença de metástases e orientar a decisão cirúrgica."
+      "comentario": "O padrão histológico com formações papilares, células epiteliais pleomórficas e nucléolos evidentes são critérios de malignidade do carcinoma renal tubular-papilar. O estadiamento completo é essencial para definir a presença de metástases e orientar a decisão cirúrgica.",
+      "grupoId": "rp_2018_f2"
     },
     {
       "id": "rp_2018_f2_q4",
@@ -4819,7 +4845,8 @@
         "Protocolo anestésico: evitar fármacos nefrotóxicos (AINEs, aminoglicosídeos); anestesia balanceada (opioide + inalatório); analgesia epidural para reduzir necessidade de anestésicos sistêmicos; jejum 8–12h alimentar e 2–4h hídrico.",
         "Monitoração peri-operatória: pressão arterial, temperatura, débito urinário (sonda uretral), SpO2, capnografia, hematócrito seriado."
       ],
-      "comentario": "O manejo pré-operatório é tão crítico quanto a técnica cirúrgica em pacientes ASA III–IV. A policitemia aumenta a viscosidade sanguínea e o risco tromboembólico; a insuficiência renal torna obrigatória a proteção renal com hidratação vigorosa. A avaliação criteriosa reduz mortalidade peri-operatória."
+      "comentario": "O manejo pré-operatório é tão crítico quanto a técnica cirúrgica em pacientes ASA III–IV. A policitemia aumenta a viscosidade sanguínea e o risco tromboembólico; a insuficiência renal torna obrigatória a proteção renal com hidratação vigorosa. A avaliação criteriosa reduz mortalidade peri-operatória.",
+      "grupoId": "rp_2018_f2"
     },
     {
       "id": "rp_2018_f2_q5",
@@ -4837,7 +4864,8 @@
         "Fechamento por planos: peritônio + linha alba (fio absorvível); subcutâneo (fio absorvível); pele (náilon, padrão interrompido).",
         "Pós-operatório imediato: monitorar débito urinário (função renal contralateral), analgesia multimodal, fluidoterapia, hematócrito seriado."
       ],
-      "comentario": "A nefrectomia em cão com insuficiência renal contralateral requer avaliação cuidadosa da função renal contralateral antes da cirurgia. A dupla ligadura do pedículo vascular é fundamental — a artéria renal é ramo da aorta e falha hemostática é fatal. O débito urinário no pós-operatório imediato confirma a função do rim remanescente."
+      "comentario": "A nefrectomia em cão com insuficiência renal contralateral requer avaliação cuidadosa da função renal contralateral antes da cirurgia. A dupla ligadura do pedículo vascular é fundamental — a artéria renal é ramo da aorta e falha hemostática é fatal. O débito urinário no pós-operatório imediato confirma a função do rim remanescente.",
+      "grupoId": "rp_2018_f2"
     },
     {
       "id": "rp_2019_f2_q1",
@@ -4855,7 +4883,8 @@
         "ALT elevada (120, 2,4× o VR) + FA elevada (80): lesão hepatocelular — associada a cistos hepáticos e/ou infiltração neoplásica (metástases de HSA).",
         "Correlação: ascite + anemia regenerativa grave + monocitose = hemoperitônio por ruptura de hemangiosarcoma esplênico ou hepático — principal diagnóstico diferencial em cão idoso."
       ],
-      "comentario": "O hemangiosarcoma esplênico é a neoplasia mais comum causando hemoperitônio em cães de grande porte acima de 10 anos. A tríade anemia regenerativa grave + monocitose + ascite hemorrágica é altamente sugestiva. ALT elevada pode indicar metástases hepáticas, frequentes no HSA esplênico."
+      "comentario": "O hemangiosarcoma esplênico é a neoplasia mais comum causando hemoperitônio em cães de grande porte acima de 10 anos. A tríade anemia regenerativa grave + monocitose + ascite hemorrágica é altamente sugestiva. ALT elevada pode indicar metástases hepáticas, frequentes no HSA esplênico.",
+      "grupoId": "rp_2019_f2"
     },
     {
       "id": "rp_2019_f2_q2a",
@@ -4871,7 +4900,8 @@
         "Tipagem sanguínea e prova de compatibilidade cruzada: necessárias antes da cirurgia com Ht de 9%.",
         "Sorologia para Ehrlichia canis (SNAP 4Dx): erliquiose pode causar anemia, trombocitopenia e ascite — diagnóstico diferencial importante."
       ],
-      "comentario": "A abdominocentese é o exame mais rápido e informativo: o caráter do líquido direciona imediatamente o diagnóstico. O ecocardiograma é frequentemente esquecido mas é fundamental antes da esplenectomia suspeita de HSA — massa atrial direita é achada em ~25% dos casos e altera o prognóstico e plano cirúrgico."
+      "comentario": "A abdominocentese é o exame mais rápido e informativo: o caráter do líquido direciona imediatamente o diagnóstico. O ecocardiograma é frequentemente esquecido mas é fundamental antes da esplenectomia suspeita de HSA — massa atrial direita é achada em ~25% dos casos e altera o prognóstico e plano cirúrgico.",
+      "grupoId": "rp_2019_f2"
     },
     {
       "id": "rp_2019_f2_q2b",
@@ -4885,7 +4915,8 @@
         "PAAF guiada por USG da massa é contraindicada: risco de hemorragia grave por punção de lesão vascular + baixa sensibilidade diagnóstica para HSA.",
         "Esplenectomia total: tratamento padrão para HSA esplênico; pode ser paliativa (sobrevida mediana 1–2 meses) ou combinada com quimioterapia com doxorrubicina (sobrevida até 6 meses)."
       ],
-      "comentario": "O diagnóstico definitivo de HSA só é possível pela histopatologia da peça cirúrgica. PAAF tem baixa sensibilidade (células em meio a eritrócitos) e risco real de hemorragia. Em hemoperitônio ativo, a laparotomia é simultaneamente diagnóstica e terapêutica."
+      "comentario": "O diagnóstico definitivo de HSA só é possível pela histopatologia da peça cirúrgica. PAAF tem baixa sensibilidade (células em meio a eritrócitos) e risco real de hemorragia. Em hemoperitônio ativo, a laparotomia é simultaneamente diagnóstica e terapêutica.",
+      "grupoId": "rp_2019_f2"
     },
     {
       "id": "rp_2019_f2_q3",
@@ -4902,7 +4933,8 @@
         "Protocolo anestésico: etomidato IV (1–2 mg/kg) para indução em paciente hipovolêmico — menor depressão cardiovascular; isoflurano para manutenção; analgesia com opioides (fentanil); NUNCA usar acepromazina em paciente hipovolêmico.",
         "Acesso venoso calibroso (≥ 18G), idealmente 2 acessos; monitoração contínua de FC, PA, SpO2, temperatura."
       ],
-      "comentario": "Pacientes com HSA e hemoperitônio são emergências, mas a estabilização mínima (transfusão + fluidos) antes da cirurgia reduz significativamente a mortalidade anestésica. O etomidato é o agente de indução de escolha em pacientes em choque. Acepromazina é absolutamente contraindicada — causa vasodilatação e colapso cardiovascular em hipovolêmicos."
+      "comentario": "Pacientes com HSA e hemoperitônio são emergências, mas a estabilização mínima (transfusão + fluidos) antes da cirurgia reduz significativamente a mortalidade anestésica. O etomidato é o agente de indução de escolha em pacientes em choque. Acepromazina é absolutamente contraindicada — causa vasodilatação e colapso cardiovascular em hipovolêmicos.",
+      "grupoId": "rp_2019_f2"
     },
     {
       "id": "rp_2019_f2_q4",
@@ -4921,7 +4953,8 @@
         "Fechamento por planos: linha alba com PDS 0 (padrão Sultan ou contínuo); subcutâneo com fio absorvível; pele com náilon ou grampos.",
         "Pós-operatório imediato: Ht e coagulograma 6h e 24h; analgesia multimodal; antibioticoprofilaxia; monitoração cardiovascular."
       ],
-      "comentario": "A esplenectomia é tecnicamente acessível, mas o maior risco é a hemorragia por falha hemostática. O grampeador vascular (TA/GIA) acelera e aumenta a segurança em massas volumosas. O baço deve ser removido inteiro — fragmentação durante a cirurgia pode causar esplenose peritoneal. Biópsia hepática intraoperatória é fundamental para estadiamento e prognóstico."
+      "comentario": "A esplenectomia é tecnicamente acessível, mas o maior risco é a hemorragia por falha hemostática. O grampeador vascular (TA/GIA) acelera e aumenta a segurança em massas volumosas. O baço deve ser removido inteiro — fragmentação durante a cirurgia pode causar esplenose peritoneal. Biópsia hepática intraoperatória é fundamental para estadiamento e prognóstico.",
+      "grupoId": "rp_2019_f2"
     },
     {
       "id": "rp_2019_f2_q5",
@@ -4939,7 +4972,8 @@
         "Suporte intensivo: oxigenoterapia; fluidoterapia cuidadosa; ECG contínuo; PA invasiva; débito urinário horário; analgesia adequada.",
         "Investigar resangramento ativo: USG da cavidade para avaliar hematoma ou sangramento no leito cirúrgico; hemostasia cirúrgica se necessária."
       ],
-      "comentario": "A CID é a complicação mais temida no pós-operatório de HSA. O tecido neoplásico libera tromboplastina, ativando a cascata da coagulação de forma sistêmica e consumindo fatores e plaquetas. O plasma fresco congelado é o tratamento de escolha. IMPORTANTE: trate a anemia grave ANTES de usar antiarrítmicos que deprimem o débito cardíaco — a taquicardia ventricular aqui é provavelmente secundária à hipóxia, e a lidocaína pode precipitar colapso."
+      "comentario": "A CID é a complicação mais temida no pós-operatório de HSA. O tecido neoplásico libera tromboplastina, ativando a cascata da coagulação de forma sistêmica e consumindo fatores e plaquetas. O plasma fresco congelado é o tratamento de escolha. IMPORTANTE: trate a anemia grave ANTES de usar antiarrítmicos que deprimem o débito cardíaco — a taquicardia ventricular aqui é provavelmente secundária à hipóxia, e a lidocaína pode precipitar colapso.",
+      "grupoId": "rp_2019_f2"
     }
   ]
 }

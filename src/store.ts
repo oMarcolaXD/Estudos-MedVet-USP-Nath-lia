@@ -21,6 +21,8 @@ const defaultState: AppState = {
   anotacoes: {},
   apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY ?? '',
   modelId: 'claude-sonnet-4-6',
+  provider: 'gemini',
+  geminiApiKey: '',
   darkMode: false,
   sessaoDia: null,
   gamificacao: defaultGamificacao,

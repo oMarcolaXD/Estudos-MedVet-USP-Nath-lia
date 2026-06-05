@@ -24,6 +24,8 @@ interface AppContextValue {
   setAnotacao: (temaId: string, texto: string) => void;
   setApiKey: (key: string) => void;
   setModelId: (id: string) => void;
+  setProvider: (p: 'anthropic' | 'gemini') => void;
+  setGeminiApiKey: (key: string) => void;
   toggleDarkMode: () => void;
   exportar: () => void;
   importar: (s: AppState) => void;
@@ -67,6 +69,8 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       setAnotacao: (temaId, texto) => update((s) => updateAnotacao(s, temaId, texto)),
       setApiKey: (key) => update((s) => ({ ...s, apiKey: key })),
       setModelId: (id) => update((s) => ({ ...s, modelId: id })),
+      setProvider: (p) => update((s) => ({ ...s, provider: p })),
+      setGeminiApiKey: (key) => update((s) => ({ ...s, geminiApiKey: key })),
       toggleDarkMode: () => update((s) => ({ ...s, darkMode: !s.darkMode })),
       exportar: () => {
         import('./store').then(({ exportBackup }) => exportBackup(state));

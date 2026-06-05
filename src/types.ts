@@ -6,6 +6,7 @@ export interface Tema {
   id: string;
   nome: string;
   categoria: Categoria;
+  fase: 1 | 2 | 3 | 4;
   bibliografia: string[];
   resumo: string;
   contextoGeracao: string;
@@ -36,6 +37,7 @@ export interface Questao {
 export interface Dissertativa {
   id: string;
   temaId: string;
+  grupoId?: string;
   caso: string;
   pontosEsperados: string[];
   comentario: string;
@@ -118,6 +120,8 @@ export interface AppState {
   anotacoes: Record<string, string>;
   apiKey: string;
   modelId: string;
+  provider: 'anthropic' | 'gemini';
+  geminiApiKey: string;
   darkMode: boolean;
   sessaoDia: SessaoDia | null;
   gamificacao: Gamificacao;

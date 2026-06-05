@@ -8,21 +8,27 @@ import Dissertativa from './pages/Dissertativa';
 import Progresso from './pages/Progresso';
 import Configuracoes from './pages/Configuracoes';
 import ImportarFuvest from './pages/ImportarFuvest';
+import Fases from './pages/Fases';
 import {
   Home, BookOpen, Brain, ClipboardList,
-  BarChart2, Settings, Moon, Sun, FileUp,
+  BarChart2, Settings, Moon, Sun, FileUp, Layers,
 } from 'lucide-react';
 
 const bottomLinks = [
   { to: '/', label: 'Início', icon: Home, end: true },
-  { to: '/resumos', label: 'Resumos', icon: BookOpen },
+  { to: '/fases', label: 'Fases', icon: Layers },
   { to: '/flashcards', label: 'Flashcards', icon: Brain },
   { to: '/simulados', label: 'Simulados', icon: ClipboardList },
   { to: '/progresso', label: 'Progresso', icon: BarChart2 },
 ];
 
 const sideLinks = [
-  ...bottomLinks,
+  { to: '/', label: 'Início', icon: Home, end: true },
+  { to: '/fases', label: 'Trilha de Estudos', icon: Layers },
+  { to: '/resumos', label: 'Resumos', icon: BookOpen },
+  { to: '/flashcards', label: 'Flashcards', icon: Brain },
+  { to: '/simulados', label: 'Simulados', icon: ClipboardList },
+  { to: '/progresso', label: 'Progresso', icon: BarChart2 },
   { to: '/dissertativa', label: 'Dissertativa', icon: ClipboardList },
   { to: '/importar-fuvest', label: 'Importar FUVEST', icon: FileUp },
   { to: '/configuracoes', label: 'Configurações', icon: Settings },
@@ -109,6 +115,7 @@ export default function App() {
         <main className="flex-1 p-4 lg:p-6 pb-24 lg:pb-6 overflow-auto" key={location.pathname}>
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/fases" element={<Fases />} />
             <Route path="/resumos" element={<Resumos />} />
             <Route path="/flashcards" element={<Flashcards />} />
             <Route path="/simulados" element={<Simulados />} />

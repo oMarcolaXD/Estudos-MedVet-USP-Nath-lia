@@ -1,8 +1,13 @@
 import { Questao, Flashcard, Dissertativa, Dificuldade, Categoria } from './types';
 
 const ANTHROPIC_URL = 'https://api.anthropic.com/v1/messages';
+const GEMINI_MODEL = 'gemini-2.0-flash';
 
-function headers(apiKey: string) {
+function geminiUrl(apiKey: string) {
+  return `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`;
+}
+
+function anthropicHeaders(apiKey: string) {
   return {
     'x-api-key': apiKey,
     'anthropic-version': '2023-06-01',
@@ -11,17 +16,83 @@ function headers(apiKey: string) {
   };
 }
 
-function extractText(content: { type: string; text?: string }[]): string {
-  return content.filter((b) => b.type === 'text').map((b) => b.text ?? '').join('');
-}
-
 function parseJSON(raw: string): unknown {
   const cleaned = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim();
   return JSON.parse(cleaned);
 }
 
-interface GerarQuestoesParams {
+async function callAnthropic(
+  apiKey: string,
+  modelId: string,
+  system: string,
+  userPrompt: string,
+  maxTokens: number
+): Promise<string> {
+  const resp = await fetch(ANTHROPIC_URL, {
+    method: 'POST',
+    headers: anthropicHeaders(apiKey),
+    body: JSON.stringify({
+      model: modelId,
+      max_tokens: maxTokens,
+      system,
+      messages: [{ role: 'user', content: userPrompt }],
+    }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.json().catch(() => ({}));
+    throw new Error((err as { error?: { message?: string } }).error?.message ?? `Erro HTTP ${resp.status}`);
+  }
+
+  const data = await resp.json() as { content: { type: string; text?: string }[] };
+  return data.content.filter((b) => b.type === 'text').map((b) => b.text ?? '').join('');
+}
+
+async function callGemini(
+  apiKey: string,
+  system: string,
+  userPrompt: string
+): Promise<string> {
+  const resp = await fetch(geminiUrl(apiKey), {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({
+      system_instruction: { parts: [{ text: system }] },
+      contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
+    }),
+  });
+
+  if (!resp.ok) {
+    const err = await resp.json().catch(() => ({}));
+    const msg = (err as { error?: { message?: string } }).error?.message;
+    throw new Error(msg ?? `Erro HTTP ${resp.status}`);
+  }
+
+  const data = await resp.json() as {
+    candidates: { content: { parts: { text: string }[] } }[];
+  };
+  return data.candidates[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
+}
+
+async function callIA(params: {
+  provider: 'anthropic' | 'gemini';
   apiKey: string;
+  geminiApiKey: string;
+  modelId: string;
+  system: string;
+  userPrompt: string;
+  maxTokens: number;
+}): Promise<string> {
+  if (params.provider === 'gemini') {
+    return callGemini(params.geminiApiKey, params.system, params.userPrompt);
+  }
+  return callAnthropic(params.apiKey, params.modelId, params.system, params.userPrompt, params.maxTokens);
+}
+
+interface GerarQuestoesParams {
+  provider: 'anthropic' | 'gemini';
+  apiKey: string;
+  geminiApiKey: string;
   modelId: string;
   contexto: string;
   temaId: string;
@@ -31,7 +102,9 @@ interface GerarQuestoesParams {
 }
 
 export async function gerarQuestoes(params: GerarQuestoesParams): Promise<Questao[]> {
-  const { apiKey, modelId, contexto, temaId, temaCategoria, quantidade, dificuldade } = params;
+  const { contexto, temaId, temaCategoria, quantidade, dificuldade } = params;
+
+  const system = 'Você é um elaborador de questões para o processo seletivo da residência em Medicina Veterinária da USP (FUVEST). Gere questões fiéis ao estilo da banca, baseadas estritamente no contexto fornecido. Responda APENAS com JSON válido, sem markdown.';
 
   const userPrompt = `Gere exatamente ${quantidade} questões de múltipla escolha sobre o seguinte tema para o processo seletivo de residência em Medicina Veterinária da USP (FUVEST).
 
@@ -58,24 +131,7 @@ Responda APENAS com JSON válido, sem markdown, no formato:
   ]
 }`;
 
-  const resp = await fetch(ANTHROPIC_URL, {
-    method: 'POST',
-    headers: headers(apiKey),
-    body: JSON.stringify({
-      model: modelId,
-      max_tokens: 3000,
-      system: 'Você é um elaborador de questões para o processo seletivo da residência em Medicina Veterinária da USP (FUVEST). Gere questões fiéis ao estilo da banca, baseadas estritamente no contexto fornecido. Responda APENAS com JSON válido, sem markdown.',
-      messages: [{ role: 'user', content: userPrompt }],
-    }),
-  });
-
-  if (!resp.ok) {
-    const err = await resp.json().catch(() => ({}));
-    throw new Error((err as { error?: { message?: string } }).error?.message ?? `Erro HTTP ${resp.status}`);
-  }
-
-  const data = await resp.json() as { content: { type: string; text?: string }[] };
-  const text = extractText(data.content);
+  const text = await callIA({ ...params, system, userPrompt, maxTokens: 3000 });
   const parsed = parseJSON(text) as { questoes: { enunciado: string; alternativas: string[]; correta: number; explicacao: string; dificuldade: string }[] };
 
   return parsed.questoes.map((q, i) => ({
@@ -92,7 +148,9 @@ Responda APENAS com JSON válido, sem markdown, no formato:
 }
 
 interface GerarFlashcardsParams {
+  provider: 'anthropic' | 'gemini';
   apiKey: string;
+  geminiApiKey: string;
   modelId: string;
   contexto: string;
   temaId: string;
@@ -100,7 +158,9 @@ interface GerarFlashcardsParams {
 }
 
 export async function gerarFlashcards(params: GerarFlashcardsParams): Promise<Flashcard[]> {
-  const { apiKey, modelId, contexto, temaId, quantidade } = params;
+  const { contexto, temaId, quantidade } = params;
+
+  const system = 'Você é um tutor especializado em Medicina Veterinária. Crie flashcards objetivos e precisos para estudo. Responda APENAS com JSON válido, sem markdown.';
 
   const userPrompt = `Gere exatamente ${quantidade} flashcards de estudo sobre o seguinte tema para a residência em Medicina Veterinária da USP.
 
@@ -114,24 +174,7 @@ Responda APENAS com JSON válido, sem markdown, no formato:
   ]
 }`;
 
-  const resp = await fetch(ANTHROPIC_URL, {
-    method: 'POST',
-    headers: headers(apiKey),
-    body: JSON.stringify({
-      model: modelId,
-      max_tokens: 2000,
-      system: 'Você é um tutor especializado em Medicina Veterinária. Crie flashcards objetivos e precisos para estudo. Responda APENAS com JSON válido, sem markdown.',
-      messages: [{ role: 'user', content: userPrompt }],
-    }),
-  });
-
-  if (!resp.ok) {
-    const err = await resp.json().catch(() => ({}));
-    throw new Error((err as { error?: { message?: string } }).error?.message ?? `Erro HTTP ${resp.status}`);
-  }
-
-  const data = await resp.json() as { content: { type: string; text?: string }[] };
-  const text = extractText(data.content);
+  const text = await callIA({ ...params, system, userPrompt, maxTokens: 2000 });
   const parsed = parseJSON(text) as { flashcards: { frente: string; verso: string }[] };
 
   return parsed.flashcards.map((fc, i) => ({
@@ -144,14 +187,18 @@ Responda APENAS com JSON válido, sem markdown, no formato:
 }
 
 interface GerarDissertativaParams {
+  provider: 'anthropic' | 'gemini';
   apiKey: string;
+  geminiApiKey: string;
   modelId: string;
   contexto: string;
   temaId: string;
 }
 
 export async function gerarDissertativa(params: GerarDissertativaParams): Promise<Dissertativa> {
-  const { apiKey, modelId, contexto, temaId } = params;
+  const { contexto, temaId } = params;
+
+  const system = 'Você é um elaborador de casos clínicos para residência em Medicina Veterinária da USP. Crie casos realistas e didáticos. Responda APENAS com JSON válido, sem markdown.';
 
   const userPrompt = `Crie UM caso clínico dissertativo para a prova P2 da residência em Medicina Veterinária da USP (FUVEST).
 
@@ -167,24 +214,7 @@ Responda APENAS com JSON válido, sem markdown, no formato:
   "comentario": "orientações para autoavaliação da resposta"
 }`;
 
-  const resp = await fetch(ANTHROPIC_URL, {
-    method: 'POST',
-    headers: headers(apiKey),
-    body: JSON.stringify({
-      model: modelId,
-      max_tokens: 2000,
-      system: 'Você é um elaborador de casos clínicos para residência em Medicina Veterinária da USP. Crie casos realistas e didáticos. Responda APENAS com JSON válido, sem markdown.',
-      messages: [{ role: 'user', content: userPrompt }],
-    }),
-  });
-
-  if (!resp.ok) {
-    const err = await resp.json().catch(() => ({}));
-    throw new Error((err as { error?: { message?: string } }).error?.message ?? `Erro HTTP ${resp.status}`);
-  }
-
-  const data = await resp.json() as { content: { type: string; text?: string }[] };
-  const text = extractText(data.content);
+  const text = await callIA({ ...params, system, userPrompt, maxTokens: 2000 });
   const parsed = parseJSON(text) as { caso: string; pontosEsperados: string[]; comentario: string };
 
   return {
