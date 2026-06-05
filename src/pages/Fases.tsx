@@ -12,13 +12,14 @@ const FASES: { numero: 1 | 2 | 3 | 4; nome: string; cor: FaseCor; emoji: string 
   { numero: 4, nome: 'Especialidades', cor: 'orange', emoji: '⭐' },
 ];
 
-const corMap: Record<FaseCor, { ativo: string; header: string; badge: string; progresso: string; btn: string }> = {
+const corMap: Record<FaseCor, { ativo: string; header: string; badge: string; progresso: string; btn: string; bordaAtual: string }> = {
   emerald: {
     ativo: 'bg-emerald-600 border-emerald-600 text-white',
     header: 'bg-emerald-50 dark:bg-emerald-950 border-emerald-200 dark:border-emerald-800',
     badge: 'bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300',
     progresso: 'bg-emerald-500',
     btn: 'bg-emerald-600 hover:bg-emerald-700 text-white',
+    bordaAtual: 'border-emerald-400 dark:border-emerald-600',
   },
   purple: {
     ativo: 'bg-purple-600 border-purple-600 text-white',
@@ -26,6 +27,7 @@ const corMap: Record<FaseCor, { ativo: string; header: string; badge: string; pr
     badge: 'bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300',
     progresso: 'bg-purple-500',
     btn: 'bg-purple-600 hover:bg-purple-700 text-white',
+    bordaAtual: 'border-purple-400 dark:border-purple-600',
   },
   blue: {
     ativo: 'bg-blue-600 border-blue-600 text-white',
@@ -33,6 +35,7 @@ const corMap: Record<FaseCor, { ativo: string; header: string; badge: string; pr
     badge: 'bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300',
     progresso: 'bg-blue-500',
     btn: 'bg-blue-600 hover:bg-blue-700 text-white',
+    bordaAtual: 'border-blue-400 dark:border-blue-600',
   },
   orange: {
     ativo: 'bg-orange-500 border-orange-500 text-white',
@@ -40,6 +43,7 @@ const corMap: Record<FaseCor, { ativo: string; header: string; badge: string; pr
     badge: 'bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-300',
     progresso: 'bg-orange-500',
     btn: 'bg-orange-500 hover:bg-orange-600 text-white',
+    bordaAtual: 'border-orange-400 dark:border-orange-600',
   },
 };
 
@@ -117,7 +121,7 @@ export default function Fases() {
             className={`rounded-2xl border overflow-hidden transition-all ${
               bloqueada
                 ? 'opacity-50 border-gray-200 dark:border-gray-700'
-                : `border-2 ${atual ? `border-${fase.cor}-400 dark:border-${fase.cor}-600 shadow-md` : 'border-gray-200 dark:border-gray-700'}`
+                : `border-2 ${atual ? `${cores.bordaAtual} shadow-md` : 'border-gray-200 dark:border-gray-700'}`
             }`}
           >
             {/* Header da fase */}

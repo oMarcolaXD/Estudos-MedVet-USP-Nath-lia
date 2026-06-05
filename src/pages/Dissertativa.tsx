@@ -27,24 +27,25 @@ export default function Dissertativa() {
   );
 
   const grupos: GrupoCaso[] = useMemo(() => {
-    const filtradas = temaSel
-      ? todasDissertativas.filter((d) => d.temaId === temaSel)
-      : todasDissertativas;
-
+    // Monta grupos com TODAS as partes, independente do filtro
     const map = new Map<string, DissertativaType[]>();
-    filtradas.forEach((d) => {
+    todasDissertativas.forEach((d) => {
       const key = d.grupoId ?? d.id;
       if (!map.has(key)) map.set(key, []);
       map.get(key)!.push(d);
     });
 
-    return Array.from(map.entries()).map(([grupoId, partes]) => {
+    const todosGrupos = Array.from(map.entries()).map(([grupoId, partes]) => {
       const temaNomes = [...new Set(partes.map((p) => {
         const t = conteudo.temas.find((t) => t.id === p.temaId);
         return t?.nome ?? p.temaId;
       }))];
       return { grupoId, partes, anoFuvest: partes[0].anoFuvest, temaNomes };
     });
+
+    // Filtra grupos que contenham ao menos uma parte do tema selecionado
+    if (!temaSel) return todosGrupos;
+    return todosGrupos.filter((g) => g.partes.some((p) => p.temaId === temaSel));
   }, [todasDissertativas, temaSel, conteudo.temas]);
 
   const gerarTema = temaSel

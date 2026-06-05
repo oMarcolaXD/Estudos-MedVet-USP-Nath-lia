@@ -71,7 +71,9 @@ async function callGemini(
   const data = await resp.json() as {
     candidates: { content: { parts: { text: string }[] } }[];
   };
-  return data.candidates[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
+  const text = data.candidates[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
+  if (!text) throw new Error('Gemini não retornou resposta — o conteúdo pode ter sido bloqueado pelo filtro de segurança. Tente reformular o prompt.');
+  return text;
 }
 
 async function callIA(params: {
