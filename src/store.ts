@@ -19,6 +19,7 @@ const defaultState: AppState = {
   flashcardsIA: [],
   dissertativasIA: [],
   anotacoes: {},
+  apostilas: {},
   apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY ?? '',
   modelId: 'claude-sonnet-4-6',
   provider: 'gemini',
@@ -138,6 +139,10 @@ export function addDissertativasIA(appState: AppState, items: Dissertativa[]): A
 
 export function updateAnotacao(appState: AppState, temaId: string, texto: string): AppState {
   return { ...appState, anotacoes: { ...appState.anotacoes, [temaId]: texto } };
+}
+
+export function updateApostila(appState: AppState, temaId: string, texto: string): AppState {
+  return { ...appState, apostilas: { ...appState.apostilas, [temaId]: texto } };
 }
 
 export function cardsParaRevisarHoje(appState: AppState): string[] {

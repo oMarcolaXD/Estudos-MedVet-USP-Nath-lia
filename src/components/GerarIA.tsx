@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useApp } from '../context';
 import { gerarQuestoes, gerarFlashcards, gerarDissertativa } from '../api';
 import { Tema, Dificuldade } from '../types';
-import { Sparkles, Loader2 } from 'lucide-react';
+import { Sparkles, Loader2, BookMarked } from 'lucide-react';
 
 type Modo = 'questoes' | 'flashcards' | 'dissertativa';
 
@@ -20,6 +20,8 @@ export default function GerarIA({ tema, onClose }: Props) {
   const [erro, setErro] = useState('');
   const [sucesso, setSucesso] = useState('');
 
+  const apostila = state.apostilas?.[tema.id] ?? '';
+
   async function gerar() {
     const chaveAtiva = state.provider === 'gemini' ? state.geminiApiKey : state.apiKey;
     if (!chaveAtiva) {
@@ -35,6 +37,7 @@ export default function GerarIA({ tema, onClose }: Props) {
       apiKey: state.apiKey,
       geminiApiKey: state.geminiApiKey,
       modelId: state.modelId,
+      apostila: apostila || undefined,
     };
     try {
       if (modo === 'questoes') {
@@ -83,6 +86,15 @@ export default function GerarIA({ tema, onClose }: Props) {
         </div>
 
         <div className="p-5 space-y-4">
+          {apostila && (
+            <div className="flex items-center gap-2 px-3 py-2 bg-green-50 dark:bg-green-950 border border-green-200 dark:border-green-800 rounded-lg">
+              <BookMarked size={14} className="text-green-600 dark:text-green-400 shrink-0" />
+              <p className="text-xs text-green-700 dark:text-green-300">
+                Apostila incluída no contexto ({Math.round(apostila.length / 5)} palavras aprox.)
+              </p>
+            </div>
+          )}
+
           <div>
             <label className="block text-sm font-medium mb-1">Tipo de conteúdo</label>
             <div className="flex gap-2">

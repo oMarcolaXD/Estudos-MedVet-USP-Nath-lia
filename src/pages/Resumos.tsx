@@ -1,8 +1,8 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { useApp } from '../context';
 import { useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import { BookOpen, Sparkles, ClipboardList, StickyNote, TrendingUp } from 'lucide-react';
+import { BookOpen, Sparkles, ClipboardList, StickyNote, TrendingUp, BookMarked, Upload, Trash2 } from 'lucide-react';
 import { Tema } from '../types';
 import GerarIA from '../components/GerarIA';
 
@@ -19,7 +19,7 @@ const categoriaLabel: Record<string, string> = {
 };
 
 export default function Resumos() {
-  const { conteudo, state, setAnotacao } = useApp();
+  const { conteudo, state, setAnotacao, setApostila } = useApp();
   const navigate = useNavigate();
   const [temaSelecionado, setTemaSelecionado] = useState<Tema | null>(null);
   const [gerarModal, setGerarModal] = useState(false);
@@ -27,6 +27,9 @@ export default function Resumos() {
   const [ordemMaisCobrados, setOrdemMaisCobrados] = useState(false);
   const [anotacaoEdit, setAnotacaoEdit] = useState('');
   const [showAnotacao, setShowAnotacao] = useState(false);
+  const [showApostila, setShowApostila] = useState(false);
+  const [apostilaEdit, setApostilaEdit] = useState('');
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Frequência FUVEST por tema
   const freqFuvest = useMemo(() => {
@@ -49,7 +52,28 @@ export default function Resumos() {
   function abrirTema(tema: Tema) {
     setTemaSelecionado(tema);
     setAnotacaoEdit(state.anotacoes[tema.id] ?? '');
+    setApostilaEdit(state.apostilas?.[tema.id] ?? '');
     setShowAnotacao(false);
+    setShowApostila(false);
+  }
+
+  function handleArquivoApostila(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    if (file.size > 500_000) {
+      alert('Arquivo muito grande. Use arquivos de até 500 KB (aprox. 80 páginas de texto).');
+      e.target.value = '';
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      setApostilaEdit(ev.target?.result as string ?? '');
+    };
+    reader.onerror = () => {
+      alert('Erro ao ler o arquivo. Verifique se é um arquivo de texto válido.');
+    };
+    reader.readAsText(file, 'UTF-8');
+    e.target.value = '';
   }
 
   const temasFiltrados = useMemo(() => {
@@ -123,6 +147,72 @@ export default function Resumos() {
               >
                 Salvar
               </button>
+            </>
+          )}
+        </div>
+
+        {/* Apostila */}
+        <div className="bg-white dark:bg-gray-900 rounded-xl border border-gray-200 dark:border-gray-700 p-4">
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".txt,.md"
+            className="hidden"
+            onChange={handleArquivoApostila}
+          />
+          <div className="flex items-center justify-between mb-2">
+            <button
+              className="flex items-center gap-2 text-sm font-medium text-gray-600 dark:text-gray-400"
+              onClick={() => setShowApostila(!showApostila)}
+            >
+              <BookMarked size={15} />
+              Minha apostila
+              {(state.apostilas?.[temaSelecionado.id]) && (
+                <span className="ml-1 text-[10px] font-bold bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 px-1.5 py-0.5 rounded-full">
+                  Ativa
+                </span>
+              )}
+            </button>
+            {showApostila && (
+              <button
+                onClick={() => fileInputRef.current?.click()}
+                className="flex items-center gap-1.5 text-xs text-blue-600 dark:text-blue-400 hover:underline"
+              >
+                <Upload size={12} />
+                Importar .txt / .md
+              </button>
+            )}
+          </div>
+          {showApostila && (
+            <>
+              <textarea
+                className="w-full border border-gray-300 dark:border-gray-600 rounded-lg p-3 text-sm bg-white dark:bg-gray-800 min-h-[140px] resize-y font-mono"
+                placeholder="Cole aqui o conteúdo da sua apostila ou importe um arquivo .txt / .md. Este texto será incluído como contexto ao gerar questões, flashcards e casos com IA."
+                value={apostilaEdit}
+                onChange={(e) => setApostilaEdit(e.target.value)}
+              />
+              <div className="mt-2 flex items-center gap-2 flex-wrap">
+                <button
+                  onClick={() => setApostila(temaSelecionado.id, apostilaEdit)}
+                  className="px-3 py-1.5 text-sm bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                >
+                  Salvar apostila
+                </button>
+                {state.apostilas?.[temaSelecionado.id] && (
+                  <button
+                    onClick={() => { setApostilaEdit(''); setApostila(temaSelecionado.id, ''); }}
+                    className="flex items-center gap-1 px-3 py-1.5 text-sm border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 rounded-lg hover:bg-red-50 dark:hover:bg-red-950 transition-colors"
+                  >
+                    <Trash2 size={13} />
+                    Remover
+                  </button>
+                )}
+                {apostilaEdit && (
+                  <span className="text-xs text-gray-400 ml-auto">
+                    ~{Math.round(apostilaEdit.length / 5)} palavras
+                  </span>
+                )}
+              </div>
             </>
           )}
         </div>

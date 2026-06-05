@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useCallback, useEffect } fr
 import { AppState, Questao, Flashcard, Dissertativa, SimuladoHistorico, SessaoDia } from './types';
 import {
   loadState, saveState, updateCardState, addSimulado,
-  addQuestoesIA, addFlashcardsIA, addDissertativasIA, updateAnotacao,
+  addQuestoesIA, addFlashcardsIA, addDissertativasIA, updateAnotacao, updateApostila,
   cardsParaRevisarHoje, calcularTemaDoDia, iniciarSessaoDia,
   concluirEtapa, registrarBadgeSimulado,
 } from './store';
@@ -22,6 +22,7 @@ interface AppContextValue {
   addFlashcards: (f: Flashcard[]) => void;
   addDissertativas: (d: Dissertativa[]) => void;
   setAnotacao: (temaId: string, texto: string) => void;
+  setApostila: (temaId: string, texto: string) => void;
   setApiKey: (key: string) => void;
   setModelId: (id: string) => void;
   setProvider: (p: 'anthropic' | 'gemini') => void;
@@ -67,6 +68,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       addFlashcards: (f) => update((s) => addFlashcardsIA(s, f)),
       addDissertativas: (d) => update((s) => addDissertativasIA(s, d)),
       setAnotacao: (temaId, texto) => update((s) => updateAnotacao(s, temaId, texto)),
+      setApostila: (temaId, texto) => update((s) => updateApostila(s, temaId, texto)),
       setApiKey: (key) => update((s) => ({ ...s, apiKey: key })),
       setModelId: (id) => update((s) => ({ ...s, modelId: id })),
       setProvider: (p) => update((s) => ({ ...s, provider: p })),

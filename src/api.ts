@@ -101,17 +101,18 @@ interface GerarQuestoesParams {
   temaCategoria: Categoria;
   quantidade: number;
   dificuldade: Dificuldade;
+  apostila?: string;
 }
 
 export async function gerarQuestoes(params: GerarQuestoesParams): Promise<Questao[]> {
-  const { contexto, temaId, temaCategoria, quantidade, dificuldade } = params;
+  const { contexto, temaId, temaCategoria, quantidade, dificuldade, apostila } = params;
 
   const system = 'Você é um elaborador de questões para o processo seletivo da residência em Medicina Veterinária da USP (FUVEST). Gere questões fiéis ao estilo da banca, baseadas estritamente no contexto fornecido. Responda APENAS com JSON válido, sem markdown.';
 
   const userPrompt = `Gere exatamente ${quantidade} questões de múltipla escolha sobre o seguinte tema para o processo seletivo de residência em Medicina Veterinária da USP (FUVEST).
 
 CONTEXTO DO TEMA:
-${contexto}
+${contexto}${apostila ? `\n\nMATERIAL ADICIONAL DA APOSTILA (use como referência prioritária para criar as questões):\n${apostila}` : ''}
 
 REQUISITOS:
 - Cada questão deve ter exatamente 5 alternativas (a-e)
@@ -157,17 +158,18 @@ interface GerarFlashcardsParams {
   contexto: string;
   temaId: string;
   quantidade: number;
+  apostila?: string;
 }
 
 export async function gerarFlashcards(params: GerarFlashcardsParams): Promise<Flashcard[]> {
-  const { contexto, temaId, quantidade } = params;
+  const { contexto, temaId, quantidade, apostila } = params;
 
   const system = 'Você é um tutor especializado em Medicina Veterinária. Crie flashcards objetivos e precisos para estudo. Responda APENAS com JSON válido, sem markdown.';
 
   const userPrompt = `Gere exatamente ${quantidade} flashcards de estudo sobre o seguinte tema para a residência em Medicina Veterinária da USP.
 
 CONTEXTO:
-${contexto}
+${contexto}${apostila ? `\n\nMATERIAL ADICIONAL DA APOSTILA (use como referência prioritária):\n${apostila}` : ''}
 
 Responda APENAS com JSON válido, sem markdown, no formato:
 {
@@ -195,17 +197,18 @@ interface GerarDissertativaParams {
   modelId: string;
   contexto: string;
   temaId: string;
+  apostila?: string;
 }
 
 export async function gerarDissertativa(params: GerarDissertativaParams): Promise<Dissertativa> {
-  const { contexto, temaId } = params;
+  const { contexto, temaId, apostila } = params;
 
   const system = 'Você é um elaborador de casos clínicos para residência em Medicina Veterinária da USP. Crie casos realistas e didáticos. Responda APENAS com JSON válido, sem markdown.';
 
   const userPrompt = `Crie UM caso clínico dissertativo para a prova P2 da residência em Medicina Veterinária da USP (FUVEST).
 
 CONTEXTO:
-${contexto}
+${contexto}${apostila ? `\n\nMATERIAL ADICIONAL DA APOSTILA (use como referência prioritária):\n${apostila}` : ''}
 
 O caso deve ser realista, complexo e integrar conhecimentos clínicos e de saúde pública quando pertinente.
 

@@ -118,6 +118,7 @@ export interface AppState {
   flashcardsIA: Flashcard[];
   dissertativasIA: Dissertativa[];
   anotacoes: Record<string, string>;
+  apostilas: Record<string, string>;
   apiKey: string;
   modelId: string;
   provider: 'anthropic' | 'gemini';
