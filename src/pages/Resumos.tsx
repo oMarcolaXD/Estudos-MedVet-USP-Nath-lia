@@ -2,9 +2,10 @@ import { useState, useMemo, useRef } from 'react';
 import { useApp } from '../context';
 import { useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
-import { BookOpen, Sparkles, ClipboardList, StickyNote, TrendingUp, BookMarked, Upload, Trash2 } from 'lucide-react';
+import { BookOpen, Sparkles, ClipboardList, StickyNote, TrendingUp, BookMarked, Upload, Trash2, FileUp } from 'lucide-react';
 import { Tema } from '../types';
 import GerarIA from '../components/GerarIA';
+import ImportarApostilaPDF from '../components/ImportarApostilaPDF';
 
 const categoriaCor: Record<string, string> = {
   geral: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
@@ -29,6 +30,7 @@ export default function Resumos() {
   const [showAnotacao, setShowAnotacao] = useState(false);
   const [showApostila, setShowApostila] = useState(false);
   const [apostilaEdit, setApostilaEdit] = useState('');
+  const [importarPDFModal, setImportarPDFModal] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Frequência FUVEST por tema
@@ -240,22 +242,35 @@ export default function Resumos() {
 
   return (
     <div className="max-w-3xl space-y-4">
+      {importarPDFModal && (
+        <ImportarApostilaPDF onClose={() => setImportarPDFModal(false)} />
+      )}
+
       <div className="flex items-center justify-between gap-3 flex-wrap">
         <div>
           <h1 className="text-2xl font-bold">Resumos</h1>
           <p className="text-sm text-gray-500 dark:text-gray-400">{conteudo.temas.length} temas</p>
         </div>
-        <button
-          onClick={() => setOrdemMaisCobrados((v) => !v)}
-          className={`flex items-center gap-1.5 px-3 py-1.5 text-sm rounded-lg border transition-colors ${
-            ordemMaisCobrados
-              ? 'bg-orange-500 text-white border-orange-500'
-              : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800'
-          }`}
-        >
-          <TrendingUp size={14} />
-          Mais cobrados
-        </button>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => setImportarPDFModal(true)}
+            className="flex items-center gap-1.5 px-3 py-1.5 text-sm rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+          >
+            <FileUp size={14} />
+            PDF
+          </button>
+          <button
+            onClick={() => setOrdemMaisCobrados((v) => !v)}
+            className={`flex items-center gap-1.5 px-3 py-1.5 text-sm rounded-lg border transition-colors ${
+              ordemMaisCobrados
+                ? 'bg-orange-500 text-white border-orange-500'
+                : 'border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800'
+            }`}
+          >
+            <TrendingUp size={14} />
+            Mais cobrados
+          </button>
+        </div>
       </div>
 
       <input
@@ -269,6 +284,7 @@ export default function Resumos() {
       <div className="grid gap-3">
         {temasFiltrados.map((tema) => {
           const pct = freqFuvest[tema.id];
+          const temApostila = !!state.apostilas?.[tema.id];
           return (
             <button
               key={tema.id}
@@ -279,6 +295,9 @@ export default function Resumos() {
                 <div className="flex items-center gap-2">
                   <BookOpen size={16} className="text-blue-500 shrink-0 mt-0.5" />
                   <span className="font-medium text-sm">{tema.nome}</span>
+                  {temApostila && (
+                    <BookMarked size={13} className="text-green-500 shrink-0" aria-label="Apostila salva" />
+                  )}
                 </div>
                 <div className="flex items-center gap-1.5 shrink-0">
                   {pct !== undefined && pct > 0 && (

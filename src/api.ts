@@ -231,3 +231,39 @@ Responda APENAS com JSON válido, sem markdown, no formato:
     origem: 'ia',
   };
 }
+
+interface IdentificarTemaParams {
+  provider: 'anthropic' | 'gemini';
+  apiKey: string;
+  geminiApiKey: string;
+  modelId: string;
+  textoPDF: string;
+  temas: { id: string; nome: string }[];
+}
+
+export async function identificarTema(params: IdentificarTemaParams): Promise<string | null> {
+  const { textoPDF, temas } = params;
+
+  const temasLista = temas.map((t) => `${t.id}: ${t.nome}`).join('\n');
+  const trecho = textoPDF.slice(0, 3000);
+
+  const system = 'Você é um assistente que identifica o tema de um material de estudo. Responda APENAS com o ID do tema, sem mais nada.';
+  const userPrompt = `Analise o trecho de apostila abaixo e identifique a qual tema da lista ele pertence.
+
+TEMAS DISPONÍVEIS (formato "id: nome"):
+${temasLista}
+
+TRECHO DA APOSTILA:
+${trecho}
+
+Responda APENAS com o id do tema mais adequado (ex: "anestesiologia"). Se não conseguir identificar com confiança, responda "desconhecido".`;
+
+  try {
+    const text = await callIA({ ...params, system, userPrompt, maxTokens: 50 });
+    const idEncontrado = text.trim().toLowerCase().replace(/[^a-z0-9-]/g, '');
+    const tempoValido = temas.find((t) => t.id === idEncontrado);
+    return tempoValido ? idEncontrado : null;
+  } catch {
+    return null;
+  }
+}
